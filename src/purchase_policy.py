@@ -10,8 +10,22 @@ def enrich_purchase_specs(spec, title, pairs, norm):
             os_evidence.append(norm(value))
         if key == 'keyboard':
             keyboard_evidence.append(norm(value))
-    missing = any(re.search(r'\b(?:sem (?:sistema operativo|sistema operacional|s[ .]?o)|no os|without os|freedos|free dos|dos)\b', text) for text in os_evidence)
-    windows = any(re.search(r'\bwindows\s*(?:10|11)?\b', text) for text in os_evidence)
+    missing = any(
+        re.search(
+            r'\b(?:sem\s+(?:sistema(?:\s+operativ[oa])?|s[ .]?o)|no[ -]?os|without[ -]?os|freedos|free[ -]?dos|dos)\b|'
+            r'(?:^|[\s|/])s/\s*(?:so|s\.?o\.?|sistema(?:\s+operativ[oa])?)(?:$|[\s|/])|'
+            r'\b(?:nao\s+incluid[oa]|nenhum)\b',
+            text,
+        )
+        for text in os_evidence
+    )
+    windows = any(
+        re.search(
+            r'\b(?:windows\s*(?:10|11)?|win\s*1[01]|w1[01](?:\s*(?:home|pro|h|p))?)\b',
+            text,
+        )
+        for text in os_evidence
+    )
     spec['os_status'] = 'conflict' if missing and windows else 'none' if missing else 'windows' if windows else 'unknown'
     # Explicit Spanish only: English/unknown/PT are not excluded.
     if any(re.search(r'\b(?:espanhol|espanol|spanish)\b', text) for text in keyboard_evidence):

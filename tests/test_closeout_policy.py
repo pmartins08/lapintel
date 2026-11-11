@@ -39,6 +39,44 @@ class CloseoutPolicyTests(unittest.TestCase):
         self.assertEqual(installation_cost(row, {}), 0)
         self.assertEqual(installation_cost({}, {}), 0)
 
+    def test_os_detection_pt_store_abbreviations_and_windows_variants(self):
+        # 1. Abreviatura S/SO comum em retalhistas nacionais (ex.: UPTECHBOX)
+        row = enrich_purchase_specs({}, 'Portátil Gaming Asus V16 | S/SO', [], scraper.norm)
+        self.assertEqual(row['os_status'], 'none')
+        self.assertEqual(installation_cost(row, {}), 110)
+
+        # 2. Variações 's/ so' e 's/ sistema operativo'
+        row = enrich_purchase_specs({}, 'Portatil Lenovo LOQ 15 s/ so 16GB', [], scraper.norm)
+        self.assertEqual(row['os_status'], 'none')
+        self.assertEqual(installation_cost(row, {}), 110)
+
+        row = enrich_purchase_specs({}, 'Portatil HP Victus s/ sistema operativo', [], scraper.norm)
+        self.assertEqual(row['os_status'], 'none')
+        self.assertEqual(installation_cost(row, {}), 110)
+
+        # 3. Pares em tabelas técnicas com 'Não incluído' ou 'Nenhum'
+        row = enrich_purchase_specs({}, 'Portatil Asus Vivobook', [('os', 'Sistema Operativo', 'Não incluído', 'table')], scraper.norm)
+        self.assertEqual(row['os_status'], 'none')
+        self.assertEqual(installation_cost(row, {}), 110)
+
+        row = enrich_purchase_specs({}, 'Portatil Acer Swift', [('os', 'Sistema Operativo', 'Nenhum', 'table')], scraper.norm)
+        self.assertEqual(row['os_status'], 'none')
+        self.assertEqual(installation_cost(row, {}), 110)
+
+        # 4. Variantes de Windows abreviadas (W11, Win 11) comuns em retalhistas (ex.: Clickfiel, Globaldata)
+        row = enrich_purchase_specs({}, 'Portátil Gigabyte AERO X16 | RTX 5060 | W11', [], scraper.norm)
+        self.assertEqual(row['os_status'], 'windows')
+        self.assertEqual(installation_cost(row, {}), 0)
+
+        row = enrich_purchase_specs({}, 'Portatil Asus TUF Win 11 Home', [], scraper.norm)
+        self.assertEqual(row['os_status'], 'windows')
+        self.assertEqual(installation_cost(row, {}), 0)
+
+        # 5. Tri-state para menção genuinamente omissa
+        row = enrich_purchase_specs({}, 'Portátil Asus TUF Gaming 16 16GB 1TB', [], scraper.norm)
+        self.assertEqual(row['os_status'], 'unknown')
+        self.assertEqual(installation_cost(row, {}), 0)
+
     def test_runtime_total_cost_promotions_and_diamond_only_notifications(self):
         script = r'''
 import json
