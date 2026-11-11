@@ -1,7 +1,7 @@
 # Fecho do ciclo de compra — 4 de outubro de 2026
 
 Estado: **compra concluída; desenvolvimento ativo em pausa; monitorização silenciosa**.
-Versão: **9.0.0-beta.12**. O histórico e a aprendizagem existentes são preservados; o state epoch não muda.
+Versão documental: **9.0.0-beta.12** (fecho histórico que serviu de baseline para a versão estável **V9.0.0**). O histórico e a aprendizagem existentes são preservados; o state epoch não muda.
 
 ## Pendências revistas contra o código
 
@@ -40,7 +40,7 @@ Os scores históricos não são reescritos com a nova fórmula. Cada nova observ
 - Confirmação de stock/preço expira; a loja e o checkout continuam a ser a confirmação final da compra.
 - FPS, ruído, temperaturas e autonomia medida não são estimados como se fossem benchmarks.
 
-Estas limitações justificam manter a versão beta.12. Fechar a compra não certifica uma release estável com cobertura total.
+Estas limitações justificaram manter a designação beta.12 no momento do fecho de 4 de outubro. A versão estável de referência V9.0.0 consolida esta baseline determinística mantendo os guardrails operacionais intactos. Fechar a compra não certifica uma release com cobertura ilimitada de todo o mercado.
 
 ## Verificação
 

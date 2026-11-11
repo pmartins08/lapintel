@@ -32,6 +32,67 @@ class AvailabilityTests(unittest.TestCase):
         html = '<main><div id="ProductInfo-test"><h1>Acer Nitro</h1>Entrega ao domícilio indisponível</div><aside>Entrega 2 de outubro</aside></main>'
         self.assertFalse(availability({'loja':'Darty','stock':True}, html, self.tracker)['eligible'])
 
+    def test_darty_explicit_available_for_home_delivery(self):
+        html = '<main><div id="ProductInfo-123"><h1>Asus TUF</h1><p>Disponível para entrega ao domicílio</p></div></main>'
+        res = availability({'loja':'Darty','stock':True}, html, self.tracker)
+        self.assertTrue(res['eligible'])
+        self.assertEqual(res['status'], 'AVAILABLE')
+        self.assertTrue(res.get('home_delivery'))
+
+    def test_darty_home_delivery_deadline_confirmed(self):
+        html = '<main><div id="ProductInfo-123"><h1>HP Victus</h1><p>Entrega ao domicílio em 24/48h</p></div></main>'
+        res = availability({'loja':'Darty','stock':True}, html, self.tracker)
+        self.assertTrue(res['eligible'])
+        self.assertEqual(res['status'], 'AVAILABLE')
+        self.assertTrue(res.get('home_delivery'))
+
+    def test_darty_generic_actions_insufficient_proof(self):
+        html = '<main><div id="ProductInfo-123"><h1>Lenovo LOQ</h1><button>Adicionar ao carrinho</button><span>Envio em 24h</span><button>Comprar</button></div></main>'
+        res = availability({'loja':'Darty','stock':True}, html, self.tracker)
+        self.assertFalse(res['eligible'])
+        self.assertEqual(res['status'], 'AVAILABILITY_UNCONFIRMED')
+        self.assertEqual(res.get('source'), 'product_fulfilment_missing')
+
+    def test_darty_generic_home_delivery_without_confirmation_insufficient(self):
+        html = '<main><div id="ProductInfo-123"><h1>MSI Katana</h1><p>Custos de entrega ao domicílio sob consulta</p></div></main>'
+        res = availability({'loja':'Darty','stock':True}, html, self.tracker)
+        self.assertFalse(res['eligible'])
+        self.assertEqual(res['status'], 'AVAILABILITY_UNCONFIRMED')
+
+    def test_darty_contradictory_indicators_prioritizes_unavailable(self):
+        # Presença de menção positiva não anula badge de indisponibilidade
+        html = '<main><div id="ProductInfo-123"><h1>Acer Predator</h1><p>Disponível para entrega ao domicílio</p><p>Entrega ao domicílio indisponível</p></div></main>'
+        res = availability({'loja':'Darty','stock':True}, html, self.tracker)
+        self.assertFalse(res['eligible'])
+        self.assertEqual(res['status'], 'STORE_ONLY_UNVERIFIED')
+
+        # Restrição a loja física prioritária
+        html_store = '<main><div id="ProductInfo-123"><h1>Acer Predator</h1><p>Disponível para entrega ao domicílio</p><p>Apenas recolha em loja</p></div></main>'
+        res_store = availability({'loja':'Darty','stock':True}, html_store, self.tracker)
+        self.assertFalse(res_store['eligible'])
+        self.assertEqual(res_store['status'], 'STORE_ONLY_UNVERIFIED')
+
+    def test_darty_out_of_stock_indicators(self):
+        for phrase in ('Artigo esgotado', 'Fora de stock', 'Esgotado'):
+            html = f'<main><div id="ProductInfo-123"><h1>Asus ROG</h1><span>{phrase}</span></div></main>'
+            res = availability({'loja':'Darty','stock':True}, html, self.tracker)
+            self.assertFalse(res['eligible'])
+            self.assertEqual(res['status'], 'OUT_OF_STOCK')
+
+    def test_darty_aside_recommended_isolation(self):
+        html = '<main><div id="ProductInfo-main"><h1>Dell G15</h1><p>Consultar disponibilidade</p></div><aside><div>Recomendados: Disponível para entrega ao domicílio</div></aside></main>'
+        res = availability({'loja':'Darty','stock':True}, html, self.tracker)
+        self.assertFalse(res['eligible'])
+        self.assertEqual(res['status'], 'AVAILABILITY_UNCONFIRMED')
+
+    def test_other_stores_behavior_preserved(self):
+        self.assertTrue(availability({'loja':'FNAC','stock':True}, '', self.tracker)['eligible'])
+        self.assertEqual(availability({'loja':'FNAC','stock':True}, '', self.tracker)['status'], 'AVAILABLE')
+        self.assertFalse(availability({'loja':'Globaldata','stock':False}, '', self.tracker)['eligible'])
+        self.assertEqual(availability({'loja':'Globaldata','stock':False}, '', self.tracker)['status'], 'OUT_OF_STOCK')
+        self.assertFalse(availability({'loja':'Globaldata','stock':None}, '', self.tracker)['eligible'])
+        self.assertEqual(availability({'loja':'Globaldata','stock':None}, '', self.tracker)['status'], 'AVAILABILITY_UNCONFIRMED')
+
     def test_actual_runner_rejects_unavailable_before_tiering(self):
         code = '''
 import json, runner

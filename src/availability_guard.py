@@ -16,10 +16,15 @@ def availability(item, html, tracker):
     scope = scope or soup.find('main') or soup
     text = tracker.scraper.norm(scope.get_text(' ', strip=True))
     if item.get('loja') == 'Darty':
-        if re.search(r'entrega ao dom[ií]cilio indisponivel', text):
+        # 1. Indicadores explícitos e prioritários de indisponibilidade ou restrição a loja física
+        if re.search(r'entrega ao dom[ií]cilio indispon[ií]vel|indispon[ií]vel para entrega|apenas recolha em loja|exclusivo loja|recolha em loja apenas', text):
             return {'status':'STORE_ONLY_UNVERIFIED', 'eligible':False, 'source':'product_fulfilment', 'home_delivery':False}
-        if re.search(r'entrega ao dom[ií]cilio disponivel|entrega\s+(?:ao domicilio\s+)?(?:(?:em|entre)\s+)?\d', text):
+        if re.search(r'esgotado|fora de stock|artigo indispon[ií]vel', text):
+            return {'status':'OUT_OF_STOCK', 'eligible':False, 'source':'product_fulfilment', 'home_delivery':False}
+        # 2. Confirmação positiva com modalidade de entrega ao domicílio comprovada no âmbito do produto
+        if re.search(r'dispon[ií]vel para entrega ao dom[ií]cilio|entrega ao dom[ií]cilio dispon[ií]vel|receb[ea] em casa(?:\s+entrega|\s+em|\s+at[eé]|\s+previst[ao])?|entrega ao dom[ií]cilio\s+(?:(?:em|entre|at[eé])\s+)?\d|entrega\s+(?:ao dom[ií]cilio\s+)?(?:(?:em|entre|at[eé])\s+)?\d', text):
             return {'status':'AVAILABLE', 'eligible':True, 'source':'product_fulfilment', 'home_delivery':True}
+        # 3. Fallback estrito quando não há prova inequívoca de modalidade de entrega ao domicílio
         return {'status':'AVAILABILITY_UNCONFIRMED', 'eligible':False, 'source':'product_fulfilment_missing'}
     if item.get('stock') is True:
         return {'status':'AVAILABLE', 'eligible':True, 'source':'live_stock'}

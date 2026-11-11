@@ -1,4 +1,4 @@
-name: Executar LapIntel V9 beta
+name: Executar LapIntel V9
 
 on:
   push:

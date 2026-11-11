@@ -1,6 +1,6 @@
 # Roadmap — manutenção após a compra
 
-**9.0.0-beta.12 · ciclo de desenvolvimento concluído em outubro de 2026.**
+**9.0.0 Estável · ciclo de desenvolvimento concluído em outubro de 2026 (consolidado a partir da 9.0.0-beta.12).**
 
 O desenvolvimento ativo fica em pausa. A monitorização mantém a cadência de seis horas e comunica apenas Diamantes. A revisão das decisões anteriores está em [CLOSEOUT.md](CLOSEOUT.md).
 
@@ -19,4 +19,4 @@ O desenvolvimento ativo fica em pausa. A monitorização mantém a cadência de 
 3. Melhorar rendimento por request e cobertura de catálogos sem baixar confiança.
 4. Recolher amostras suficientes para validar a calibração do Value e qualquer novo sinal histórico.
 
-Uma versão estável exige testes e operação consistentes. Não depende de mudar a etiqueta beta nem de prometer cobertura de todo o mercado.
+A versão de produção de referência é a V9.0.0 Estável. A estabilidade decorre de testes e operação consistentes, mantendo a disciplina operacional e a calibração rigorosa sem prometer cobertura fictícia de todo o mercado.
