@@ -19,8 +19,21 @@ import argparse
 import asyncio
 import json
 import os
+import sys
 from dataclasses import asdict, dataclass
+from pathlib import Path
 from typing import Any, Literal
+
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT / "src") not in sys.path:
+    sys.path.insert(0, str(ROOT / "src"))
+
+try:
+    import agent_contracts  # type: ignore[import-not-found]
+    HAS_CANONICAL_CONTRACTS = True
+except ImportError:
+    agent_contracts = None  # type: ignore[assignment]
+    HAS_CANONICAL_CONTRACTS = False
 
 try:
     import pydantic  # type: ignore[import-not-found]
@@ -511,6 +524,86 @@ def run_dry_run_demo() -> dict[str, Any]:
     if HAS_PYDANTIC and hasattr(decision, "model_dump"):
         return decision.model_dump()  # type: ignore[no-any-return]
     return asdict(decision)  # type: ignore[arg-type]
+
+
+def to_canonical_spec(spec: LaptopSpecExtraction | dict[str, Any]) -> Any:
+    """Converte um spec do protótipo V10 para o contrato canónico LaptopSpecExtraction."""
+    if not HAS_CANONICAL_CONTRACTS or agent_contracts is None:
+        return spec
+    data = (
+        spec.model_dump()
+        if HAS_PYDANTIC and hasattr(spec, "model_dump")
+        else asdict(spec)
+        if hasattr(spec, "__dataclass_fields__")
+        else dict(spec)
+    )
+
+    os_raw = data.get("os_status")
+    os_mapped = "none" if os_raw == "none_or_freedos" else "windows" if os_raw == "included" else "unknown"
+    layout_raw = str(data.get("keyboard_layout") or "PT").lower()
+    layout_mapped = "es" if "es" in layout_raw else "pt" if "pt" in layout_raw else "en" if "en" in layout_raw else "unknown"
+
+    canonical_data = {
+        "url": data.get("url") or f"https://example.test/{data.get('store', 'unknown')}/{data.get('sku_or_mpn', 'sku')}",
+        "marca": data.get("brand"),
+        "submarca": data.get("model_name"),
+        "cpu_modelo": data.get("cpu_model") or data.get("cpu_modelo"),
+        "gpu_modelo": data.get("gpu_model"),
+        "gpu_tipo": "dedicada" if any(k in str(data.get("gpu_model") or "").lower() for k in ("rtx", "gtx", "radeon rx")) else "integrada",
+        "tgp_w": data.get("gpu_tgp_watts"),
+        "ram_gb": data.get("ram_gb"),
+        "armazenamento_tb": (data.get("storage_gb") or 0) / 1000.0 if data.get("storage_gb") else None,
+        "bateria_wh": data.get("battery_wh"),
+        "peso_kg": data.get("weight_kg"),
+        "ecra_brightness_nits": data.get("display_nits"),
+        "ecra_srgb_percent": data.get("color_gamut_srgb_pct"),
+        "os_status": os_mapped,
+        "keyboard_layout": layout_mapped,
+        "is_new_condition": bool(data.get("is_new_condition", True)),
+        "ean": data.get("ean"),
+        "mpn": data.get("sku_or_mpn"),
+    }
+    return agent_contracts.from_legacy_dict(canonical_data)
+
+
+def to_canonical_decision(decision: DealDecision | dict[str, Any]) -> Any:
+    """Converte o resultado auditado do V10 para o contrato canónico DealDecision."""
+    if not HAS_CANONICAL_CONTRACTS or agent_contracts is None:
+        return decision
+    data = (
+        decision.model_dump()
+        if HAS_PYDANTIC and hasattr(decision, "model_dump")
+        else asdict(decision)
+        if hasattr(decision, "__dataclass_fields__")
+        else dict(decision)
+    )
+    spec_data = data.get("spec") or {}
+    if HAS_PYDANTIC and hasattr(spec_data, "model_dump"):
+        spec_data = spec_data.model_dump()
+    elif hasattr(spec_data, "__dataclass_fields__"):
+        spec_data = asdict(spec_data)
+
+    tier_raw = str(data.get("tier") or "SEM_TIER").upper().replace(" ", "_")
+    tier_mapped = tier_raw if tier_raw in ("DIAMANTE", "OURO", "PRATA", "BRONZE", "SEM_TIER", "REJEITADO") else "SEM_TIER"
+
+    canonical_data = {
+        "url": spec_data.get("url") or f"https://example.test/{spec_data.get('store', 'unknown')}/{spec_data.get('sku_or_mpn', 'sku')}",
+        "loja": str(spec_data.get("store") or "Unknown"),
+        "titulo": f"{spec_data.get('brand', '')} {spec_data.get('model_name', '')}".strip() or "Portátil V10",
+        "price": float(spec_data.get("listed_price_eur") or 0.0),
+        "installation_cost_eur": float(data.get("os_install_surcharge_eur") or 0.0),
+        "purchase_total_eur": float(data.get("effective_price_eur") or 0.0),
+        "value_score": float(data.get("value_score") or 0.0),
+        "tier": tier_mapped,
+        "status": "ACEITE" if data.get("eligible") else "REJEITADO",
+        "eligible": bool(data.get("eligible")),
+        "rejection_reason": data.get("ineligibility_reason"),
+        "should_notify_ntfy": bool(data.get("should_notify_ntfy")),
+        "timestamp": None,
+    }
+    if agent_contracts.HAS_PYDANTIC:
+        return agent_contracts.DealDecision(**canonical_data)
+    return agent_contracts.DealDecision(**canonical_data)
 
 
 async def run_live_agent(args: argparse.Namespace) -> None:

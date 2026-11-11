@@ -121,6 +121,21 @@ class V10AgentPrototypeTests(unittest.TestCase):
         self.assertIn("spec", result)
         self.assertEqual(result["spec"]["brand"], "Lenovo")
 
+    def test_v10_to_canonical_contracts_integration(self):
+        result = v10.run_dry_run_demo()
+        canonical_decision = v10.to_canonical_decision(result)
+        self.assertTrue(canonical_decision.eligible)
+        self.assertEqual(canonical_decision.status, "ACEITE")
+        self.assertEqual(canonical_decision.installation_cost_eur, 110.0)
+        self.assertEqual(canonical_decision.purchase_total_eur, 1309.0)
+        self.assertEqual(canonical_decision.loja, "Globaldata")
+
+        canonical_spec = v10.to_canonical_spec(result["spec"])
+        self.assertEqual(canonical_spec.marca, "Lenovo")
+        self.assertEqual(canonical_spec.tgp_w, 140)
+        self.assertEqual(canonical_spec.os_status, "none")
+        self.assertEqual(canonical_spec.keyboard_layout, "pt")
+
 
 if __name__ == "__main__":
     unittest.main()
