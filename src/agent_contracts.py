@@ -254,3 +254,61 @@ def decision_from_assessment(item: dict[str, Any], spec: dict[str, Any], assessm
     if HAS_PYDANTIC:
         return DealDecision(**decision_data)
     return DealDecision(**decision_data)
+
+
+def merge_official_specs(
+    extraction: LaptopSpecExtraction,
+    official_spec: dict[str, Any],
+    source_name: str,
+    source_url: str = "",
+) -> tuple[LaptopSpecExtraction, list[str]]:
+    """Funde especificações oficiais de fabricante no contrato LaptopSpecExtraction.
+
+    Verifica campos essenciais (CPU, GPU) para vetar incompatibilidade de variantes.
+    Preenche campos suplementares em falta (TGP, nits, sRGB, bateria, peso, tipo de RAM).
+    Devolve uma cópia enriquecida e a lista de campos fundidos. Em caso de conflito,
+    a fusão é abortada e devolve (extraction, []).
+    """
+    current_dict = to_legacy_dict(extraction)
+
+    def _clean(val: Any) -> str:
+        return str(val or "").strip().lower()
+
+    # Validação estrita de conflito nos campos nucleares
+    conflicts = []
+    for field_name in ("cpu_modelo", "gpu_modelo"):
+        curr_val = current_dict.get(field_name)
+        off_val = official_spec.get(field_name)
+        if curr_val and off_val and _clean(curr_val) not in _clean(off_val) and _clean(off_val) not in _clean(curr_val):
+            conflicts.append(field_name)
+
+    if conflicts:
+        return extraction, []
+
+    merged_fields = []
+    supplemental_fields = (
+        "tgp_w",
+        "ecra_brightness_nits",
+        "ecra_srgb_percent",
+        "bateria_wh",
+        "peso_kg",
+        "ecra_hz",
+        "ecra_res",
+        "ecra_painel",
+        "ram_type",
+    )
+
+    for field_name in supplemental_fields:
+        curr_val = current_dict.get(field_name)
+        off_val = official_spec.get(field_name)
+        if (curr_val is None or curr_val == "" or curr_val == "desconhecido" or curr_val == "desconhecida") and off_val is not None:
+            current_dict[field_name] = off_val
+            merged_fields.append(field_name)
+
+    for bool_field in ("ram_expansivel", "ssd_expansivel"):
+        if official_spec.get(bool_field) is True and not current_dict.get(bool_field):
+            current_dict[bool_field] = True
+            merged_fields.append(bool_field)
+
+    enriched_contract = from_legacy_dict(current_dict)
+    return enriched_contract, merged_fields

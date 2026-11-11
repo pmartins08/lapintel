@@ -120,3 +120,73 @@ class AgentContractsTests(unittest.TestCase):
         self.assertEqual(decision.status, "REJEITADO")
         self.assertIn("teto orçamental", str(decision.rejection_reason))
         self.assertFalse(decision.should_notify_ntfy)
+
+    def test_merge_official_specs_enriches_supplemental_fields(self):
+        from agent_contracts import merge_official_specs
+        retail = from_legacy_dict({
+            "marca": "Lenovo",
+            "cpu_modelo": "Ryzen 7 8845HS",
+            "gpu_modelo": "RTX 5060",
+            "ram_gb": 32,
+            "armazenamento_tb": 1.0,
+        })
+        official = {
+            "cpu_modelo": "Ryzen 7 8845HS",
+            "gpu_modelo": "RTX 5060",
+            "tgp_w": 140,
+            "ecra_brightness_nits": 350,
+            "ecra_srgb_percent": 100.0,
+            "bateria_wh": 80.0,
+            "peso_kg": 2.3,
+            "ram_type": "DDR5-5600",
+            "ram_expansivel": True,
+        }
+        enriched, merged = merge_official_specs(retail, official, "Lenovo PSREF")
+        self.assertEqual(enriched.tgp_w, 140)
+        self.assertEqual(enriched.ecra_brightness_nits, 350)
+        self.assertEqual(enriched.ecra_srgb_percent, 100.0)
+        self.assertEqual(enriched.bateria_wh, 80.0)
+        self.assertEqual(enriched.peso_kg, 2.3)
+        self.assertEqual(enriched.ram_type, "DDR5-5600")
+        self.assertTrue(enriched.ram_expansivel)
+        self.assertIn("tgp_w", merged)
+        self.assertIn("ecra_brightness_nits", merged)
+
+    def test_merge_official_specs_vetoes_hardware_conflicts(self):
+        from agent_contracts import merge_official_specs
+        retail = from_legacy_dict({
+            "marca": "Lenovo",
+            "cpu_modelo": "Ryzen 7 8845HS",
+            "gpu_modelo": "RTX 5060",
+            "ram_gb": 32,
+        })
+        # Ficha oficial com GPU diferente (ex.: RTX 4050 em vez de RTX 5060 - variante incompatível)
+        wrong_official = {
+            "cpu_modelo": "Ryzen 7 8845HS",
+            "gpu_modelo": "RTX 4050",
+            "tgp_w": 95,
+            "ecra_brightness_nits": 300,
+        }
+        enriched, merged = merge_official_specs(retail, wrong_official, "Lenovo PSREF")
+        self.assertEqual(merged, [])
+        self.assertIsNone(enriched.tgp_w)
+        self.assertIsNone(enriched.ecra_brightness_nits)
+
+    def test_enrich_contract_from_manufacturer_source_guard(self):
+        from manufacturer_source_guard import enrich_contract
+        retail = from_legacy_dict({
+            "marca": "HP",
+            "cpu_modelo": "Intel Core Ultra 7 155H",
+            "gpu_modelo": "Intel Arc Graphics",
+        })
+        official = {
+            "cpu_modelo": "Intel Core Ultra 7 155H",
+            "gpu_modelo": "Intel Arc Graphics",
+            "bateria_wh": 68.0,
+            "peso_kg": 1.4,
+            "ecra_res": "2.8k",
+        }
+        enriched = enrich_contract(retail, official, "HP Support")
+        self.assertEqual(enriched.bateria_wh, 68.0)
+        self.assertEqual(enriched.peso_kg, 1.4)
+        self.assertEqual(enriched.ecra_res, "2.8k")

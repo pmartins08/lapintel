@@ -246,3 +246,11 @@ def install(tracker_module) -> None:
 
     tracker_module.enrich = enrich
     tracker_module._MANUFACTURER_SOURCE_GUARD_INSTALLED = True
+
+
+def enrich_contract(extraction, official_spec: dict, source_name: str, source_url: str = ""):
+    """Enriquece um contrato LaptopSpecExtraction ou dicionário com dados de fonte oficial."""
+    from agent_contracts import LaptopSpecExtraction, from_legacy_dict, merge_official_specs
+    contract = extraction if isinstance(extraction, LaptopSpecExtraction) else from_legacy_dict(extraction)
+    enriched, merged = merge_official_specs(contract, official_spec, source_name, source_url)
+    return enriched
