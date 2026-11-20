@@ -190,3 +190,27 @@ class AgentContractsTests(unittest.TestCase):
         self.assertEqual(enriched.bateria_wh, 68.0)
         self.assertEqual(enriched.peso_kg, 1.4)
         self.assertEqual(enriched.ecra_res, "2.8k")
+
+    def test_decision_from_assessment_propagates_promotion_authenticity(self):
+        item = {
+            "url": "https://example.test/laptop-fake-promo",
+            "loja": "Globaldata",
+            "titulo": "Portátil Falso Saldo",
+            "preco": 1080.0,
+            "stock": True,
+        }
+        spec = {"os_status": "windows"}
+        assessment = {
+            "status": "ACEITE",
+            "tier": "PRATA",
+            "value_score": 98.5,
+            "purchase_total_eur": 1080.0,
+            "installation_cost_eur": 0.0,
+            "historical_price": {
+                "artificial_discount": True,
+                "promotion_authenticity": "ARTIFICIAL_DISCOUNT",
+            },
+        }
+        decision = decision_from_assessment(item, spec, assessment)
+        self.assertTrue(decision.artificial_discount)
+        self.assertEqual(decision.promotion_authenticity, "ARTIFICIAL_DISCOUNT")

@@ -221,6 +221,90 @@ def _recent_days(entry: dict, today: date, window_days: int = WINDOW_DAYS) -> li
     return sorted(rows, key=lambda pair: pair[0])
 
 
+def evaluate_promotion_authenticity(
+    context: dict | None,
+    *,
+    item: dict | None = None,
+    current_price: float | None = None,
+) -> dict:
+    """Distingue promoções reais de descontos artificiais ('falsos saldos') com base na série temporal."""
+    if not isinstance(context, dict) or not context.get("available"):
+        return {
+            "status": "UNVERIFIED_HISTORY",
+            "artificial_discount": False,
+            "genuine_discount": False,
+            "reason": "Histórico insuficiente para verificar autenticidade promocional.",
+        }
+    days_observed = int(context.get("days_observed") or 0)
+    if days_observed < 3:
+        return {
+            "status": "UNVERIFIED_HISTORY",
+            "artificial_discount": False,
+            "genuine_discount": False,
+            "reason": "Menos de 3 dias observados na janela histórica.",
+        }
+
+    hist_min = float(context.get("min") or 0.0)
+    hist_max = float(context.get("max") or hist_min)
+    hist_avg = float(context.get("average") or hist_min)
+    median_min = float(context.get("median_daily_min") or hist_min)
+    price = float(
+        current_price
+        if current_price is not None
+        else (
+            item.get("preco")
+            if isinstance(item, dict) and item.get("preco") is not None
+            else hist_min
+        )
+    )
+    tolerance = max(5.0, median_min * 0.005)
+
+    has_promo = bool(
+        isinstance(item, dict)
+        and (
+            item.get("promotion_price_live_confirmed")
+            or item.get("has_cart_discount")
+            or item.get("promotions")
+        )
+    )
+
+    # 1. Falso saldo por inflação prévia da média: preço parece abaixo da média (ou declara promoção),
+    # mas está acima da mediana habitual dos mínimos diários.
+    if price > median_min + tolerance and (price < hist_avg - tolerance or has_promo):
+        return {
+            "status": "ARTIFICIAL_DISCOUNT",
+            "artificial_discount": True,
+            "genuine_discount": False,
+            "reason": f"Preço atual ({price:.2f}€) superior à mediana histórica ({median_min:.2f}€) apesar de pico prévio ou campanha.",
+        }
+
+    # 2. Falso saldo por subida e retorno ao preço normal: houve pico >= 5% acima da mediana
+    # e a loja anuncia promoção apenas para regressar ao preço mediano habitual.
+    if has_promo and hist_max >= median_min * 1.05 and price >= median_min - tolerance:
+        return {
+            "status": "ARTIFICIAL_DISCOUNT",
+            "artificial_discount": True,
+            "genuine_discount": False,
+            "reason": f"Campanha após pico histórico ({hist_max:.2f}€) apenas repõe o preço mediano habitual ({median_min:.2f}€).",
+        }
+
+    # 3. Desconto genuíno: novo mínimo ou abaixo da mediana histórica com folga superior à tolerância.
+    if context.get("new_low") or price <= median_min - tolerance:
+        return {
+            "status": "GENUINE_DISCOUNT",
+            "artificial_discount": False,
+            "genuine_discount": True,
+            "reason": f"Preço atual ({price:.2f}€) comprovadamente abaixo da mediana histórica ({median_min:.2f}€).",
+        }
+
+    return {
+        "status": "NORMAL_PRICE",
+        "artificial_discount": False,
+        "genuine_discount": False,
+        "reason": "Preço alinhado com o comportamento histórico normal.",
+    }
+
+
 def historical_context(
     state: dict,
     item: dict,
@@ -252,6 +336,7 @@ def historical_context(
         }
 
     minima = [float(stats["min"]) for _, stats in rows if stats.get("min") is not None]
+    maxima = [float(stats.get("max", stats.get("min"))) for _, stats in rows if stats.get("max", stats.get("min")) is not None]
     sums = [float(stats.get("sum", 0.0)) for _, stats in rows]
     samples = sum(int(stats.get("samples", 0)) for _, stats in rows)
     stores = sorted(
@@ -271,6 +356,7 @@ def historical_context(
         }
 
     historical_min = min(minima)
+    historical_max = max(maxima) if maxima else historical_min
     historical_avg = sum(sums) / samples
     historical_median_daily_min = float(median(minima))
     delta_min = float(current_price) - historical_min
@@ -280,9 +366,20 @@ def historical_context(
         if historical_avg
         else 0.0
     )
+    delta_median = float(current_price) - historical_median_daily_min
+    delta_median_pct = (
+        delta_median / historical_median_daily_min * 100.0
+        if historical_median_daily_min
+        else 0.0
+    )
+    volatility_pct = (
+        (historical_max - historical_min) / historical_min * 100.0
+        if historical_min
+        else 0.0
+    )
     tolerance = max(5.0, historical_min * 0.005)
 
-    return {
+    out = {
         "available": True,
         "confidence": confidence,
         "identity": key,
@@ -291,14 +388,24 @@ def historical_context(
         "samples": samples,
         "stores": stores,
         "min": round(historical_min, 2),
+        "max": round(historical_max, 2),
         "average": round(historical_avg, 2),
         "median_daily_min": round(historical_median_daily_min, 2),
+        "volatility_pct": round(volatility_pct, 2),
         "delta_vs_min_eur": round(delta_min, 2),
         "delta_vs_min_pct": round(delta_min_pct, 2),
         "delta_vs_average_pct": round(delta_avg_pct, 2),
+        "delta_vs_median_eur": round(delta_median, 2),
+        "delta_vs_median_pct": round(delta_median_pct, 2),
         "new_low": float(current_price) < historical_min - tolerance,
         "at_or_near_low": float(current_price) <= historical_min + tolerance,
     }
+    auth = evaluate_promotion_authenticity(out, item=item, current_price=float(current_price))
+    out["artificial_discount"] = auth["artificial_discount"]
+    out["genuine_discount"] = auth["genuine_discount"]
+    out["promotion_authenticity"] = auth["status"]
+    out["promotion_authenticity_reason"] = auth["reason"]
+    return out
 
 
 def observe(
@@ -431,6 +538,8 @@ def _format_context(context: dict | None) -> str:
         note += " | NOVO MÍNIMO"
     elif context.get("at_or_near_low"):
         note += " | perto do mínimo"
+    if context.get("artificial_discount"):
+        note += " | FALSO SALDO detetado"
     return note
 
 

@@ -14,10 +14,14 @@ def historical_bonus(context: dict | None) -> float:
         return 0.0
     if "days_observed" in context and int(context["days_observed"]) < 3:
         return 0.0
+    if context.get("artificial_discount"):
+        return 0.0
     if context.get("new_low"):
         return 5.0
     if context.get("at_or_near_low"):
         return 3.0
+    if float(context.get("delta_vs_median_pct", -1.0) or -1.0) > 0.0:
+        return 0.0
     try:
         delta = float(context.get("delta_vs_average_pct", 0.0) or 0.0)
     except (TypeError, ValueError):

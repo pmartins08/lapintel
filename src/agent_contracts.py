@@ -80,6 +80,8 @@ if HAS_PYDANTIC:
         rejection_reason: str | None = None
         should_notify_ntfy: bool = False
         timestamp: str | None = None
+        artificial_discount: bool = False
+        promotion_authenticity: str = "UNVERIFIED_HISTORY"
 
 else:
     @dataclass
@@ -138,6 +140,8 @@ else:
         rejection_reason: str | None = None
         should_notify_ntfy: bool = False
         timestamp: str | None = None
+        artificial_discount: bool = False
+        promotion_authenticity: str = "UNVERIFIED_HISTORY"
 
 
 # =============================================================================
@@ -235,6 +239,8 @@ def decision_from_assessment(item: dict[str, Any], spec: dict[str, Any], assessm
         alerts = assessment.get("alertas") or []
         rejection_reason = alerts[0] if alerts else "Oferta rejeitada pelos critérios de seleção"
 
+    hist = assessment.get("historical_price") if isinstance(assessment.get("historical_price"), dict) else {}
+
     decision_data = {
         "url": str(item.get("url") or spec.get("page_url") or ""),
         "loja": str(item.get("loja") or ""),
@@ -249,6 +255,8 @@ def decision_from_assessment(item: dict[str, Any], spec: dict[str, Any], assessm
         "rejection_reason": rejection_reason,
         "should_notify_ntfy": should_notify,
         "timestamp": datetime.now(timezone.utc).isoformat(),
+        "artificial_discount": bool(hist.get("artificial_discount", False)),
+        "promotion_authenticity": str(hist.get("promotion_authenticity") or "UNVERIFIED_HISTORY"),
     }
 
     if HAS_PYDANTIC:

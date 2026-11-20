@@ -100,6 +100,18 @@ class OpportunityGuardTests(unittest.TestCase):
         )
         self.assertEqual(result["score"], 150.0)
 
+    def test_artificial_discount_blocks_historical_bonus(self):
+        bonus = opportunity_guard.historical_bonus(
+            {
+                "available": True,
+                "days_observed": 5,
+                "delta_vs_average_pct": -12.0,
+                "delta_vs_median_pct": 8.0,
+                "artificial_discount": True,
+            }
+        )
+        self.assertEqual(bonus, 0.0)
+
 
 if __name__ == "__main__":
     unittest.main()

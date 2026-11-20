@@ -254,6 +254,74 @@ class HistoricalGuardTests(unittest.TestCase):
         self.assertTrue(merged["has_promo_discount"])
         self.assertEqual(merged["stores"], ["Darty", "FNAC"])
 
+    def test_detects_artificial_discount_when_spike_inflates_average_above_median(self):
+        state = {"schema_version": 1, "identities": {}}
+        item = {
+            "ean": "4711636047258",
+            "url": "https://a/item",
+            "loja": "Globaldata",
+            "promotion_price_live_confirmed": True,
+        }
+        for raw_day, price in (
+            ("2026-11-01T10:00:00Z", 1000.0),
+            ("2026-11-02T10:00:00Z", 1000.0),
+            ("2026-11-03T10:00:00Z", 1000.0),
+            ("2026-11-04T10:00:00Z", 1000.0),
+            ("2026-11-05T10:00:00Z", 1600.0),
+        ):
+            historical_guard.observe(state, item, price, observed_at=raw_day)
+
+        context = historical_guard.historical_context(
+            state, item, 1080.0, today=date(2026, 11, 6)
+        )
+        self.assertTrue(context["artificial_discount"])
+        self.assertFalse(context["genuine_discount"])
+        self.assertEqual(context["promotion_authenticity"], "ARTIFICIAL_DISCOUNT")
+        self.assertEqual(context["max"], 1600.0)
+        self.assertEqual(context["volatility_pct"], 60.0)
+        self.assertGreater(context["delta_vs_median_pct"], 0.0)
+        self.assertLess(context["delta_vs_average_pct"], 0.0)
+
+    def test_detects_artificial_discount_when_promo_only_restores_normal_median_after_spike(self):
+        state = {"schema_version": 1, "identities": {}}
+        item = {
+            "ean": "4711636047258",
+            "url": "https://a/item",
+            "loja": "FNAC",
+            "promotions": [{"kind": "DIRECT_DISCOUNT", "value_eur": 200.0}],
+        }
+        for raw_day, price in (
+            ("2026-11-01T10:00:00Z", 1200.0),
+            ("2026-11-02T10:00:00Z", 1200.0),
+            ("2026-11-03T10:00:00Z", 1200.0),
+            ("2026-11-04T10:00:00Z", 1400.0),
+        ):
+            historical_guard.observe(state, item, price, observed_at=raw_day)
+
+        context = historical_guard.historical_context(
+            state, item, 1200.0, today=date(2026, 11, 5)
+        )
+        self.assertTrue(context["artificial_discount"])
+        self.assertEqual(context["promotion_authenticity"], "ARTIFICIAL_DISCOUNT")
+
+    def test_detects_genuine_discount_below_historical_median(self):
+        state = {"schema_version": 1, "identities": {}}
+        item = {"ean": "4711636047258", "url": "https://a/item", "loja": "Darty"}
+        for raw_day in (
+            "2026-11-01T10:00:00Z",
+            "2026-11-02T10:00:00Z",
+            "2026-11-03T10:00:00Z",
+            "2026-11-04T10:00:00Z",
+        ):
+            historical_guard.observe(state, item, 1300.0, observed_at=raw_day)
+
+        context = historical_guard.historical_context(
+            state, item, 1199.0, today=date(2026, 11, 5)
+        )
+        self.assertTrue(context["genuine_discount"])
+        self.assertFalse(context["artificial_discount"])
+        self.assertEqual(context["promotion_authenticity"], "GENUINE_DISCOUNT")
+
 
 if __name__ == "__main__":
     unittest.main()
