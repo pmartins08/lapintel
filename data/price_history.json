@@ -1144,17 +1144,6 @@
     "ean:00197529122518": {
       "confidence": "EXATO",
       "days": {
-        "2026-11-21": {
-          "avg": 1499.9,
-          "last": 1499.9,
-          "max": 1499.9,
-          "min": 1499.9,
-          "samples": 1,
-          "stores": [
-            "Tek4life"
-          ],
-          "sum": 1499.9
-        },
         "2026-11-22": {
           "avg": 1499.9,
           "last": 1499.9,
@@ -1165,12 +1154,23 @@
             "Tek4life"
           ],
           "sum": 2999.8
+        },
+        "2026-11-23": {
+          "avg": 1499.9,
+          "last": 1499.9,
+          "max": 1499.9,
+          "min": 1499.9,
+          "samples": 1,
+          "stores": [
+            "Tek4life"
+          ],
+          "sum": 1499.9
         }
       },
       "ean": "0197529122518",
-      "first_seen": "2026-11-21T06:39:35.618534Z",
+      "first_seen": "2026-11-22T06:08:40.203742Z",
       "gtin14": "00197529122518",
-      "last_seen": "2026-11-22T14:38:10.003916Z",
+      "last_seen": "2026-11-23T07:00:43.708563Z",
       "mpn": "82YA0079PG",
       "title": "Portátil Lenovo Legion Slim 16IRH8-518 16\" i7 16GB/512GB RTX 4070 s/ Sistema Operativo",
       "url": null
@@ -1211,17 +1211,6 @@
           ],
           "sum": 999.98
         },
-        "2026-11-21": {
-          "avg": 499.99,
-          "last": 499.99,
-          "max": 499.99,
-          "min": 499.99,
-          "samples": 1,
-          "stores": [
-            "UPTECHBOX"
-          ],
-          "sum": 499.99
-        },
         "2026-11-22": {
           "avg": 499.99,
           "last": 499.99,
@@ -1232,12 +1221,23 @@
             "UPTECHBOX"
           ],
           "sum": 999.98
+        },
+        "2026-11-23": {
+          "avg": 499.99,
+          "last": 499.99,
+          "max": 499.99,
+          "min": 499.99,
+          "samples": 1,
+          "stores": [
+            "UPTECHBOX"
+          ],
+          "sum": 499.99
         }
       },
       "ean": "197530408144",
       "first_seen": "2026-10-03T15:09:05.600883Z",
       "gtin14": "00197530408144",
-      "last_seen": "2026-11-22T14:38:10.027457Z",
+      "last_seen": "2026-11-23T07:00:43.727744Z",
       "mpn": null,
       "title": "Portátil Lenovo V15 G4",
       "url": null
@@ -1351,11 +1351,11 @@
           "last": 899.0,
           "max": 899.0,
           "min": 899.0,
-          "samples": 3,
+          "samples": 1,
           "stores": [
             "UPTECHBOX"
           ],
-          "sum": 2697.0
+          "sum": 899.0
         },
         "2026-11-22": {
           "avg": 899.0,
@@ -1367,12 +1367,23 @@
             "UPTECHBOX"
           ],
           "sum": 4495.0
+        },
+        "2026-11-23": {
+          "avg": 899.0,
+          "last": 899.0,
+          "max": 899.0,
+          "min": 899.0,
+          "samples": 2,
+          "stores": [
+            "UPTECHBOX"
+          ],
+          "sum": 1798.0
         }
       },
       "ean": "0197531673404",
       "first_seen": "2026-09-23T18:21:46.306562Z",
       "gtin14": "00197531673404",
-      "last_seen": "2026-11-22T23:34:27.461215Z",
+      "last_seen": "2026-11-23T07:00:43.697382Z",
       "mpn": null,
       "title": "Portátil Lenovo IdeaPad Slim 5i 14IMH10 — Core Ultra 9 185H + Intel Arc | 16GB DDR5 | 14\" WUXGA | Sem OS",
       "url": null
@@ -2103,11 +2114,11 @@
           "last": 1099.99,
           "max": 1099.99,
           "min": 1099.99,
-          "samples": 3,
+          "samples": 1,
           "stores": [
             "UPTECHBOX"
           ],
-          "sum": 3299.97
+          "sum": 1099.99
         },
         "2026-11-22": {
           "avg": 1099.99,
@@ -2119,12 +2130,23 @@
             "UPTECHBOX"
           ],
           "sum": 5499.95
+        },
+        "2026-11-23": {
+          "avg": 1099.99,
+          "last": 1099.99,
+          "max": 1099.99,
+          "min": 1099.99,
+          "samples": 2,
+          "stores": [
+            "UPTECHBOX"
+          ],
+          "sum": 2199.98
         }
       },
       "ean": "198154809973",
       "first_seen": "2026-11-20T17:58:04.864139Z",
       "gtin14": "00198154809973",
-      "last_seen": "2026-11-22T23:34:27.458221Z",
+      "last_seen": "2026-11-23T07:00:43.694061Z",
       "mpn": null,
       "title": "Portátil Lenovo IdeaPad Slim 5 14IMH9 — Core Ultra 7 155H | 32GB | 1TB SSD | 14\" OLED WUXGA | Sem OS",
       "url": null
@@ -4023,11 +4045,11 @@
           "last": 599.99,
           "max": 599.99,
           "min": 599.99,
-          "samples": 3,
+          "samples": 1,
           "stores": [
             "UPTECHBOX"
           ],
-          "sum": 1799.97
+          "sum": 599.99
         },
         "2026-11-22": {
           "avg": 599.99,
@@ -4039,12 +4061,23 @@
             "UPTECHBOX"
           ],
           "sum": 2999.95
+        },
+        "2026-11-23": {
+          "avg": 599.99,
+          "last": 599.99,
+          "max": 599.99,
+          "min": 599.99,
+          "samples": 2,
+          "stores": [
+            "UPTECHBOX"
+          ],
+          "sum": 1199.98
         }
       },
       "ean": "199272357827",
       "first_seen": "2026-11-20T17:58:04.723338Z",
       "gtin14": "00199272357827",
-      "last_seen": "2026-11-22T23:34:27.465521Z",
+      "last_seen": "2026-11-23T07:00:43.705594Z",
       "mpn": null,
       "title": "Portátil Lenovo IdeaPad Slim 3 15AMN8 — Ryzen 5 7520U | 16GB LPDDR5 | 512GB SSD | 15.6\" FHD | Win 11",
       "url": null
@@ -4712,11 +4745,11 @@
           "last": 799.99,
           "max": 799.99,
           "min": 799.99,
-          "samples": 3,
+          "samples": 1,
           "stores": [
             "UPTECHBOX"
           ],
-          "sum": 2399.97
+          "sum": 799.99
         },
         "2026-11-22": {
           "avg": 799.99,
@@ -4728,12 +4761,23 @@
             "UPTECHBOX"
           ],
           "sum": 3999.95
+        },
+        "2026-11-23": {
+          "avg": 799.99,
+          "last": 799.99,
+          "max": 799.99,
+          "min": 799.99,
+          "samples": 2,
+          "stores": [
+            "UPTECHBOX"
+          ],
+          "sum": 1599.98
         }
       },
       "ean": "199274382865",
       "first_seen": "2026-09-23T06:23:21.438635Z",
       "gtin14": "00199274382865",
-      "last_seen": "2026-11-22T23:34:27.456786Z",
+      "last_seen": "2026-11-23T07:00:43.692737Z",
       "mpn": "83K700MGPG",
       "title": "Portátil Lenovo IdeaPad Slim 3 15ARP10 — Ryzen 7 170 + Radeon 680M | 16GB DDR5 | 1TB SSD | Win 11 Home",
       "url": null
@@ -5243,17 +5287,28 @@
           "last": 649.0,
           "max": 649.0,
           "min": 649.0,
-          "samples": 3,
+          "samples": 2,
           "stores": [
             "FNAC"
           ],
-          "sum": 1947.0
+          "sum": 1298.0
+        },
+        "2026-11-23": {
+          "avg": 649.0,
+          "last": 649.0,
+          "max": 649.0,
+          "min": 649.0,
+          "samples": 1,
+          "stores": [
+            "FNAC"
+          ],
+          "sum": 649.0
         }
       },
       "ean": "0199275205064",
-      "first_seen": "2026-11-22T06:08:40.230479Z",
+      "first_seen": "2026-11-22T14:38:10.036978Z",
       "gtin14": "00199275205064",
-      "last_seen": "2026-11-22T23:34:27.380152Z",
+      "last_seen": "2026-11-23T07:00:43.734097Z",
       "mpn": null,
       "title": "Computador Portátil Lenovo IdeaPad Slim 3 15Q8X10-064 | 15,3'' | Qualcomm Snapdragon X X1-26-100 | 16GB | 512GB SSD",
       "url": null
@@ -5399,29 +5454,41 @@
           "last": 1299.99,
           "max": 1299.99,
           "min": 1299.99,
-          "samples": 3,
+          "samples": 1,
           "stores": [
             "UPTECHBOX"
           ],
-          "sum": 3899.97
+          "sum": 1299.99
         },
         "2026-11-22": {
           "avg": 1299.96,
           "last": 1299.9,
           "max": 1299.99,
           "min": 1299.9,
-          "samples": 8,
+          "samples": 7,
           "stores": [
             "Novo Atalho",
             "UPTECHBOX"
           ],
-          "sum": 10399.65
+          "sum": 9099.75
+        },
+        "2026-11-23": {
+          "avg": 1299.96,
+          "last": 1299.9,
+          "max": 1299.99,
+          "min": 1299.9,
+          "samples": 3,
+          "stores": [
+            "Novo Atalho",
+            "UPTECHBOX"
+          ],
+          "sum": 3899.88
         }
       },
       "ean": "0199275234675",
       "first_seen": "2026-09-10T18:20:34.741441Z",
       "gtin14": "00199275234675",
-      "last_seen": "2026-11-22T23:34:27.454465Z",
+      "last_seen": "2026-11-23T07:00:43.798074Z",
       "mpn": "83VA001UPG",
       "title": "Portátil Lenovo LOQ Gaming Essential 15ARP11-675 15.6\" R7 16GB SSD 1TB RTX 5060 Cinza",
       "url": null
@@ -5612,18 +5679,29 @@
           "last": 999.99,
           "max": 999.99,
           "min": 999.99,
-          "samples": 4,
+          "samples": 3,
           "stores": [
             "Darty",
             "FNAC"
           ],
-          "sum": 3999.96
+          "sum": 2999.97
+        },
+        "2026-11-23": {
+          "avg": 999.99,
+          "last": 999.99,
+          "max": 999.99,
+          "min": 999.99,
+          "samples": 1,
+          "stores": [
+            "FNAC"
+          ],
+          "sum": 999.99
         }
       },
       "ean": "0199275236563",
       "first_seen": "2026-09-28T18:22:41.849821Z",
       "gtin14": "00199275236563",
-      "last_seen": "2026-11-22T23:34:27.439654Z",
+      "last_seen": "2026-11-23T07:00:43.725392Z",
       "mpn": "83UJ001EPG",
       "title": "Computador Portátil Lenovo IdeaPad 5 2-in-1 14AHP11 | 14\" | AMD Ryzen™ 5 230 | 16GB | 512GB SSD",
       "url": null
@@ -5937,17 +6015,6 @@
           ],
           "sum": 1199.99
         },
-        "2026-11-20": {
-          "avg": 1199.0,
-          "last": 1199.0,
-          "max": 1199.0,
-          "min": 1199.0,
-          "samples": 1,
-          "stores": [
-            "Darty"
-          ],
-          "sum": 1199.0
-        },
         "2026-11-21": {
           "avg": 1199.0,
           "last": 1199.0,
@@ -5964,18 +6031,30 @@
           "last": 1199.0,
           "max": 1199.0,
           "min": 1199.0,
-          "samples": 4,
+          "samples": 3,
           "stores": [
             "Darty",
             "FNAC"
           ],
-          "sum": 4796.0
+          "sum": 3597.0
+        },
+        "2026-11-23": {
+          "avg": 1199.0,
+          "last": 1199.0,
+          "max": 1199.0,
+          "min": 1199.0,
+          "samples": 2,
+          "stores": [
+            "Darty",
+            "FNAC"
+          ],
+          "sum": 2398.0
         }
       },
       "ean": "0199275316661",
       "first_seen": "2026-09-10T19:38:16.558124Z",
       "gtin14": "00199275316661",
-      "last_seen": "2026-11-22T23:34:27.399499Z",
+      "last_seen": "2026-11-23T07:00:43.755126Z",
       "mpn": "83VA0028PG",
       "title": "Computador Portátil Gaming Lenovo LOQ Essential 15ARP11 | 15,6\" | GeForce RTX 5050 | AMD Ryzen™ 7 170 | 16GB | 512GB SSD",
       "url": null
@@ -6021,11 +6100,11 @@
           "last": 1099.99,
           "max": 1099.99,
           "min": 1099.99,
-          "samples": 2,
+          "samples": 1,
           "stores": [
             "UPTECHBOX"
           ],
-          "sum": 2199.98
+          "sum": 1099.99
         },
         "2026-11-20": {
           "avg": 1099.99,
@@ -6054,20 +6133,32 @@
           "last": 1099.9,
           "max": 1099.99,
           "min": 1099.9,
-          "samples": 5,
+          "samples": 4,
           "stores": [
             "Novo Atalho",
             "UPTECHBOX"
           ],
-          "sum": 5499.68
+          "sum": 4399.78
+        },
+        "2026-11-23": {
+          "avg": 1099.94,
+          "last": 1099.99,
+          "max": 1099.99,
+          "min": 1099.9,
+          "samples": 2,
+          "stores": [
+            "Novo Atalho",
+            "UPTECHBOX"
+          ],
+          "sum": 2199.89
         }
       },
-      "ean": "0199275830136",
+      "ean": "199275830136",
       "first_seen": "2026-09-10T18:20:34.740907Z",
       "gtin14": "00199275830136",
-      "last_seen": "2026-11-22T23:34:27.454787Z",
+      "last_seen": "2026-11-23T07:00:43.803419Z",
       "mpn": "83VA002HPG",
-      "title": "Portátil Lenovo LOQ Gaming Essential 15ARP11-136 15.6\" R7 16GB SSD 512GB RTX 5050 Cinza",
+      "title": "Portátil Gaming Lenovo LOQ Essential 15ARP11 — Ryzen 7 170 + RTX 5050 8GB GDDR7 | 16GB DDR5 | 512GB SSD | 144Hz | Sem OS",
       "url": null
     },
     "ean:00199275832338": {
@@ -6078,17 +6169,28 @@
           "last": 999.0,
           "max": 999.0,
           "min": 999.0,
-          "samples": 3,
+          "samples": 2,
           "stores": [
             "FNAC"
           ],
-          "sum": 2997.0
+          "sum": 1998.0
+        },
+        "2026-11-23": {
+          "avg": 999.0,
+          "last": 999.0,
+          "max": 999.0,
+          "min": 999.0,
+          "samples": 1,
+          "stores": [
+            "FNAC"
+          ],
+          "sum": 999.0
         }
       },
       "ean": "0199275832338",
-      "first_seen": "2026-11-22T06:08:40.218333Z",
+      "first_seen": "2026-11-22T14:38:10.021560Z",
       "gtin14": "00199275832338",
-      "last_seen": "2026-11-22T23:34:27.371797Z",
+      "last_seen": "2026-11-23T07:00:43.723204Z",
       "mpn": null,
       "title": "Consola Portátil Lenovo Legion Go S 8APU1-338 | 8\" | Ryzen™ Z1 Extreme | 32GB | 1TB SSD - Nebula Nocturne",
       "url": null
@@ -6135,17 +6237,28 @@
           "last": 913.63,
           "max": 913.63,
           "min": 913.63,
-          "samples": 3,
+          "samples": 2,
           "stores": [
             "FNAC"
           ],
-          "sum": 2740.89
+          "sum": 1827.26
+        },
+        "2026-11-23": {
+          "avg": 913.63,
+          "last": 913.63,
+          "max": 913.63,
+          "min": 913.63,
+          "samples": 1,
+          "stores": [
+            "FNAC"
+          ],
+          "sum": 913.63
         }
       },
       "ean": "0199275832369",
-      "first_seen": "2026-11-22T06:08:40.226209Z",
+      "first_seen": "2026-11-22T14:38:10.031381Z",
       "gtin14": "00199275832369",
-      "last_seen": "2026-11-22T23:34:27.377611Z",
+      "last_seen": "2026-11-23T07:00:43.730459Z",
       "mpn": null,
       "title": "Consola Portátil Lenovo Legion Go S 8APU1-369 | 8\" | Ryzen™ Z1 Extreme | 16GB | 1TB SSD - Nebula Nocturne",
       "url": null
@@ -6259,18 +6372,30 @@
           "last": 1199.0,
           "max": 1199.0,
           "min": 1199.0,
-          "samples": 6,
+          "samples": 4,
           "stores": [
             "FNAC",
             "Globaldata"
           ],
-          "sum": 7194.0
+          "sum": 4796.0
+        },
+        "2026-11-23": {
+          "avg": 1199.0,
+          "last": 1199.0,
+          "max": 1199.0,
+          "min": 1199.0,
+          "samples": 2,
+          "stores": [
+            "FNAC",
+            "Globaldata"
+          ],
+          "sum": 2398.0
         }
       },
       "ean": "0199275936708",
       "first_seen": "2026-09-15T00:27:59.638229Z",
       "gtin14": "00199275936708",
-      "last_seen": "2026-11-22T23:34:27.376026Z",
+      "last_seen": "2026-11-23T07:00:43.729082Z",
       "mpn": "83RL000UPG",
       "title": "Computador Portátil Lenovo IdeaPad Slim 5 15Q8Y11-708 Copilot+ PC | 15.3\" | Snapdragon® X2 Plus | 32GB | 1TB SSD",
       "url": null
@@ -6402,36 +6527,49 @@
           "sum": 999.99
         },
         "2026-11-21": {
-          "avg": 1022.47,
+          "avg": 999.99,
           "last": 999.99,
-          "max": 1089.9,
+          "max": 999.99,
           "min": 999.99,
-          "samples": 4,
+          "samples": 1,
           "stores": [
-            "Tek4life",
             "UPTECHBOX"
           ],
-          "sum": 4089.87
+          "sum": 999.99
         },
         "2026-11-22": {
-          "avg": 1036.44,
+          "avg": 1034.16,
           "last": 1099.0,
           "max": 1099.0,
           "min": 999.0,
-          "samples": 13,
+          "samples": 11,
           "stores": [
             "Globaldata",
             "Novo Atalho",
             "Tek4life",
             "UPTECHBOX"
           ],
-          "sum": 13473.75
+          "sum": 11375.75
+        },
+        "2026-11-23": {
+          "avg": 1037.58,
+          "last": 1099.0,
+          "max": 1099.0,
+          "min": 999.0,
+          "samples": 5,
+          "stores": [
+            "Globaldata",
+            "Novo Atalho",
+            "Tek4life",
+            "UPTECHBOX"
+          ],
+          "sum": 5187.88
         }
       },
       "ean": "0199276276148",
       "first_seen": "2026-09-10T18:20:34.741700Z",
       "gtin14": "00199276276148",
-      "last_seen": "2026-11-22T23:34:27.457861Z",
+      "last_seen": "2026-11-23T07:00:43.800421Z",
       "mpn": "83DX00FKPG",
       "title": "Portátil Lenovo LOQ Gaming 15AHP9-148 15.6\" R7 16GB SSD 512GB RTX 3050 Cinza",
       "url": null
@@ -6524,31 +6662,43 @@
           "last": 699.99,
           "max": 699.99,
           "min": 699.99,
-          "samples": 3,
+          "samples": 1,
           "stores": [
             "UPTECHBOX"
           ],
-          "sum": 2099.97
+          "sum": 699.99
         },
         "2026-11-22": {
-          "avg": 699.62,
+          "avg": 699.71,
           "last": 699.99,
           "max": 699.99,
           "min": 699.0,
-          "samples": 8,
+          "samples": 7,
           "stores": [
             "Globaldata",
             "UPTECHBOX"
           ],
-          "sum": 5596.95
+          "sum": 4897.95
+        },
+        "2026-11-23": {
+          "avg": 699.66,
+          "last": 699.0,
+          "max": 699.99,
+          "min": 699.0,
+          "samples": 3,
+          "stores": [
+            "Globaldata",
+            "UPTECHBOX"
+          ],
+          "sum": 2098.98
         }
       },
-      "ean": "199276801548",
+      "ean": "0199276801548",
       "first_seen": "2026-10-28T05:07:01.817916Z",
       "gtin14": "00199276801548",
-      "last_seen": "2026-11-22T23:34:27.462917Z",
+      "last_seen": "2026-11-23T07:00:43.732838Z",
       "mpn": "82XM01DAPG",
-      "title": "Portátil Lenovo IdeaPad Slim 3 15ABR8 — AMD Ryzen 7 5825U | 16GB DDR4 | 512GB SSD | 15.6\" FHD | S/SO",
+      "title": "Portátil Lenovo IdeaPad Slim 3 15ABR8-548 15.6\" R7 5825U 16GB DDR4 512GB FHD Radeon Graphics (sem carregador)",
       "url": null
     },
     "ean:00199276801746": {
@@ -6604,17 +6754,28 @@
           "last": 799.0,
           "max": 799.0,
           "min": 799.0,
-          "samples": 3,
+          "samples": 2,
           "stores": [
             "Globaldata"
           ],
-          "sum": 2397.0
+          "sum": 1598.0
+        },
+        "2026-11-23": {
+          "avg": 799.0,
+          "last": 799.0,
+          "max": 799.0,
+          "min": 799.0,
+          "samples": 1,
+          "stores": [
+            "Globaldata"
+          ],
+          "sum": 799.0
         }
       },
       "ean": "0199276801746",
       "first_seen": "2026-10-18T20:32:58.721547Z",
       "gtin14": "00199276801746",
-      "last_seen": "2026-11-22T23:34:27.365005Z",
+      "last_seen": "2026-11-23T07:00:43.714510Z",
       "mpn": "83RR00K8PG",
       "title": "Portátil Lenovo IdeaPad Slim 3i 15IWC11-746 15.3\" Intel Core 7 350 16GB DDR5 512GB WUXGA (sem carregador)",
       "url": null
@@ -6662,11 +6823,11 @@
           "last": 999.99,
           "max": 999.99,
           "min": 999.99,
-          "samples": 2,
+          "samples": 1,
           "stores": [
             "UPTECHBOX"
           ],
-          "sum": 1999.98
+          "sum": 999.99
         },
         "2026-11-22": {
           "avg": 949.74,
@@ -6679,12 +6840,23 @@
             "UPTECHBOX"
           ],
           "sum": 3798.97
+        },
+        "2026-11-23": {
+          "avg": 899.99,
+          "last": 899.99,
+          "max": 899.99,
+          "min": 899.99,
+          "samples": 1,
+          "stores": [
+            "UPTECHBOX"
+          ],
+          "sum": 899.99
         }
       },
       "ean": "199276801753",
       "first_seen": "2026-11-04T05:50:37.509825Z",
       "gtin14": "00199276801753",
-      "last_seen": "2026-11-22T23:34:27.451157Z",
+      "last_seen": "2026-11-23T07:00:43.794483Z",
       "mpn": "83UR00CSPG",
       "title": "Portatil Lenovo IdeaPad Slim 3 15IPH11 - Intel Core Ultra 7 355 | 16GB DDR5 | 512GB SSD | 15.3\" WUXGA | Copilot+ PC | S/SO",
       "url": null
@@ -6737,36 +6909,37 @@
           ],
           "sum": 3496.68
         },
-        "2026-11-21": {
-          "avg": 699.99,
-          "last": 699.99,
-          "max": 699.99,
-          "min": 699.99,
-          "samples": 1,
-          "stores": [
-            "UPTECHBOX"
-          ],
-          "sum": 699.99
-        },
         "2026-11-22": {
-          "avg": 699.5,
+          "avg": 699.59,
           "last": 699.99,
           "max": 699.99,
           "min": 699.0,
-          "samples": 6,
+          "samples": 5,
           "stores": [
             "Globaldata",
             "UPTECHBOX"
           ],
-          "sum": 4196.97
+          "sum": 3497.97
+        },
+        "2026-11-23": {
+          "avg": 699.5,
+          "last": 699.0,
+          "max": 699.99,
+          "min": 699.0,
+          "samples": 2,
+          "stores": [
+            "Globaldata",
+            "UPTECHBOX"
+          ],
+          "sum": 1398.99
         }
       },
-      "ean": "199276801777",
+      "ean": "0199276801777",
       "first_seen": "2026-10-18T20:32:58.702245Z",
       "gtin14": "00199276801777",
-      "last_seen": "2026-11-22T23:34:27.466197Z",
+      "last_seen": "2026-11-23T07:00:43.746759Z",
       "mpn": "83UR00CUPG",
-      "title": "Portátil Lenovo IdeaPad Slim 3 15IPH11 - Intel Ultra 5 322 | 16GB DDR5 | 512GB SSD | 15.3\"FHD+ | S/SO",
+      "title": "Portátil Lenovo IdeaPad Slim 3 15IPH11-777 15.3\" Ultra 5 322 16GB 512GB FHD Intel Graphics WUXGA (sem carregador)",
       "url": null
     },
     "ean:00199276807205": {
@@ -6788,18 +6961,30 @@
           "last": 699.0,
           "max": 699.0,
           "min": 699.0,
-          "samples": 4,
+          "samples": 3,
           "stores": [
             "Darty",
             "FNAC"
           ],
-          "sum": 2796.0
+          "sum": 2097.0
+        },
+        "2026-11-23": {
+          "avg": 699.0,
+          "last": 699.0,
+          "max": 699.0,
+          "min": 699.0,
+          "samples": 2,
+          "stores": [
+            "Darty",
+            "FNAC"
+          ],
+          "sum": 1398.0
         }
       },
       "ean": "0199276807205",
       "first_seen": "2026-11-21T19:06:07.814999Z",
       "gtin14": "00199276807205",
-      "last_seen": "2026-11-22T23:34:27.419808Z",
+      "last_seen": "2026-11-23T07:00:43.770298Z",
       "mpn": null,
       "title": "Computador Portátil Lenovo IdeaPad Slim 3 15ABR8-205 | 15,6'' | AMD Ryzen™ 7 5825U | 16GB | 512GB SSD",
       "url": null
@@ -6824,11 +7009,11 @@
           "last": 799.99,
           "max": 799.99,
           "min": 799.99,
-          "samples": 3,
+          "samples": 1,
           "stores": [
             "UPTECHBOX"
           ],
-          "sum": 2399.97
+          "sum": 799.99
         },
         "2026-11-22": {
           "avg": 799.62,
@@ -6841,12 +7026,23 @@
             "UPTECHBOX"
           ],
           "sum": 6396.95
+        },
+        "2026-11-23": {
+          "avg": 799.99,
+          "last": 799.99,
+          "max": 799.99,
+          "min": 799.99,
+          "samples": 2,
+          "stores": [
+            "UPTECHBOX"
+          ],
+          "sum": 1599.98
         }
       },
       "ean": "199276811479",
       "first_seen": "2026-11-20T00:34:22.175224Z",
       "gtin14": "00199276811479",
-      "last_seen": "2026-11-22T23:34:27.463568Z",
+      "last_seen": "2026-11-23T07:00:43.699971Z",
       "mpn": "83RQ0077PG",
       "title": "Portatil Lenovo IdeaPad Slim 3i 14IWC11 - Intel Core 7 350 | 16GB DDR5 | 512GB SSD | 14\" WUXGA | S/SO",
       "url": null
@@ -6933,24 +7129,35 @@
           "sum": 1299.99
         },
         "2026-11-22": {
-          "avg": 1299.25,
+          "avg": 1299.33,
           "last": 1299.99,
           "max": 1299.99,
           "min": 1299.0,
-          "samples": 4,
+          "samples": 3,
           "stores": [
             "Globaldata",
             "UPTECHBOX"
           ],
-          "sum": 5196.99
+          "sum": 3897.99
+        },
+        "2026-11-23": {
+          "avg": 1299.0,
+          "last": 1299.0,
+          "max": 1299.0,
+          "min": 1299.0,
+          "samples": 1,
+          "stores": [
+            "Globaldata"
+          ],
+          "sum": 1299.0
         }
       },
-      "ean": "199276811486",
+      "ean": "0199276811486",
       "first_seen": "2026-10-05T00:32:52.429950Z",
       "gtin14": "00199276811486",
-      "last_seen": "2026-11-22T23:34:27.463212Z",
+      "last_seen": "2026-11-23T07:00:43.709116Z",
       "mpn": "83HX00DTPG",
-      "title": "Portátil Lenovo IdeaPad Slim 5 14AK10 - AMD Ryzen AI 7 350 | 32GB DDR5 | 1TB SSD | 14\"OLED | S/SO",
+      "title": "Portátil Lenovo IdeaPad Slim 5 14AKP10-486 14\" Ryzen AI 7 350 32GB 1TB WUXGA OLED Radeon 860M (sem carregador)",
       "url": null
     },
     "ean:00199276818348": {
@@ -7048,24 +7255,35 @@
           "sum": 1399.99
         },
         "2026-11-22": {
-          "avg": 1324.25,
+          "avg": 1332.66,
           "last": 1399.99,
           "max": 1399.99,
           "min": 1299.0,
-          "samples": 4,
+          "samples": 3,
           "stores": [
             "Globaldata",
             "UPTECHBOX"
           ],
-          "sum": 5296.99
+          "sum": 3997.99
+        },
+        "2026-11-23": {
+          "avg": 1299.0,
+          "last": 1299.0,
+          "max": 1299.0,
+          "min": 1299.0,
+          "samples": 1,
+          "stores": [
+            "Globaldata"
+          ],
+          "sum": 1299.0
         }
       },
-      "ean": "199276818348",
+      "ean": "0199276818348",
       "first_seen": "2026-09-24T06:22:16.197991Z",
       "gtin14": "00199276818348",
-      "last_seen": "2026-11-22T23:34:27.455265Z",
+      "last_seen": "2026-11-23T07:00:43.764790Z",
       "mpn": "83JG00H2PG",
-      "title": "Portatil Lenovo LOQ 15AHP10 - AMD Ryzen 7 250 + RTX 5050 | 16GB DDR5 | 512GB SSD | 15.6\"FHD | S/SO",
+      "title": "Portátil Lenovo LOQ 15AHP10-348 15.6\" R7 250 16GB DDR5 512GB RTX 5050 FHD 144Hz",
       "url": null
     },
     "ean:00199276818379": {
@@ -7177,17 +7395,28 @@
           "last": 1499.0,
           "max": 1499.0,
           "min": 1499.0,
-          "samples": 3,
+          "samples": 2,
           "stores": [
             "FNAC"
           ],
-          "sum": 4497.0
+          "sum": 2998.0
+        },
+        "2026-11-23": {
+          "avg": 1499.0,
+          "last": 1499.0,
+          "max": 1499.0,
+          "min": 1499.0,
+          "samples": 1,
+          "stores": [
+            "FNAC"
+          ],
+          "sum": 1499.0
         }
       },
       "ean": "0199276824134",
-      "first_seen": "2026-11-22T06:08:40.273431Z",
+      "first_seen": "2026-11-22T14:38:10.055352Z",
       "gtin14": "00199276824134",
-      "last_seen": "2026-11-22T23:34:27.391790Z",
+      "last_seen": "2026-11-23T07:00:43.751140Z",
       "mpn": null,
       "title": "Computador Portátil Lenovo IdeaPad Slim 5 16IPH11-134 | OLED 16'' | Intel® Core™ Ultra 7 355 | 32GB | 1TB SSD",
       "url": null
@@ -7289,17 +7518,28 @@
           "last": 999.0,
           "max": 999.0,
           "min": 999.0,
-          "samples": 3,
+          "samples": 2,
           "stores": [
             "FNAC"
           ],
-          "sum": 2997.0
+          "sum": 1998.0
+        },
+        "2026-11-23": {
+          "avg": 999.0,
+          "last": 999.0,
+          "max": 999.0,
+          "min": 999.0,
+          "samples": 1,
+          "stores": [
+            "FNAC"
+          ],
+          "sum": 999.0
         }
       },
       "ean": "0199276824172",
-      "first_seen": "2026-11-22T06:08:40.232824Z",
+      "first_seen": "2026-11-22T14:38:10.042399Z",
       "gtin14": "00199276824172",
-      "last_seen": "2026-11-22T23:34:27.383701Z",
+      "last_seen": "2026-11-23T07:00:43.738937Z",
       "mpn": null,
       "title": "Computador Portátil Lenovo IdeaPad 5 2-in-1 14Q8X9-172 | Copilot+ PC | OLED 14\" | Snapdragon X1-26-100 | 16GB | 512GB SSD + Pen",
       "url": null
@@ -7307,17 +7547,6 @@
     "ean:00199276824189": {
       "confidence": "EXATO",
       "days": {
-        "2026-11-21": {
-          "avg": 1499.99,
-          "last": 1499.99,
-          "max": 1499.99,
-          "min": 1499.99,
-          "samples": 2,
-          "stores": [
-            "UPTECHBOX"
-          ],
-          "sum": 2999.98
-        },
         "2026-11-22": {
           "avg": 1499.99,
           "last": 1499.99,
@@ -7328,12 +7557,23 @@
             "UPTECHBOX"
           ],
           "sum": 5999.96
+        },
+        "2026-11-23": {
+          "avg": 1499.99,
+          "last": 1499.99,
+          "max": 1499.99,
+          "min": 1499.99,
+          "samples": 2,
+          "stores": [
+            "UPTECHBOX"
+          ],
+          "sum": 2999.98
         }
       },
       "ean": "199276824189",
-      "first_seen": "2026-11-21T06:39:35.629746Z",
+      "first_seen": "2026-11-22T06:08:40.237282Z",
       "gtin14": "00199276824189",
-      "last_seen": "2026-11-22T14:38:10.047885Z",
+      "last_seen": "2026-11-23T07:00:43.743865Z",
       "mpn": null,
       "title": "Portátil Lenovo Yoga 7 2-in-1 14AGP11 - AMD Ryzen AI 7 445 | 32GB LPDDR5X | 1TB SSD | 14\" 2.8K OLED Tátil 120Hz | Yoga Pen | Windows 11 Home",
       "url": null
@@ -7346,17 +7586,28 @@
           "last": 1099.0,
           "max": 1099.0,
           "min": 1099.0,
-          "samples": 3,
+          "samples": 2,
           "stores": [
             "FNAC"
           ],
-          "sum": 3297.0
+          "sum": 2198.0
+        },
+        "2026-11-23": {
+          "avg": 1099.0,
+          "last": 1099.0,
+          "max": 1099.0,
+          "min": 1099.0,
+          "samples": 1,
+          "stores": [
+            "FNAC"
+          ],
+          "sum": 1099.0
         }
       },
       "ean": "0199276824202",
-      "first_seen": "2026-11-22T06:08:40.213619Z",
+      "first_seen": "2026-11-22T14:38:10.015815Z",
       "gtin14": "00199276824202",
-      "last_seen": "2026-11-22T23:34:27.367793Z",
+      "last_seen": "2026-11-23T07:00:43.718642Z",
       "mpn": null,
       "title": "Computador Portátil Gaming Lenovo LOQ 15AHP9-202 | 15,6'' | NVIDIA GeForce RTX™3050 | AMD Ryzen™ 7 7445HS | 16GB | 512GB SSD",
       "url": null
@@ -7381,19 +7632,30 @@
           "last": 799.0,
           "max": 799.0,
           "min": 799.0,
-          "samples": 7,
+          "samples": 6,
           "stores": [
             "Darty",
             "FNAC",
             "Globaldata"
           ],
-          "sum": 5593.0
+          "sum": 4794.0
+        },
+        "2026-11-23": {
+          "avg": 799.0,
+          "last": 799.0,
+          "max": 799.0,
+          "min": 799.0,
+          "samples": 1,
+          "stores": [
+            "FNAC"
+          ],
+          "sum": 799.0
         }
       },
       "ean": "0199276826169",
       "first_seen": "2026-11-21T19:06:07.754519Z",
       "gtin14": "00199276826169",
-      "last_seen": "2026-11-22T23:34:27.430395Z",
+      "last_seen": "2026-11-23T07:00:43.736407Z",
       "mpn": "83RR00LYPG",
       "title": "Computador Portátil Lenovo \tIdeaPad Slim 3 15IWC11-169 | 15,3'' | Intel® Core™ 7 350 | 16GB | 512GB SSD",
       "url": null
@@ -7423,17 +7685,6 @@
           ],
           "sum": 3584.7
         },
-        "2026-11-21": {
-          "avg": 1299.0,
-          "last": 1299.0,
-          "max": 1299.0,
-          "min": 1299.0,
-          "samples": 1,
-          "stores": [
-            "Globaldata"
-          ],
-          "sum": 1299.0
-        },
         "2026-11-22": {
           "avg": 1299.0,
           "last": 1299.0,
@@ -7444,12 +7695,23 @@
             "Globaldata"
           ],
           "sum": 2598.0
+        },
+        "2026-11-23": {
+          "avg": 1299.0,
+          "last": 1299.0,
+          "max": 1299.0,
+          "min": 1299.0,
+          "samples": 1,
+          "stores": [
+            "Globaldata"
+          ],
+          "sum": 1299.0
         }
       },
       "ean": "0199276826176",
       "first_seen": "2026-09-15T06:25:35.551909Z",
       "gtin14": "00199276826176",
-      "last_seen": "2026-11-22T23:34:27.368863Z",
+      "last_seen": "2026-11-23T07:00:43.720137Z",
       "mpn": "83TD008JPG",
       "title": "Portátil Lenovo Yoga 7 2-in-1 14AGP11-176 14\" Ryzen AI 7 445 16GB 512GB Radeon 840M WUXGA OLED W11",
       "url": null
@@ -7615,34 +7877,35 @@
           ],
           "sum": 2999.98
         },
-        "2026-11-21": {
-          "avg": 1499.99,
-          "last": 1499.99,
-          "max": 1499.99,
-          "min": 1499.99,
-          "samples": 1,
-          "stores": [
-            "UPTECHBOX"
-          ],
-          "sum": 1499.99
-        },
         "2026-11-22": {
-          "avg": 1499.4,
+          "avg": 1499.49,
           "last": 1499.0,
           "max": 1499.99,
           "min": 1499.0,
-          "samples": 5,
+          "samples": 4,
           "stores": [
             "Globaldata",
             "UPTECHBOX"
           ],
-          "sum": 7496.98
+          "sum": 5997.98
+        },
+        "2026-11-23": {
+          "avg": 1499.49,
+          "last": 1499.0,
+          "max": 1499.99,
+          "min": 1499.0,
+          "samples": 2,
+          "stores": [
+            "Globaldata",
+            "UPTECHBOX"
+          ],
+          "sum": 2998.99
         }
       },
       "ean": "0199276826244",
       "first_seen": "2026-09-10T18:20:34.744874Z",
       "gtin14": "00199276826244",
-      "last_seen": "2026-11-22T23:34:27.358985Z",
+      "last_seen": "2026-11-23T07:00:43.693115Z",
       "mpn": "83JE01KTPG",
       "title": "Portátil Lenovo LOQ 15IRX10-244 15.6\" i7-13645HX 16GB DDR5 512GB RTX 5060 144Hz",
       "url": null
@@ -7699,17 +7962,28 @@
           "last": 1299.99,
           "max": 1299.99,
           "min": 1299.99,
-          "samples": 3,
+          "samples": 2,
           "stores": [
             "FNAC"
           ],
-          "sum": 3899.97
+          "sum": 2599.98
+        },
+        "2026-11-23": {
+          "avg": 1299.99,
+          "last": 1299.99,
+          "max": 1299.99,
+          "min": 1299.99,
+          "samples": 1,
+          "stores": [
+            "FNAC"
+          ],
+          "sum": 1299.99
         }
       },
       "ean": "0199276828934",
       "first_seen": "2026-09-15T06:25:35.600672Z",
       "gtin14": "00199276828934",
-      "last_seen": "2026-11-22T23:34:27.376597Z",
+      "last_seen": "2026-11-23T07:00:43.795256Z",
       "mpn": "83TD008JPG",
       "title": "Computador Portátil Lenovo Yoga 7 2-in-1 14AGP11-934 | 14'' | AMD Ryzen™ AI 7 445 | 16GB | 512GB SSD",
       "url": null
@@ -8500,17 +8774,6 @@
           ],
           "sum": 1099.99
         },
-        "2026-11-21": {
-          "avg": 1089.9,
-          "last": 1089.9,
-          "max": 1089.9,
-          "min": 1089.9,
-          "samples": 1,
-          "stores": [
-            "Tek4life"
-          ],
-          "sum": 1089.9
-        },
         "2026-11-22": {
           "avg": 1089.9,
           "last": 1089.9,
@@ -8521,12 +8784,23 @@
             "Tek4life"
           ],
           "sum": 2179.8
+        },
+        "2026-11-23": {
+          "avg": 1089.9,
+          "last": 1089.9,
+          "max": 1089.9,
+          "min": 1089.9,
+          "samples": 1,
+          "stores": [
+            "Tek4life"
+          ],
+          "sum": 1089.9
         }
       },
       "ean": "0199896471862",
       "first_seen": "2026-09-10T18:20:34.740610Z",
       "gtin14": "00199896471862",
-      "last_seen": "2026-11-22T14:38:09.996510Z",
+      "last_seen": "2026-11-23T07:00:43.701830Z",
       "mpn": "D36JMEA#AB9",
       "title": "Portátil HP Gaming Victus 15-FB3054NP 15.6\" R5-7535HS 16GB/512GB RTX 3050 Windows 11 Preto",
       "url": null
@@ -8936,17 +9210,28 @@
           "last": 1299.98,
           "max": 1299.98,
           "min": 1299.98,
-          "samples": 3,
+          "samples": 2,
           "stores": [
             "FNAC"
           ],
-          "sum": 3899.94
+          "sum": 2599.96
+        },
+        "2026-11-23": {
+          "avg": 1299.98,
+          "last": 1299.98,
+          "max": 1299.98,
+          "min": 1299.98,
+          "samples": 1,
+          "stores": [
+            "FNAC"
+          ],
+          "sum": 1299.98
         }
       },
       "ean": "0821844152362",
       "first_seen": "2026-09-15T18:21:04.974903Z",
       "gtin14": "00821844152362",
-      "last_seen": "2026-11-22T23:34:27.379620Z",
+      "last_seen": "2026-11-23T07:00:43.733399Z",
       "mpn": null,
       "title": "Computador Portátil Gaming HP HyperX OMEN 15-gb0014npx | 15'' | GeForce RTX™ 5050 | AMD Ryzen™ 5 240 | 24GB | 1TB SSD",
       "url": null
@@ -8999,16 +9284,15 @@
           "sum": 1249.9
         },
         "2026-11-21": {
-          "avg": 1174.67,
+          "avg": 1099.0,
           "last": 1099.0,
-          "max": 1249.9,
+          "max": 1099.0,
           "min": 1099.0,
-          "samples": 4,
+          "samples": 1,
           "stores": [
-            "Tek4life",
             "UPTECHBOX"
           ],
-          "sum": 4698.7
+          "sum": 1099.0
         },
         "2026-11-22": {
           "avg": 1099.26,
@@ -9021,14 +9305,26 @@
             "UPTECHBOX"
           ],
           "sum": 7694.8
+        },
+        "2026-11-23": {
+          "avg": 1149.3,
+          "last": 1249.9,
+          "max": 1249.9,
+          "min": 1099.0,
+          "samples": 3,
+          "stores": [
+            "Tek4life",
+            "UPTECHBOX"
+          ],
+          "sum": 3447.9
         }
       },
-      "ean": "821844152379",
+      "ean": "0821844152379",
       "first_seen": "2026-10-04T13:09:48.985215Z",
       "gtin14": "00821844152379",
-      "last_seen": "2026-11-22T23:34:27.398122Z",
+      "last_seen": "2026-11-23T07:00:43.802788Z",
       "mpn": "D6VB3EA#AB9",
-      "title": "Portátil Gaming HP HyperX OMEN 15 — Ryzen 5 240 + RTX 5050 8GB | 16GB DDR5 | 512GB SSD | 15.3\" 2K 165Hz | Sem Sistema Operativo",
+      "title": "Portátil HP HyperX OMEN 15-gb0013npx 15.3\" R5 16GB/512GB RTX5050 Preto s/ Sistema Operativo",
       "url": null
     },
     "ean:00821844154908": {
@@ -9050,17 +9346,28 @@
           "last": 1499.99,
           "max": 1499.99,
           "min": 1499.99,
-          "samples": 3,
+          "samples": 2,
           "stores": [
             "FNAC"
           ],
-          "sum": 4499.97
+          "sum": 2999.98
+        },
+        "2026-11-23": {
+          "avg": 1499.99,
+          "last": 1499.99,
+          "max": 1499.99,
+          "min": 1499.99,
+          "samples": 1,
+          "stores": [
+            "FNAC"
+          ],
+          "sum": 1499.99
         }
       },
       "ean": "0821844154908",
       "first_seen": "2026-09-15T00:27:59.164893Z",
       "gtin14": "00821844154908",
-      "last_seen": "2026-11-22T23:34:27.392876Z",
+      "last_seen": "2026-11-23T07:00:43.752619Z",
       "mpn": null,
       "title": "Computador Portátil Gaming HyperX OMEN 15-ga0005npx | 15'' | GeForce RTX™ 5050 | Intel® Core™ i5-14450HX | 16GB | 1TB SSD",
       "url": null
@@ -9103,16 +9410,16 @@
           "sum": 2059.88
         },
         "2026-11-21": {
-          "avg": 652.22,
+          "avg": 604.45,
           "last": 659.9,
-          "max": 699.99,
+          "max": 659.9,
           "min": 549.0,
-          "samples": 4,
+          "samples": 2,
           "stores": [
             "Tek4life",
             "UPTECHBOX"
           ],
-          "sum": 2608.88
+          "sum": 1208.9
         },
         "2026-11-22": {
           "avg": 571.18,
@@ -9125,14 +9432,25 @@
             "UPTECHBOX"
           ],
           "sum": 2855.9
+        },
+        "2026-11-23": {
+          "avg": 549.0,
+          "last": 549.0,
+          "max": 549.0,
+          "min": 549.0,
+          "samples": 2,
+          "stores": [
+            "UPTECHBOX"
+          ],
+          "sum": 1098.0
         }
       },
-      "ean": "0821844210772",
+      "ean": "821844210772",
       "first_seen": "2026-11-04T14:13:03.381891Z",
       "gtin14": "00821844210772",
-      "last_seen": "2026-11-22T23:34:27.454119Z",
+      "last_seen": "2026-11-23T07:00:43.712505Z",
       "mpn": "D73PWEA#AB9",
-      "title": "Portátil HP OmniBook 3 16-by0004npx 16\" R5 16GB/512GB Prateado s/ Sistema Operativo",
+      "title": "Portátil HP OmniBook 3 16 — Ryzen 5 40 | 16GB LPDDR5 | 512GB SSD | 16\" FHD+ 16:10 | Numpad | Sem OS",
       "url": null
     },
     "ean:00821844324851": {
@@ -9228,24 +9546,35 @@
           "sum": 798.9
         },
         "2026-11-22": {
-          "avg": 686.48,
+          "avg": 698.97,
           "last": 798.9,
           "max": 798.9,
           "min": 649.0,
-          "samples": 4,
+          "samples": 3,
           "stores": [
             "Globaldata",
             "Tek4life"
           ],
-          "sum": 2745.9
+          "sum": 2096.9
+        },
+        "2026-11-23": {
+          "avg": 649.0,
+          "last": 649.0,
+          "max": 649.0,
+          "min": 649.0,
+          "samples": 1,
+          "stores": [
+            "Globaldata"
+          ],
+          "sum": 649.0
         }
       },
       "ean": "0821844324875",
       "first_seen": "2026-11-04T14:13:03.375276Z",
       "gtin14": "00821844324875",
-      "last_seen": "2026-11-22T23:34:27.453769Z",
-      "mpn": "D7LX9EA#AB9",
-      "title": "Portátil HP OmniBook 3 AI 14-ht0001npx 14\" i5-225U 16GB/1TB Prateado s/ Sistema Operativo",
+      "last_seen": "2026-11-23T07:00:43.742918Z",
+      "mpn": "D7LX9EAAB9",
+      "title": "Portátil HP OmniBook 3 AI 14-ht0001npx 14\" Ultra 5 225U 16GB DDR5 1TB Intel Graphics FHD+ (sem carregador)",
       "url": null
     },
     "ean:00821844424315": {
@@ -9301,17 +9630,28 @@
           "last": 1179.0,
           "max": 1179.0,
           "min": 1179.0,
-          "samples": 3,
+          "samples": 2,
           "stores": [
             "Globaldata"
           ],
-          "sum": 3537.0
+          "sum": 2358.0
+        },
+        "2026-11-23": {
+          "avg": 1179.0,
+          "last": 1179.0,
+          "max": 1179.0,
+          "min": 1179.0,
+          "samples": 1,
+          "stores": [
+            "Globaldata"
+          ],
+          "sum": 1179.0
         }
       },
       "ean": "0821844582749",
       "first_seen": "2026-11-04T14:13:03.380588Z",
       "gtin14": "00821844582749",
-      "last_seen": "2026-11-22T23:34:27.361154Z",
+      "last_seen": "2026-11-23T07:00:43.708243Z",
       "mpn": "D92E7EAAB9",
       "title": "Portátil HP OmniBook 3 16-bu0007np 16\" Ultra 9 285U 24GB DDR5 1TB Intel Arc 140T FHD+ (sem carregador)",
       "url": null
@@ -9342,17 +9682,6 @@
     "ean:00826581281177": {
       "confidence": "EXATO",
       "days": {
-        "2026-11-20": {
-          "avg": 899.0,
-          "last": 899.0,
-          "max": 899.0,
-          "min": 899.0,
-          "samples": 1,
-          "stores": [
-            "Darty"
-          ],
-          "sum": 899.0
-        },
         "2026-11-21": {
           "avg": 899.0,
           "last": 899.0,
@@ -9369,18 +9698,30 @@
           "last": 899.0,
           "max": 899.0,
           "min": 899.0,
-          "samples": 4,
+          "samples": 3,
           "stores": [
             "Darty",
             "FNAC"
           ],
-          "sum": 3596.0
+          "sum": 2697.0
+        },
+        "2026-11-23": {
+          "avg": 899.0,
+          "last": 899.0,
+          "max": 899.0,
+          "min": 899.0,
+          "samples": 2,
+          "stores": [
+            "Darty",
+            "FNAC"
+          ],
+          "sum": 1798.0
         }
       },
       "ean": "0826581281177",
-      "first_seen": "2026-11-20T17:58:04.789018Z",
+      "first_seen": "2026-11-21T19:06:07.842022Z",
       "gtin14": "00826581281177",
-      "last_seen": "2026-11-22T23:34:27.421585Z",
+      "last_seen": "2026-11-23T07:00:43.782308Z",
       "mpn": null,
       "title": "Computador Portátil HP AI 15-fd2004npx | 15,6'' | Intel® Core™ Ultra 5 225U | 24GB | 512GB SSD | Free DOS",
       "url": null
@@ -9404,18 +9745,29 @@
           "last": 999.0,
           "max": 999.0,
           "min": 999.0,
-          "samples": 4,
+          "samples": 3,
           "stores": [
             "Darty",
             "FNAC"
           ],
-          "sum": 3996.0
+          "sum": 2997.0
+        },
+        "2026-11-23": {
+          "avg": 999.0,
+          "last": 999.0,
+          "max": 999.0,
+          "min": 999.0,
+          "samples": 1,
+          "stores": [
+            "FNAC"
+          ],
+          "sum": 999.0
         }
       },
       "ean": "0826581362135",
       "first_seen": "2026-11-21T06:39:35.648536Z",
       "gtin14": "00826581362135",
-      "last_seen": "2026-11-22T23:34:27.434367Z",
+      "last_seen": "2026-11-23T07:00:43.724866Z",
       "mpn": null,
       "title": "Computador Portátil HP OmniBook X Flip 2-in-1 Next Gen AI 14-fk0000npx | 14\" | AMD Ryzen™ AI 5 340 | 16GB | 512GB SSD",
       "url": null
@@ -9428,17 +9780,28 @@
           "last": 999.0,
           "max": 999.0,
           "min": 999.0,
-          "samples": 3,
+          "samples": 2,
           "stores": [
             "FNAC"
           ],
-          "sum": 2997.0
+          "sum": 1998.0
+        },
+        "2026-11-23": {
+          "avg": 999.0,
+          "last": 999.0,
+          "max": 999.0,
+          "min": 999.0,
+          "samples": 1,
+          "stores": [
+            "FNAC"
+          ],
+          "sum": 999.0
         }
       },
       "ean": "0828132836157",
-      "first_seen": "2026-11-22T06:08:40.212246Z",
+      "first_seen": "2026-11-22T14:38:10.014885Z",
       "gtin14": "00828132836157",
-      "last_seen": "2026-11-22T23:34:27.398772Z",
+      "last_seen": "2026-11-23T07:00:43.717842Z",
       "mpn": null,
       "title": "Computador Portátil Lenovo Yoga Slim 7 14ILL11 - Aura Edition | OLED 14'' | Intel® Core™ Ultra 7 266V | 16GB | 512GB SSD + HUB + Sleeve + Rato",
       "url": null
@@ -9467,12 +9830,23 @@
             "FNAC"
           ],
           "sum": 2599.98
+        },
+        "2026-11-23": {
+          "avg": 1299.99,
+          "last": 1299.99,
+          "max": 1299.99,
+          "min": 1299.99,
+          "samples": 1,
+          "stores": [
+            "FNAC"
+          ],
+          "sum": 1299.99
         }
       },
       "ean": "0828143354688",
       "first_seen": "2026-09-24T12:22:51.655603Z",
       "gtin14": "00828143354688",
-      "last_seen": "2026-11-22T23:34:27.387923Z",
+      "last_seen": "2026-11-23T07:00:43.745519Z",
       "mpn": null,
       "title": "Computador Portátil Lenovo Googlebook 15IPH12 | 15,3'' | Intel® Core™ Ultra 5 325 | 16GB | 512GB SSD",
       "url": null
@@ -9508,17 +9882,28 @@
           "last": 799.0,
           "max": 799.0,
           "min": 799.0,
-          "samples": 3,
+          "samples": 2,
           "stores": [
             "FNAC"
           ],
-          "sum": 2397.0
+          "sum": 1598.0
+        },
+        "2026-11-23": {
+          "avg": 799.0,
+          "last": 799.0,
+          "max": 799.0,
+          "min": 799.0,
+          "samples": 1,
+          "stores": [
+            "FNAC"
+          ],
+          "sum": 799.0
         }
       },
       "ean": "0881767340109",
-      "first_seen": "2026-11-22T06:08:40.231344Z",
+      "first_seen": "2026-11-22T14:38:10.038689Z",
       "gtin14": "00881767340109",
-      "last_seen": "2026-11-22T23:34:27.381301Z",
+      "last_seen": "2026-11-23T07:00:43.735599Z",
       "mpn": null,
       "title": "Computador Portátil HP OmniBook 5 Flip 14-fp0010npx | 14\" | Intel® Core™ 5 120U | 16GB | 512GB SSD",
       "url": null
@@ -9576,17 +9961,28 @@
           "last": 899.0,
           "max": 899.0,
           "min": 899.0,
-          "samples": 3,
+          "samples": 2,
           "stores": [
             "FNAC"
           ],
-          "sum": 2697.0
+          "sum": 1798.0
+        },
+        "2026-11-23": {
+          "avg": 899.0,
+          "last": 899.0,
+          "max": 899.0,
+          "min": 899.0,
+          "samples": 1,
+          "stores": [
+            "FNAC"
+          ],
+          "sum": 899.0
         }
       },
       "ean": "0881767371486",
-      "first_seen": "2026-11-22T06:08:40.215921Z",
+      "first_seen": "2026-11-22T14:38:10.020725Z",
       "gtin14": "00881767371486",
-      "last_seen": "2026-11-22T23:34:27.371258Z",
+      "last_seen": "2026-11-23T07:00:43.722407Z",
       "mpn": null,
       "title": "Computador Portátil HP OmniBook 3 AI 14-ht0005npx | 14\" | Intel® Core™ Ultra 5 225U | 24GB | 512GB SSD",
       "url": null
@@ -9622,17 +10018,28 @@
           "last": 999.0,
           "max": 999.0,
           "min": 999.0,
-          "samples": 3,
+          "samples": 2,
           "stores": [
             "FNAC"
           ],
-          "sum": 2997.0
+          "sum": 1998.0
+        },
+        "2026-11-23": {
+          "avg": 999.0,
+          "last": 999.0,
+          "max": 999.0,
+          "min": 999.0,
+          "samples": 1,
+          "stores": [
+            "FNAC"
+          ],
+          "sum": 999.0
         }
       },
       "ean": "0885981299236",
-      "first_seen": "2026-11-22T06:08:40.212821Z",
+      "first_seen": "2026-11-22T14:38:10.014131Z",
       "gtin14": "00885981299236",
-      "last_seen": "2026-11-22T23:34:27.367173Z",
+      "last_seen": "2026-11-23T07:00:43.717219Z",
       "mpn": null,
       "title": "Computador Portátil HP OmniBook 7 17-dc0000npx | 17,3'' | Intel® Core™ Ultra 7 256V | 16GB | 512GB SSD",
       "url": null
@@ -9645,17 +10052,28 @@
           "last": 1299.0,
           "max": 1299.0,
           "min": 1299.0,
-          "samples": 3,
+          "samples": 2,
           "stores": [
             "FNAC"
           ],
-          "sum": 3897.0
+          "sum": 2598.0
+        },
+        "2026-11-23": {
+          "avg": 1299.0,
+          "last": 1299.0,
+          "max": 1299.0,
+          "min": 1299.0,
+          "samples": 1,
+          "stores": [
+            "FNAC"
+          ],
+          "sum": 1299.0
         }
       },
       "ean": "0885981577129",
-      "first_seen": "2026-11-22T06:08:40.220682Z",
+      "first_seen": "2026-11-22T14:38:10.025899Z",
       "gtin14": "00885981577129",
-      "last_seen": "2026-11-22T23:34:27.374564Z",
+      "last_seen": "2026-11-23T07:00:43.726406Z",
       "mpn": null,
       "title": "Computador Portátil HP OmniBook X Flip 14-fm0010npx | OLED 14\" | Intel® Core™ Ultra 7 256V | 16GB | 1TB SSD",
       "url": null
@@ -9826,18 +10244,29 @@
           "last": 999.0,
           "max": 999.0,
           "min": 999.0,
-          "samples": 4,
+          "samples": 3,
           "stores": [
             "Darty",
             "FNAC"
           ],
-          "sum": 3996.0
+          "sum": 2997.0
+        },
+        "2026-11-23": {
+          "avg": 999.0,
+          "last": 999.0,
+          "max": 999.0,
+          "min": 999.0,
+          "samples": 1,
+          "stores": [
+            "FNAC"
+          ],
+          "sum": 999.0
         }
       },
       "ean": "2200028118833",
       "first_seen": "2026-09-30T06:23:50.592052Z",
       "gtin14": "02200028118833",
-      "last_seen": "2026-11-22T23:34:27.436219Z",
+      "last_seen": "2026-11-23T07:00:43.724002Z",
       "mpn": null,
       "title": "Pack Computador Portátil Lenovo IdeaPad 5 2-em-1 14IPH11-213 | 14\" | Intel Core™ Ultra 5 322 | 16GB | 512GB SSD + Mochila + Rato + Pen",
       "url": null
@@ -9939,13 +10368,24 @@
           "last": 799.0,
           "max": 799.0,
           "min": 799.0,
-          "samples": 2,
+          "samples": 1,
           "stores": [
             "Darty"
           ],
-          "sum": 1598.0
+          "sum": 799.0
         },
         "2026-11-22": {
+          "avg": 799.0,
+          "last": 799.0,
+          "max": 799.0,
+          "min": 799.0,
+          "samples": 1,
+          "stores": [
+            "Darty"
+          ],
+          "sum": 799.0
+        },
+        "2026-11-23": {
           "avg": 799.0,
           "last": 799.0,
           "max": 799.0,
@@ -9960,7 +10400,7 @@
       "ean": "2200028129327",
       "first_seen": "2026-09-30T06:23:50.570128Z",
       "gtin14": "02200028129327",
-      "last_seen": "2026-11-22T23:34:27.424844Z",
+      "last_seen": "2026-11-23T07:00:43.779668Z",
       "mpn": null,
       "title": "Computador Portátil Asus S14 S5406SAL-U52AOHDSB01 Copilot+ PC | 14\" OLED | Intel Core Ultra 5 226V | 16GB | 512GB SSD + Mochila + Rato",
       "url": null
@@ -10040,17 +10480,28 @@
           "last": 944.96,
           "max": 944.96,
           "min": 944.96,
-          "samples": 3,
+          "samples": 2,
           "stores": [
             "FNAC"
           ],
-          "sum": 2834.88
+          "sum": 1889.92
+        },
+        "2026-11-23": {
+          "avg": 944.96,
+          "last": 944.96,
+          "max": 944.96,
+          "min": 944.96,
+          "samples": 1,
+          "stores": [
+            "FNAC"
+          ],
+          "sum": 944.96
         }
       },
       "ean": "2200028174396",
-      "first_seen": "2026-11-22T06:08:40.226805Z",
+      "first_seen": "2026-11-22T14:38:10.032070Z",
       "gtin14": "02200028174396",
-      "last_seen": "2026-11-22T23:34:27.378045Z",
+      "last_seen": "2026-11-23T07:00:43.731038Z",
       "mpn": null,
       "title": "Pack Computador Portátil HP OmniBook 3 Next Gen AI 14-hz0001np | 14\" | Qualcomm® Snapdragon® X X1-26-100 | 16GB | 1TB SSD + Mochila + Rato + Carregador USB-C",
       "url": null
@@ -10884,13 +11335,24 @@
           "last": 899.99,
           "max": 899.99,
           "min": 899.99,
-          "samples": 2,
+          "samples": 1,
           "stores": [
             "Darty"
           ],
-          "sum": 1799.98
+          "sum": 899.99
         },
         "2026-11-22": {
+          "avg": 899.99,
+          "last": 899.99,
+          "max": 899.99,
+          "min": 899.99,
+          "samples": 1,
+          "stores": [
+            "Darty"
+          ],
+          "sum": 899.99
+        },
+        "2026-11-23": {
           "avg": 899.99,
           "last": 899.99,
           "max": 899.99,
@@ -10905,7 +11367,7 @@
       "ean": "4711387410080",
       "first_seen": "2026-09-15T06:25:35.589419Z",
       "gtin14": "04711387410080",
-      "last_seen": "2026-11-22T23:34:27.441494Z",
+      "last_seen": "2026-11-23T07:00:43.774901Z",
       "mpn": null,
       "title": "Computador Portátil Asus VivoBook M1505YA-R77AOHDPB2 | OLED 15,6'' | Ryzen™ 7 7730U | 16GB | 512GB SSD",
       "url": null
@@ -11004,17 +11466,6 @@
     "ean:04711387470633": {
       "confidence": "EXATO",
       "days": {
-        "2026-11-21": {
-          "avg": 329.9,
-          "last": 329.9,
-          "max": 329.9,
-          "min": 329.9,
-          "samples": 1,
-          "stores": [
-            "UPTECHBOX"
-          ],
-          "sum": 329.9
-        },
         "2026-11-22": {
           "avg": 329.9,
           "last": 329.9,
@@ -11025,12 +11476,23 @@
             "UPTECHBOX"
           ],
           "sum": 659.8
+        },
+        "2026-11-23": {
+          "avg": 329.9,
+          "last": 329.9,
+          "max": 329.9,
+          "min": 329.9,
+          "samples": 1,
+          "stores": [
+            "UPTECHBOX"
+          ],
+          "sum": 329.9
         }
       },
       "ean": "4711387470633",
-      "first_seen": "2026-11-21T06:39:35.611717Z",
+      "first_seen": "2026-11-22T06:08:40.194701Z",
       "gtin14": "04711387470633",
-      "last_seen": "2026-11-22T14:38:09.992125Z",
+      "last_seen": "2026-11-23T07:00:43.697685Z",
       "mpn": null,
       "title": "Placa Gráfica Asus Dual GeForce RTX 3050 OC 6GB GDDR6",
       "url": null
@@ -11561,17 +12023,6 @@
     "ean:04711387779392": {
       "confidence": "EXATO",
       "days": {
-        "2026-11-21": {
-          "avg": 469.9,
-          "last": 469.9,
-          "max": 469.9,
-          "min": 469.9,
-          "samples": 1,
-          "stores": [
-            "UPTECHBOX"
-          ],
-          "sum": 469.9
-        },
         "2026-11-22": {
           "avg": 469.9,
           "last": 469.9,
@@ -11582,12 +12033,23 @@
             "UPTECHBOX"
           ],
           "sum": 939.8
+        },
+        "2026-11-23": {
+          "avg": 469.9,
+          "last": 469.9,
+          "max": 469.9,
+          "min": 469.9,
+          "samples": 1,
+          "stores": [
+            "UPTECHBOX"
+          ],
+          "sum": 469.9
         }
       },
       "ean": "4711387779392",
-      "first_seen": "2026-11-21T06:39:35.625646Z",
+      "first_seen": "2026-11-22T06:08:40.222153Z",
       "gtin14": "04711387779392",
-      "last_seen": "2026-11-22T14:38:10.026960Z",
+      "last_seen": "2026-11-23T07:00:43.727318Z",
       "mpn": null,
       "title": "Placa Gráfica ASUS Dual Radeon™ RX 7600 OC Edition EVO",
       "url": null
@@ -11697,17 +12159,6 @@
           ],
           "sum": 1699.8
         },
-        "2026-11-21": {
-          "avg": 1049.99,
-          "last": 1049.99,
-          "max": 1049.99,
-          "min": 1049.99,
-          "samples": 1,
-          "stores": [
-            "UPTECHBOX"
-          ],
-          "sum": 1049.99
-        },
         "2026-11-22": {
           "avg": 1049.99,
           "last": 1049.99,
@@ -11718,12 +12169,23 @@
             "UPTECHBOX"
           ],
           "sum": 2099.98
+        },
+        "2026-11-23": {
+          "avg": 1049.99,
+          "last": 1049.99,
+          "max": 1049.99,
+          "min": 1049.99,
+          "samples": 1,
+          "stores": [
+            "UPTECHBOX"
+          ],
+          "sum": 1049.99
         }
       },
       "ean": "4711387829592",
       "first_seen": "2026-10-03T06:31:57.930294Z",
       "gtin14": "04711387829592",
-      "last_seen": "2026-11-22T14:38:09.995640Z",
+      "last_seen": "2026-11-23T07:00:43.700800Z",
       "mpn": null,
       "title": "Placa Gráfica Asus Prime Radeon RX 9070 OC Edition 16GB GDDR6",
       "url": null
@@ -11810,17 +12272,6 @@
     "ean:04711387849071": {
       "confidence": "EXATO",
       "days": {
-        "2026-11-21": {
-          "avg": 1199.99,
-          "last": 1199.99,
-          "max": 1199.99,
-          "min": 1199.99,
-          "samples": 1,
-          "stores": [
-            "UPTECHBOX"
-          ],
-          "sum": 1199.99
-        },
         "2026-11-22": {
           "avg": 1199.99,
           "last": 1199.99,
@@ -11831,12 +12282,23 @@
             "UPTECHBOX"
           ],
           "sum": 2399.98
+        },
+        "2026-11-23": {
+          "avg": 1199.99,
+          "last": 1199.99,
+          "max": 1199.99,
+          "min": 1199.99,
+          "samples": 1,
+          "stores": [
+            "UPTECHBOX"
+          ],
+          "sum": 1199.99
         }
       },
       "ean": "4711387849071",
-      "first_seen": "2026-11-21T06:39:35.678316Z",
+      "first_seen": "2026-11-22T06:08:40.186864Z",
       "gtin14": "04711387849071",
-      "last_seen": "2026-11-22T14:38:10.111003Z",
+      "last_seen": "2026-11-23T07:00:43.804034Z",
       "mpn": null,
       "title": "Placa Gráfica Asus TUF Gaming RTX 5070 12GB OC",
       "url": null
@@ -12182,17 +12644,6 @@
           ],
           "sum": 2599.98
         },
-        "2026-11-21": {
-          "avg": 1299.99,
-          "last": 1299.99,
-          "max": 1299.99,
-          "min": 1299.99,
-          "samples": 1,
-          "stores": [
-            "UPTECHBOX"
-          ],
-          "sum": 1299.99
-        },
         "2026-11-22": {
           "avg": 1299.99,
           "last": 1299.99,
@@ -12203,12 +12654,23 @@
             "UPTECHBOX"
           ],
           "sum": 2599.98
+        },
+        "2026-11-23": {
+          "avg": 1299.99,
+          "last": 1299.99,
+          "max": 1299.99,
+          "min": 1299.99,
+          "samples": 1,
+          "stores": [
+            "UPTECHBOX"
+          ],
+          "sum": 1299.99
         }
       },
       "ean": "4711387894392",
       "first_seen": "2026-09-29T18:23:09.361652Z",
       "gtin14": "04711387894392",
-      "last_seen": "2026-11-22T14:38:10.026414Z",
+      "last_seen": "2026-11-23T07:00:43.726834Z",
       "mpn": "UX3407QA-X1PBOHDGP",
       "title": "Portátil Asus Zenbook A14 UX3407QA — Snapdragon X | OLED 14\" 100% DCI-P3 | 32GB | Win 11 Pro",
       "url": null
@@ -12485,17 +12947,6 @@
     "ean:04711387994054": {
       "confidence": "EXATO",
       "days": {
-        "2026-11-21": {
-          "avg": 999.99,
-          "last": 999.99,
-          "max": 999.99,
-          "min": 999.99,
-          "samples": 1,
-          "stores": [
-            "UPTECHBOX"
-          ],
-          "sum": 999.99
-        },
         "2026-11-22": {
           "avg": 999.99,
           "last": 999.99,
@@ -12506,12 +12957,23 @@
             "UPTECHBOX"
           ],
           "sum": 1999.98
+        },
+        "2026-11-23": {
+          "avg": 999.99,
+          "last": 999.99,
+          "max": 999.99,
+          "min": 999.99,
+          "samples": 1,
+          "stores": [
+            "UPTECHBOX"
+          ],
+          "sum": 999.99
         }
       },
       "ean": "4711387994054",
-      "first_seen": "2026-11-21T06:39:35.677825Z",
+      "first_seen": "2026-11-22T06:08:40.186518Z",
       "gtin14": "04711387994054",
-      "last_seen": "2026-11-22T14:38:10.110187Z",
+      "last_seen": "2026-11-23T07:00:43.803743Z",
       "mpn": null,
       "title": "Placa Gráfica Asus Prime GeForce RTX 5060 Ti 16GB GDDR7 OC Edition",
       "url": null
@@ -12871,34 +13333,35 @@
     "ean:04711474953988": {
       "confidence": "EXATO",
       "days": {
-        "2026-11-21": {
-          "avg": 699.0,
-          "last": 699.0,
-          "max": 699.0,
-          "min": 699.0,
-          "samples": 1,
-          "stores": [
-            "Darty"
-          ],
-          "sum": 699.0
-        },
         "2026-11-22": {
           "avg": 699.0,
           "last": 699.0,
           "max": 699.0,
           "min": 699.0,
-          "samples": 5,
+          "samples": 4,
           "stores": [
             "Darty",
             "FNAC"
           ],
-          "sum": 3495.0
+          "sum": 2796.0
+        },
+        "2026-11-23": {
+          "avg": 699.0,
+          "last": 699.0,
+          "max": 699.0,
+          "min": 699.0,
+          "samples": 2,
+          "stores": [
+            "Darty",
+            "FNAC"
+          ],
+          "sum": 1398.0
         }
       },
       "ean": "4711474953988",
-      "first_seen": "2026-11-21T19:06:07.833581Z",
+      "first_seen": "2026-11-22T14:38:10.008755Z",
       "gtin14": "04711474953988",
-      "last_seen": "2026-11-22T23:34:27.416164Z",
+      "last_seen": "2026-11-23T07:00:43.772537Z",
       "mpn": null,
       "title": "Computador Portátil Acer Aspire Lite 15 AL15-54P-7311 | 15,6'' | Intel Core™ Ultra 7 155U | 16GB | 512GB SSD",
       "url": null
@@ -12990,12 +13453,12 @@
           "last": 799.0,
           "max": 799.0,
           "min": 799.0,
-          "samples": 3,
+          "samples": 2,
           "stores": [
             "Darty",
             "FNAC"
           ],
-          "sum": 2397.0
+          "sum": 1598.0
         },
         "2026-11-22": {
           "avg": 799.0,
@@ -13008,12 +13471,23 @@
             "FNAC"
           ],
           "sum": 2397.0
+        },
+        "2026-11-23": {
+          "avg": 799.0,
+          "last": 799.0,
+          "max": 799.0,
+          "min": 799.0,
+          "samples": 1,
+          "stores": [
+            "Darty"
+          ],
+          "sum": 799.0
         }
       },
       "ean": "4711474985385",
-      "first_seen": "2026-11-21T06:39:35.642839Z",
+      "first_seen": "2026-11-21T19:06:07.746870Z",
       "gtin14": "04711474985385",
-      "last_seen": "2026-11-22T23:34:27.414489Z",
+      "last_seen": "2026-11-23T07:00:43.767978Z",
       "mpn": null,
       "title": "Computador Portátil Acer Aspire Go 16 AG16-71P-995R | 16'' | Intel® Core™ i9-13900H | 16GB | 1TB SSD",
       "url": null
@@ -13065,17 +13539,6 @@
           ],
           "sum": 2249.7
         },
-        "2026-11-20": {
-          "avg": 749.9,
-          "last": 749.9,
-          "max": 749.9,
-          "min": 749.9,
-          "samples": 1,
-          "stores": [
-            "Globaldata"
-          ],
-          "sum": 749.9
-        },
         "2026-11-22": {
           "avg": 749.9,
           "last": 749.9,
@@ -13086,12 +13549,23 @@
             "Globaldata"
           ],
           "sum": 1499.8
+        },
+        "2026-11-23": {
+          "avg": 749.9,
+          "last": 749.9,
+          "max": 749.9,
+          "min": 749.9,
+          "samples": 1,
+          "stores": [
+            "Globaldata"
+          ],
+          "sum": 749.9
         }
       },
       "ean": "4711636027656",
       "first_seen": "2026-09-15T06:25:35.653029Z",
       "gtin14": "04711636027656",
-      "last_seen": "2026-11-22T23:34:27.369957Z",
+      "last_seen": "2026-11-23T07:00:43.720675Z",
       "mpn": "F1605VA-53ALHDPB3",
       "title": "Portátil ASUS VivoBook F1605VA 16\" Core 5 120U 16GB 512GB FHD+ Iris Xe W11",
       "url": null
@@ -13330,11 +13804,11 @@
           "last": 1499.99,
           "max": 1499.99,
           "min": 1499.99,
-          "samples": 3,
+          "samples": 1,
           "stores": [
             "UPTECHBOX"
           ],
-          "sum": 4499.97
+          "sum": 1499.99
         },
         "2026-11-22": {
           "avg": 1499.99,
@@ -13346,12 +13820,23 @@
             "UPTECHBOX"
           ],
           "sum": 7499.95
+        },
+        "2026-11-23": {
+          "avg": 1499.99,
+          "last": 1499.99,
+          "max": 1499.99,
+          "min": 1499.99,
+          "samples": 2,
+          "stores": [
+            "UPTECHBOX"
+          ],
+          "sum": 2999.98
         }
       },
       "ean": "4711636047227",
       "first_seen": "2026-11-20T17:58:04.722361Z",
       "gtin14": "04711636047227",
-      "last_seen": "2026-11-22T23:34:27.464807Z",
+      "last_seen": "2026-11-23T07:00:43.702716Z",
       "mpn": null,
       "title": "Portátil Gaming Asus TUF F16 FX608JH — Core i5-13450HX + RTX 5050 8GB | 16GB DDR5 | WUXGA 165Hz | Sem OS",
       "url": null
@@ -13465,11 +13950,11 @@
           "last": 549.99,
           "max": 549.99,
           "min": 549.99,
-          "samples": 3,
+          "samples": 1,
           "stores": [
             "UPTECHBOX"
           ],
-          "sum": 1649.97
+          "sum": 549.99
         },
         "2026-11-22": {
           "avg": 549.99,
@@ -13481,12 +13966,23 @@
             "UPTECHBOX"
           ],
           "sum": 2749.95
+        },
+        "2026-11-23": {
+          "avg": 549.99,
+          "last": 549.99,
+          "max": 549.99,
+          "min": 549.99,
+          "samples": 2,
+          "stores": [
+            "UPTECHBOX"
+          ],
+          "sum": 1099.98
         }
       },
       "ean": "4711636060448",
       "first_seen": "2026-09-10T17:49:40.850691Z",
       "gtin14": "04711636060448",
-      "last_seen": "2026-11-22T23:34:27.465170Z",
+      "last_seen": "2026-11-23T07:00:43.704134Z",
       "mpn": "E1504FA-R57BLHDPS2",
       "title": "Portátil Asus VivoBook Go 15 E1504FA — Ryzen 5 7520U | 16GB LPDDR5 | 512GB SSD | 15.6\" FHD | Sem OS",
       "url": null
@@ -14151,11 +14647,11 @@
           "last": 1499.99,
           "max": 1499.99,
           "min": 1499.99,
-          "samples": 3,
+          "samples": 1,
           "stores": [
             "UPTECHBOX"
           ],
-          "sum": 4499.97
+          "sum": 1499.99
         },
         "2026-11-22": {
           "avg": 1499.99,
@@ -14167,12 +14663,23 @@
             "UPTECHBOX"
           ],
           "sum": 7499.95
+        },
+        "2026-11-23": {
+          "avg": 1499.99,
+          "last": 1499.99,
+          "max": 1499.99,
+          "min": 1499.99,
+          "samples": 2,
+          "stores": [
+            "UPTECHBOX"
+          ],
+          "sum": 2999.98
         }
       },
       "ean": "4711636154796",
       "first_seen": "2026-10-01T08:39:56.320556Z",
       "gtin14": "04711636154796",
-      "last_seen": "2026-11-22T23:34:27.459021Z",
+      "last_seen": "2026-11-23T07:00:43.694704Z",
       "mpn": "FA608UH-R72B55CS2",
       "title": "Portátil Gaming Asus TUF A16 FA608UH — Ryzen 7 260 + RTX 5050 8GB | 32GB DDR5 | WUXGA 165Hz | Sem OS",
       "url": null
@@ -14237,17 +14744,6 @@
     "ean:04711636196765": {
       "confidence": "EXATO",
       "days": {
-        "2026-11-21": {
-          "avg": 899.99,
-          "last": 899.99,
-          "max": 899.99,
-          "min": 899.99,
-          "samples": 1,
-          "stores": [
-            "UPTECHBOX"
-          ],
-          "sum": 899.99
-        },
         "2026-11-22": {
           "avg": 899.99,
           "last": 899.99,
@@ -14258,12 +14754,23 @@
             "UPTECHBOX"
           ],
           "sum": 1799.98
+        },
+        "2026-11-23": {
+          "avg": 899.99,
+          "last": 899.99,
+          "max": 899.99,
+          "min": 899.99,
+          "samples": 1,
+          "stores": [
+            "UPTECHBOX"
+          ],
+          "sum": 899.99
         }
       },
       "ean": "4711636196765",
-      "first_seen": "2026-11-21T06:39:35.613611Z",
+      "first_seen": "2026-11-22T06:08:40.197455Z",
       "gtin14": "04711636196765",
-      "last_seen": "2026-11-22T14:38:09.995286Z",
+      "last_seen": "2026-11-23T07:00:43.700393Z",
       "mpn": null,
       "title": "Placa Gráfica Asus Dual AMD Radeon RX 9060 XT 16GB GDDR6",
       "url": null
@@ -15057,29 +15564,41 @@
           "last": 1299.99,
           "max": 1299.99,
           "min": 1299.99,
-          "samples": 2,
+          "samples": 1,
           "stores": [
             "Darty"
           ],
-          "sum": 2599.98
+          "sum": 1299.99
         },
         "2026-11-22": {
           "avg": 1299.99,
           "last": 1299.99,
           "max": 1299.99,
           "min": 1299.99,
-          "samples": 4,
+          "samples": 3,
           "stores": [
             "Darty",
             "FNAC"
           ],
-          "sum": 5199.96
+          "sum": 3899.97
+        },
+        "2026-11-23": {
+          "avg": 1299.99,
+          "last": 1299.99,
+          "max": 1299.99,
+          "min": 1299.99,
+          "samples": 2,
+          "stores": [
+            "Darty",
+            "FNAC"
+          ],
+          "sum": 2599.98
         }
       },
       "ean": "4711636355230",
-      "first_seen": "2026-11-21T06:39:35.646684Z",
+      "first_seen": "2026-11-21T19:06:07.867995Z",
       "gtin14": "04711636355230",
-      "last_seen": "2026-11-22T23:34:27.438046Z",
+      "last_seen": "2026-11-23T07:00:43.777389Z",
       "mpn": null,
       "title": "Computador Portátil ASUS Vivobook 18 M1807GA-A73ALHDAB1 | 18'' | AMD Ryzen™ AI 7 445 | 32GB | 1TB SSD",
       "url": null
@@ -15233,17 +15752,6 @@
           ],
           "sum": 1299.98
         },
-        "2026-11-10": {
-          "avg": 699.9,
-          "last": 699.9,
-          "max": 699.9,
-          "min": 699.9,
-          "samples": 1,
-          "stores": [
-            "Globaldata"
-          ],
-          "sum": 699.9
-        },
         "2026-11-11": {
           "avg": 699.9,
           "last": 699.9,
@@ -15320,14 +15828,25 @@
             "Radio Popular"
           ],
           "sum": 629.99
+        },
+        "2026-11-23": {
+          "avg": 599.0,
+          "last": 599.0,
+          "max": 599.0,
+          "min": 599.0,
+          "samples": 1,
+          "stores": [
+            "Globaldata"
+          ],
+          "sum": 599.0
         }
       },
       "ean": "4711636393447",
       "first_seen": "2026-09-14T12:36:28.067603Z",
       "gtin14": "04711636393447",
-      "last_seen": "2026-11-22T14:38:10.107507Z",
+      "last_seen": "2026-11-23T07:00:43.798499Z",
       "mpn": "E1504FA-R50ALHDPB1",
-      "title": "PC PORTÁTIL ASUS E1504FA-R50ALHDPB1 (AMD RYZEN 5, 512 GB, 16 GB, AMD Radeon 610M, Windows 11)",
+      "title": "Portátil ASUS VivoBook Go E1504FA 15.6\" R5 40 16GB 512GB UHD Graphics FHD W11",
       "url": null
     },
     "ean:04711636393454": {
@@ -15508,20 +16027,31 @@
           "last": 979.0,
           "max": 979.0,
           "min": 979.0,
-          "samples": 4,
+          "samples": 3,
           "stores": [
             "Darty",
             "FNAC"
           ],
-          "sum": 3916.0
+          "sum": 2937.0
+        },
+        "2026-11-23": {
+          "avg": 979.0,
+          "last": 979.0,
+          "max": 979.0,
+          "min": 979.0,
+          "samples": 1,
+          "stores": [
+            "FNAC"
+          ],
+          "sum": 979.0
         }
       },
       "ean": "4711636401203",
       "first_seen": "2026-11-21T06:39:35.657183Z",
       "gtin14": "04711636401203",
-      "last_seen": "2026-11-22T23:34:27.426480Z",
+      "last_seen": "2026-11-23T07:00:43.731862Z",
       "mpn": null,
-      "title": "Computador Portátil Asus Vivobook 16 F1605VA-94CLHDPB1 | 16\" | Intel® Core™ 9-270H | 24GB | 1TB SSD",
+      "title": "Computador Portátil Asus Vivobook 16 F1605VA‑94CLHDPB1 | 16\" | Intel® Core™ 9-270H | 24GB | 1TB SSD",
       "url": null
     },
     "ean:04711636412469": {
@@ -15802,11 +16332,11 @@
           "last": 1199.99,
           "max": 1199.99,
           "min": 1199.99,
-          "samples": 3,
+          "samples": 1,
           "stores": [
             "UPTECHBOX"
           ],
-          "sum": 3599.97
+          "sum": 1199.99
         },
         "2026-11-22": {
           "avg": 1199.99,
@@ -15818,12 +16348,23 @@
             "UPTECHBOX"
           ],
           "sum": 5999.95
+        },
+        "2026-11-23": {
+          "avg": 1199.99,
+          "last": 1199.99,
+          "max": 1199.99,
+          "min": 1199.99,
+          "samples": 2,
+          "stores": [
+            "UPTECHBOX"
+          ],
+          "sum": 2399.98
         }
       },
       "ean": "4711636514224",
       "first_seen": "2026-11-20T17:58:04.709203Z",
       "gtin14": "04711636514224",
-      "last_seen": "2026-11-22T23:34:27.460861Z",
+      "last_seen": "2026-11-23T07:00:43.696321Z",
       "mpn": null,
       "title": "Portátil Asus VivoBook 16 F1607CA —Intel  Core Ultra 7 255H + Intel Arc | 32GB RAM | 1TB SSD | 16\"WUXGA(1920x1200) | S/SO",
       "url": null
@@ -16035,24 +16576,35 @@
           "sum": 799.99
         },
         "2026-11-22": {
-          "avg": 799.25,
+          "avg": 799.33,
           "last": 799.99,
           "max": 799.99,
           "min": 799.0,
-          "samples": 4,
+          "samples": 3,
           "stores": [
             "Globaldata",
             "UPTECHBOX"
           ],
-          "sum": 3196.99
+          "sum": 2397.99
+        },
+        "2026-11-23": {
+          "avg": 799.0,
+          "last": 799.0,
+          "max": 799.0,
+          "min": 799.0,
+          "samples": 1,
+          "stores": [
+            "Globaldata"
+          ],
+          "sum": 799.0
         }
       },
       "ean": "4711636530781",
       "first_seen": "2026-09-10T18:20:34.736282Z",
       "gtin14": "04711636530781",
-      "last_seen": "2026-11-22T23:34:27.456488Z",
+      "last_seen": "2026-11-23T07:00:43.715107Z",
       "mpn": "90NB17I1-M00HT0",
-      "title": "Portátil Asus VivoBook 15 F1504MA — Core 7 350 | 16GB DDR5 | 512GB SSD | 15.6\" FHD IPS | Numpad | Sem OS",
+      "title": "Portátil ASUS VivoBook 15 F1504MA-C73BLHDAS01 15.6\" Core 7 350 16GB 512GB UMA Graphics (sem carregador)",
       "url": null
     },
     "ean:04711636534079": {
@@ -16087,17 +16639,28 @@
           "last": 999.0,
           "max": 999.0,
           "min": 999.0,
-          "samples": 3,
+          "samples": 2,
           "stores": [
             "Globaldata"
           ],
-          "sum": 2997.0
+          "sum": 1998.0
+        },
+        "2026-11-23": {
+          "avg": 999.0,
+          "last": 999.0,
+          "max": 999.0,
+          "min": 999.0,
+          "samples": 1,
+          "stores": [
+            "Globaldata"
+          ],
+          "sum": 999.0
         }
       },
       "ean": "4711636534529",
-      "first_seen": "2026-11-22T06:08:40.211605Z",
+      "first_seen": "2026-11-22T14:38:10.013453Z",
       "gtin14": "04711636534529",
-      "last_seen": "2026-11-22T23:34:27.366617Z",
+      "last_seen": "2026-11-23T07:00:43.716634Z",
       "mpn": "B1503CVA-74EHDCP2",
       "title": "Portátil ASUS Expertbook B1 B1503 15.6\" Core 7 150U 16GB DDR5 512GB FHD W11 Pro",
       "url": null
@@ -16110,17 +16673,28 @@
           "last": 1399.0,
           "max": 1399.0,
           "min": 1399.0,
-          "samples": 3,
+          "samples": 2,
           "stores": [
             "Globaldata"
           ],
-          "sum": 4197.0
+          "sum": 2798.0
+        },
+        "2026-11-23": {
+          "avg": 1399.0,
+          "last": 1399.0,
+          "max": 1399.0,
+          "min": 1399.0,
+          "samples": 1,
+          "stores": [
+            "Globaldata"
+          ],
+          "sum": 1399.0
         }
       },
       "ean": "4711636540759",
-      "first_seen": "2026-11-22T06:08:40.239216Z",
+      "first_seen": "2026-11-22T14:38:10.049595Z",
       "gtin14": "04711636540759",
-      "last_seen": "2026-11-22T23:34:27.388391Z",
+      "last_seen": "2026-11-23T07:00:43.746154Z",
       "mpn": "90NX08N1-M02ZV0",
       "title": "Portátil ASUS Expertbook B3 B3605CCA-U72EHDCP1 16\" Ultra 7 255H 16GB DDR5 512GB FHD W11 Pro",
       "url": null
@@ -16406,17 +16980,28 @@
           "last": 1499.9,
           "max": 1499.9,
           "min": 1499.9,
-          "samples": 3,
+          "samples": 2,
           "stores": [
             "Globaldata"
           ],
-          "sum": 4499.7
+          "sum": 2999.8
+        },
+        "2026-11-23": {
+          "avg": 1499.9,
+          "last": 1499.9,
+          "max": 1499.9,
+          "min": 1499.9,
+          "samples": 1,
+          "stores": [
+            "Globaldata"
+          ],
+          "sum": 1499.9
         }
       },
       "ean": "4711636576789",
-      "first_seen": "2026-11-22T06:08:40.243365Z",
+      "first_seen": "2026-11-22T14:38:10.056089Z",
       "gtin14": "04711636576789",
-      "last_seen": "2026-11-22T23:34:27.392254Z",
+      "last_seen": "2026-11-23T07:00:43.751749Z",
       "mpn": "90NX07N1-M038B0",
       "title": "Portátil ASUS Expertbook B3 Flip B3402FVA-74EHDCP02 14\" Core 7 150U 16GB 512GB FHD Touch W11 Pro",
       "url": null
@@ -16462,11 +17047,11 @@
           "last": 1499.0,
           "max": 1499.0,
           "min": 1499.0,
-          "samples": 2,
+          "samples": 1,
           "stores": [
             "Globaldata"
           ],
-          "sum": 2998.0
+          "sum": 1499.0
         },
         "2026-11-20": {
           "avg": 1499.99,
@@ -16490,12 +17075,23 @@
             "UPTECHBOX"
           ],
           "sum": 2398.99
+        },
+        "2026-11-23": {
+          "avg": 1199.0,
+          "last": 1199.0,
+          "max": 1199.0,
+          "min": 1199.0,
+          "samples": 1,
+          "stores": [
+            "Globaldata"
+          ],
+          "sum": 1199.0
         }
       },
       "ean": "4711636578905",
       "first_seen": "2026-10-18T20:32:58.681030Z",
       "gtin14": "04711636578905",
-      "last_seen": "2026-11-22T23:34:27.452770Z",
+      "last_seen": "2026-11-23T07:00:43.709731Z",
       "mpn": "90NB13W3-M00ZC0",
       "title": "Portátil ASUS VivoBook F1605VAPBF-94ALHDPB01 16\" Core 9 270H 24GB 512GB UMA UHD Graphics WUXGA W11 (sem carregador)",
       "url": null
@@ -16508,17 +17104,28 @@
           "last": 1599.0,
           "max": 1599.0,
           "min": 1599.0,
-          "samples": 3,
+          "samples": 2,
           "stores": [
             "FNAC"
           ],
-          "sum": 4797.0
+          "sum": 3198.0
+        },
+        "2026-11-23": {
+          "avg": 1599.0,
+          "last": 1599.0,
+          "max": 1599.0,
+          "min": 1599.0,
+          "samples": 1,
+          "stores": [
+            "FNAC"
+          ],
+          "sum": 1599.0
         }
       },
       "ean": "4711636583916",
-      "first_seen": "2026-11-22T06:08:40.202794Z",
+      "first_seen": "2026-11-22T14:38:10.002302Z",
       "gtin14": "04711636583916",
-      "last_seen": "2026-11-22T23:34:27.360361Z",
+      "last_seen": "2026-11-23T07:00:43.707021Z",
       "mpn": null,
       "title": "Computador Portátil Gaming Asus TUF A16 FA608UMI-R72D56CB1 | 16\" | NVIDIA GeForce RTX 5060 | AMD Ryzen 7 260 | 32GB | 512GB SSD",
       "url": null
@@ -16711,17 +17318,28 @@
           "last": 549.0,
           "max": 549.0,
           "min": 549.0,
-          "samples": 3,
+          "samples": 2,
           "stores": [
             "Globaldata"
           ],
-          "sum": 1647.0
+          "sum": 1098.0
+        },
+        "2026-11-23": {
+          "avg": 549.0,
+          "last": 549.0,
+          "max": 549.0,
+          "min": 549.0,
+          "samples": 1,
+          "stores": [
+            "Globaldata"
+          ],
+          "sum": 549.0
         }
       },
       "ean": "4711636591638",
       "first_seen": "2026-09-29T06:24:15.557025Z",
       "gtin14": "04711636591638",
-      "last_seen": "2026-11-22T23:34:27.356435Z",
+      "last_seen": "2026-11-23T07:00:43.688231Z",
       "mpn": "90NB0ZR2-M07XE0",
       "title": "Portátil ASUS VivoBook Go E1504FA-R50BLHDPS04 15.6\" R5 40 16GB 512GB Radeon Graphics FHD (sem carregador)",
       "url": null
@@ -16796,17 +17414,6 @@
           ],
           "sum": 6979.77
         },
-        "2026-11-21": {
-          "avg": 1399.99,
-          "last": 1399.99,
-          "max": 1399.99,
-          "min": 1399.99,
-          "samples": 1,
-          "stores": [
-            "UPTECHBOX"
-          ],
-          "sum": 1399.99
-        },
         "2026-11-22": {
           "avg": 1399.66,
           "last": 1399.99,
@@ -16818,12 +17425,23 @@
             "UPTECHBOX"
           ],
           "sum": 4198.98
+        },
+        "2026-11-23": {
+          "avg": 1399.99,
+          "last": 1399.99,
+          "max": 1399.99,
+          "min": 1399.99,
+          "samples": 1,
+          "stores": [
+            "UPTECHBOX"
+          ],
+          "sum": 1399.99
         }
       },
       "ean": "4711636591652",
       "first_seen": "2026-10-18T20:32:58.703278Z",
       "gtin14": "04711636591652",
-      "last_seen": "2026-11-22T14:38:10.006886Z",
+      "last_seen": "2026-11-23T07:00:43.711593Z",
       "mpn": "90NB17Y1-M008N0",
       "title": "Portatil Asus Vivobook 18 M1807GA - AMD Ryzen AI 7 445 | 32GB DDR5 | 512GB SSD | 18\"WUXGA | S/SO",
       "url": null
@@ -16888,24 +17506,35 @@
           "sum": 1399.99
         },
         "2026-11-22": {
-          "avg": 1399.25,
+          "avg": 1399.33,
           "last": 1399.99,
           "max": 1399.99,
           "min": 1399.0,
-          "samples": 4,
+          "samples": 3,
           "stores": [
             "Globaldata",
             "UPTECHBOX"
           ],
-          "sum": 5596.99
+          "sum": 4197.99
+        },
+        "2026-11-23": {
+          "avg": 1399.0,
+          "last": 1399.0,
+          "max": 1399.0,
+          "min": 1399.0,
+          "samples": 1,
+          "stores": [
+            "Globaldata"
+          ],
+          "sum": 1399.0
         }
       },
       "ean": "4711636591669",
       "first_seen": "2026-10-19T04:14:18.725709Z",
       "gtin14": "04711636591669",
-      "last_seen": "2026-11-22T23:34:27.460449Z",
+      "last_seen": "2026-11-23T07:00:43.749148Z",
       "mpn": "90NB1762-M007D0",
-      "title": "Portátil Asus VivoBook S14 OLED S3407AA - Intel Ultra 7 355 | 32GB DDR5 | 1TB SSD | 14\" WUXGA(1920x1200) | S/SO",
+      "title": "Portátil ASUS Vivobook S14 OLED S3407AA-U73BOHDCS02 14\" Ultra 7 355 32GB 512GB Intel Graphics WUXGA OLED (sem carregador)",
       "url": null
     },
     "ean:04711636601207": {
@@ -16945,17 +17574,6 @@
           ],
           "sum": 1999.98
         },
-        "2026-11-21": {
-          "avg": 999.99,
-          "last": 999.99,
-          "max": 999.99,
-          "min": 999.99,
-          "samples": 1,
-          "stores": [
-            "UPTECHBOX"
-          ],
-          "sum": 999.99
-        },
         "2026-11-22": {
           "avg": 999.99,
           "last": 999.99,
@@ -16966,12 +17584,23 @@
             "UPTECHBOX"
           ],
           "sum": 1999.98
+        },
+        "2026-11-23": {
+          "avg": 999.99,
+          "last": 999.99,
+          "max": 999.99,
+          "min": 999.99,
+          "samples": 1,
+          "stores": [
+            "UPTECHBOX"
+          ],
+          "sum": 999.99
         }
       },
       "ean": "4711636601399",
       "first_seen": "2026-10-03T06:31:57.939662Z",
       "gtin14": "04711636601399",
-      "last_seen": "2026-11-22T14:38:10.034182Z",
+      "last_seen": "2026-11-23T07:00:43.732302Z",
       "mpn": null,
       "title": "Placa Gráfica Asus T1 GeForce RTX™ 5070 12GB GDDR7 OC Edition",
       "url": null
@@ -17040,17 +17669,28 @@
           "last": 1199.0,
           "max": 1199.0,
           "min": 1199.0,
-          "samples": 3,
+          "samples": 2,
           "stores": [
             "FNAC"
           ],
-          "sum": 3597.0
+          "sum": 2398.0
+        },
+        "2026-11-23": {
+          "avg": 1199.0,
+          "last": 1199.0,
+          "max": 1199.0,
+          "min": 1199.0,
+          "samples": 1,
+          "stores": [
+            "FNAC"
+          ],
+          "sum": 1199.0
         }
       },
       "ean": "4711636608909",
-      "first_seen": "2026-11-22T06:08:40.205625Z",
+      "first_seen": "2026-11-22T14:38:10.005564Z",
       "gtin14": "04711636608909",
-      "last_seen": "2026-11-22T23:34:27.362222Z",
+      "last_seen": "2026-11-23T07:00:43.710657Z",
       "mpn": null,
       "title": "Computador Portátil Asus Vivobook 16 F1607CA-U93CLHDAB02 | 16\" | Intel® Core™ Ultra 9 285H | 24GB | 512GB SSD",
       "url": null
@@ -17148,24 +17788,35 @@
           "sum": 749.99
         },
         "2026-11-22": {
-          "avg": 749.25,
+          "avg": 749.33,
           "last": 749.99,
           "max": 749.99,
           "min": 749.0,
-          "samples": 4,
+          "samples": 3,
           "stores": [
             "Globaldata",
             "UPTECHBOX"
           ],
-          "sum": 2996.99
+          "sum": 2247.99
+        },
+        "2026-11-23": {
+          "avg": 749.0,
+          "last": 749.0,
+          "max": 749.0,
+          "min": 749.0,
+          "samples": 1,
+          "stores": [
+            "Globaldata"
+          ],
+          "sum": 749.0
         }
       },
       "ean": "4711636620826",
       "first_seen": "2026-10-03T15:09:05.595890Z",
       "gtin14": "04711636620826",
-      "last_seen": "2026-11-22T23:34:27.455937Z",
+      "last_seen": "2026-11-23T07:00:43.685423Z",
       "mpn": "90NB1701-M003P0",
-      "title": "Portátil Asus VivoBook 14 M1407GA - AMD Ryzen AI 7 445 | 16GB DDR5 | 512GB SSD | 14\"FHD+ | S/SO",
+      "title": "Portátil ASUS VivoBook 14 M1407GA-A73BLHDAS01 14\" Ryzen AI 7 445 16GB 512GB Radeon Graphics WUXGA (sem carregador)",
       "url": null
     },
     "ean:04711636620833": {
@@ -17243,17 +17894,28 @@
           "last": 999.99,
           "max": 999.99,
           "min": 999.99,
-          "samples": 3,
+          "samples": 2,
           "stores": [
             "FNAC"
           ],
-          "sum": 2999.97
+          "sum": 1999.98
+        },
+        "2026-11-23": {
+          "avg": 999.99,
+          "last": 999.99,
+          "max": 999.99,
+          "min": 999.99,
+          "samples": 1,
+          "stores": [
+            "FNAC"
+          ],
+          "sum": 999.99
         }
       },
       "ean": "4711636620840",
-      "first_seen": "2026-11-22T06:08:40.233646Z",
+      "first_seen": "2026-11-22T14:38:10.043322Z",
       "gtin14": "04711636620840",
-      "last_seen": "2026-11-22T23:34:27.384310Z",
+      "last_seen": "2026-11-23T07:00:43.739776Z",
       "mpn": null,
       "title": "Computador Portátil Asus Vivobook 15 F1504MA-C53ALHDAB01 | 15,6'' | Intel® Core™ 5 320 | 16GB | 512GB SSD",
       "url": null
@@ -17284,17 +17946,6 @@
           "sum": 1499.99
         },
         "2026-11-04": {
-          "avg": 1499.99,
-          "last": 1499.99,
-          "max": 1499.99,
-          "min": 1499.99,
-          "samples": 1,
-          "stores": [
-            "UPTECHBOX"
-          ],
-          "sum": 1499.99
-        },
-        "2026-11-13": {
           "avg": 1499.99,
           "last": 1499.99,
           "max": 1499.99,
@@ -17382,12 +18033,23 @@
             "UPTECHBOX"
           ],
           "sum": 1199.99
+        },
+        "2026-11-23": {
+          "avg": 1199.99,
+          "last": 1199.99,
+          "max": 1199.99,
+          "min": 1199.99,
+          "samples": 1,
+          "stores": [
+            "UPTECHBOX"
+          ],
+          "sum": 1199.99
         }
       },
       "ean": "4711636629720",
       "first_seen": "2026-10-18T20:32:58.719123Z",
       "gtin14": "04711636629720",
-      "last_seen": "2026-11-22T23:34:27.405111Z",
+      "last_seen": "2026-11-23T07:00:43.796240Z",
       "mpn": "90NB17M1-M00980",
       "title": "Portatil Asus Vivobook 16 OLED M3607GA - AMD Ryzen AI 7 | 32GB DDR5 | 512GB SSD | 16\" OLED | S/SO",
       "url": null
@@ -17411,17 +18073,28 @@
           "last": 899.0,
           "max": 899.0,
           "min": 899.0,
-          "samples": 3,
+          "samples": 2,
           "stores": [
             "FNAC"
           ],
-          "sum": 2697.0
+          "sum": 1798.0
+        },
+        "2026-11-23": {
+          "avg": 899.0,
+          "last": 899.0,
+          "max": 899.0,
+          "min": 899.0,
+          "samples": 1,
+          "stores": [
+            "FNAC"
+          ],
+          "sum": 899.0
         }
       },
       "ean": "4711636629744",
       "first_seen": "2026-09-15T06:25:35.629316Z",
       "gtin14": "04711636629744",
-      "last_seen": "2026-11-22T23:34:27.366169Z",
+      "last_seen": "2026-11-23T07:00:43.716053Z",
       "mpn": null,
       "title": "Computador Portátil Asus Vivobook 15 F1504MA-C73CLHDAB01 | 15,6'' | Intel Core 7 350 | 16GB | 512GB SSD",
       "url": null
@@ -17673,17 +18346,28 @@
           "last": 1099.99,
           "max": 1099.99,
           "min": 1099.99,
-          "samples": 3,
+          "samples": 2,
           "stores": [
             "FNAC"
           ],
-          "sum": 3299.97
+          "sum": 2199.98
+        },
+        "2026-11-23": {
+          "avg": 1099.99,
+          "last": 1099.99,
+          "max": 1099.99,
+          "min": 1099.99,
+          "samples": 1,
+          "stores": [
+            "FNAC"
+          ],
+          "sum": 1099.99
         }
       },
       "ean": "4711636702874",
-      "first_seen": "2026-11-22T06:08:40.236117Z",
+      "first_seen": "2026-11-22T14:38:10.045121Z",
       "gtin14": "04711636702874",
-      "last_seen": "2026-11-22T23:34:27.385551Z",
+      "last_seen": "2026-11-23T07:00:43.741447Z",
       "mpn": null,
       "title": "Computador Portátil Asus Zenbook 14 UX3480QA-X1PCOHDGB01 | OLED 14\" | Qualcomm® Snapdragon® X X1-26-100 | 16GB | 512GB SSD",
       "url": null
@@ -17696,17 +18380,28 @@
           "last": 1099.99,
           "max": 1099.99,
           "min": 1099.99,
-          "samples": 3,
+          "samples": 2,
           "stores": [
             "FNAC"
           ],
-          "sum": 3299.97
+          "sum": 2199.98
+        },
+        "2026-11-23": {
+          "avg": 1099.99,
+          "last": 1099.99,
+          "max": 1099.99,
+          "min": 1099.99,
+          "samples": 1,
+          "stores": [
+            "FNAC"
+          ],
+          "sum": 1099.99
         }
       },
       "ean": "4711636702881",
-      "first_seen": "2026-11-22T06:08:40.234529Z",
+      "first_seen": "2026-11-22T14:38:10.046104Z",
       "gtin14": "04711636702881",
-      "last_seen": "2026-11-22T23:34:27.386203Z",
+      "last_seen": "2026-11-23T07:00:43.742325Z",
       "mpn": null,
       "title": "Computador Portátil Asus Zenbook 14 UX3480QA-X1PCOHDKB01 | OLED 14\" | Qualcomm® Snapdragon® X1-26-100 | 16GB | 512GB SSD",
       "url": null
@@ -17719,17 +18414,28 @@
           "last": 1099.99,
           "max": 1099.99,
           "min": 1099.99,
-          "samples": 3,
+          "samples": 2,
           "stores": [
             "FNAC"
           ],
-          "sum": 3299.97
+          "sum": 2199.98
+        },
+        "2026-11-23": {
+          "avg": 1099.99,
+          "last": 1099.99,
+          "max": 1099.99,
+          "min": 1099.99,
+          "samples": 1,
+          "stores": [
+            "FNAC"
+          ],
+          "sum": 1099.99
         }
       },
       "ean": "4711636719001",
-      "first_seen": "2026-11-22T06:08:40.235346Z",
+      "first_seen": "2026-11-22T14:38:10.044246Z",
       "gtin14": "04711636719001",
-      "last_seen": "2026-11-22T23:34:27.384955Z",
+      "last_seen": "2026-11-23T07:00:43.740650Z",
       "mpn": null,
       "title": "Computador Portátil Asus Vivobook S14 Flip TP5408QA-U2038W | Tátil OLED 14\" | Qualcomm® Snapdragon® X - X1-26-100 | 16GB | 256GB SSD",
       "url": null
@@ -17776,17 +18482,28 @@
           "last": 1599.0,
           "max": 1599.0,
           "min": 1599.0,
-          "samples": 3,
+          "samples": 2,
           "stores": [
             "Globaldata"
           ],
-          "sum": 4797.0
+          "sum": 3198.0
+        },
+        "2026-11-23": {
+          "avg": 1599.0,
+          "last": 1599.0,
+          "max": 1599.0,
+          "min": 1599.0,
+          "samples": 1,
+          "stores": [
+            "Globaldata"
+          ],
+          "sum": 1599.0
         }
       },
       "ean": "4711636733021",
-      "first_seen": "2026-11-22T06:08:40.245080Z",
+      "first_seen": "2026-11-22T14:38:10.058188Z",
       "gtin14": "04711636733021",
-      "last_seen": "2026-11-22T23:34:27.393778Z",
+      "last_seen": "2026-11-23T07:00:43.753616Z",
       "mpn": "90NX0AS3-M004X0",
       "title": "Portátil ASUS Expertbook A7 A7406CMA-75EHDSP01 14\" Core 7 350 16GB DDR5 512GB WQXGA+ OLED 120Hz W11 Pro",
       "url": null
@@ -17799,17 +18516,28 @@
           "last": 1399.0,
           "max": 1399.0,
           "min": 1399.0,
-          "samples": 3,
+          "samples": 2,
           "stores": [
             "Globaldata"
           ],
-          "sum": 4197.0
+          "sum": 2798.0
+        },
+        "2026-11-23": {
+          "avg": 1399.0,
+          "last": 1399.0,
+          "max": 1399.0,
+          "min": 1399.0,
+          "samples": 1,
+          "stores": [
+            "Globaldata"
+          ],
+          "sum": 1399.0
         }
       },
       "ean": "4711636742443",
-      "first_seen": "2026-11-22T06:08:40.242749Z",
+      "first_seen": "2026-11-22T14:38:10.054472Z",
       "gtin14": "04711636742443",
-      "last_seen": "2026-11-22T23:34:27.391127Z",
+      "last_seen": "2026-11-23T07:00:43.750418Z",
       "mpn": "90NB1AR1-M004K0",
       "title": "Portátil ASUS Zenbook 14 UX3480KA-A72BOHDAS01 14\" Ryzen AI 7 345 24GB DDR5 512GB OLED Radeon Graphics FHD+ (sem carregador)",
       "url": null
@@ -17864,22 +18592,33 @@
       "confidence": "EXATO",
       "days": {
         "2026-11-22": {
-          "avg": 370.25,
+          "avg": 377.33,
           "last": 499.0,
           "max": 499.0,
           "min": 263.0,
-          "samples": 4,
+          "samples": 3,
           "stores": [
             "Darty",
             "FNAC"
           ],
-          "sum": 1480.99
+          "sum": 1131.99
+        },
+        "2026-11-23": {
+          "avg": 499.0,
+          "last": 499.0,
+          "max": 499.0,
+          "min": 499.0,
+          "samples": 1,
+          "stores": [
+            "FNAC"
+          ],
+          "sum": 499.0
         }
       },
       "ean": "4711721132203",
-      "first_seen": "2026-11-22T06:08:40.242143Z",
+      "first_seen": "2026-11-22T14:38:10.088890Z",
       "gtin14": "04711721132203",
-      "last_seen": "2026-11-22T23:34:27.357646Z",
+      "last_seen": "2026-11-23T07:00:43.749801Z",
       "mpn": null,
       "title": "Computador Portátil Acer Chromebook 314 CB0A314-1H-C8Q9 | 14'' | Intel® Celeron® N4500 | 4GB | 64GB eMMC",
       "url": null
@@ -17915,17 +18654,28 @@
           "last": 1299.99,
           "max": 1299.99,
           "min": 1299.99,
-          "samples": 3,
+          "samples": 2,
           "stores": [
             "FNAC"
           ],
-          "sum": 3899.97
+          "sum": 2599.98
+        },
+        "2026-11-23": {
+          "avg": 1299.99,
+          "last": 1299.99,
+          "max": 1299.99,
+          "min": 1299.99,
+          "samples": 1,
+          "stores": [
+            "FNAC"
+          ],
+          "sum": 1299.99
         }
       },
       "ean": "4711721259108",
-      "first_seen": "2026-11-22T06:08:40.238602Z",
+      "first_seen": "2026-11-22T14:38:10.048889Z",
       "gtin14": "04711721259108",
-      "last_seen": "2026-11-22T23:34:27.387299Z",
+      "last_seen": "2026-11-23T07:00:43.744709Z",
       "mpn": null,
       "title": "Computador Portátil Acer Googlebook 14 GP714-91N-56XA | OLED 14'' | Intel® Core™ Ultra 5 325 | 16GB | 256GB SSD",
       "url": null
@@ -18007,17 +18757,28 @@
           "last": 1299.0,
           "max": 1299.0,
           "min": 1299.0,
-          "samples": 3,
+          "samples": 2,
           "stores": [
             "Globaldata"
           ],
-          "sum": 3897.0
+          "sum": 2598.0
+        },
+        "2026-11-23": {
+          "avg": 1299.0,
+          "last": 1299.0,
+          "max": 1299.0,
+          "min": 1299.0,
+          "samples": 1,
+          "stores": [
+            "Globaldata"
+          ],
+          "sum": 1299.0
         }
       },
       "ean": "4719331767242",
-      "first_seen": "2026-11-22T06:08:40.251171Z",
+      "first_seen": "2026-11-22T14:38:10.065400Z",
       "gtin14": "04719331767242",
-      "last_seen": "2026-11-22T23:34:27.400719Z",
+      "last_seen": "2026-11-23T07:00:43.759094Z",
       "mpn": "9RGA6AB6VHKHJK0PT0",
       "title": "Portátil Gigabyte Gaming A16 3VHK3PT894SD 16\" R7 260 16GB DDR5 1TB RTX 5060 FHD+ 165Hz",
       "url": null
@@ -18030,17 +18791,28 @@
           "last": 1399.9,
           "max": 1399.9,
           "min": 1399.9,
-          "samples": 3,
+          "samples": 2,
           "stores": [
             "Globaldata"
           ],
-          "sum": 4199.7
+          "sum": 2799.8
+        },
+        "2026-11-23": {
+          "avg": 1399.9,
+          "last": 1399.9,
+          "max": 1399.9,
+          "min": 1399.9,
+          "samples": 1,
+          "stores": [
+            "Globaldata"
+          ],
+          "sum": 1399.9
         }
       },
       "ean": "4719331768997",
-      "first_seen": "2026-11-22T06:08:40.188553Z",
+      "first_seen": "2026-11-22T14:38:09.983322Z",
       "gtin14": "04719331768997",
-      "last_seen": "2026-11-22T23:34:27.357968Z",
+      "last_seen": "2026-11-23T07:00:43.691529Z",
       "mpn": "9RGA6AB6VHOHJK0ES0",
       "title": "Portátil Gigabyte Gaming A16 GA6H 5VHP3ES894SD 16\" R7 170 16GB DDR5 1TB RTX 5060 FHD+ 165Hz",
       "url": null
@@ -18218,16 +18990,27 @@
           "last": 1099.0,
           "max": 1099.0,
           "min": 1099.0,
-          "samples": 3,
+          "samples": 2,
           "stores": [
             "Globaldata"
           ],
-          "sum": 3297.0
+          "sum": 2198.0
+        },
+        "2026-11-23": {
+          "avg": 1099.0,
+          "last": 1099.0,
+          "max": 1099.0,
+          "min": 1099.0,
+          "samples": 1,
+          "stores": [
+            "Globaldata"
+          ],
+          "sum": 1099.0
         }
       },
       "ean": null,
-      "first_seen": "2026-11-22T06:08:40.220122Z",
-      "last_seen": "2026-11-22T23:34:27.373823Z",
+      "first_seen": "2026-11-22T14:38:10.024653Z",
+      "last_seen": "2026-11-23T07:00:43.725866Z",
       "mpn": "90NX08N1-M02ZU0",
       "title": "Portátil ASUS Expertbook B3 B3605CCA-U52EHDCS1 16\" Ultra 5 225H 16GB DDR5 512GB FHD",
       "url": null
@@ -18273,16 +19056,27 @@
           "last": 1399.0,
           "max": 1399.0,
           "min": 1399.0,
-          "samples": 3,
+          "samples": 2,
           "stores": [
             "Globaldata"
           ],
-          "sum": 4197.0
+          "sum": 2798.0
+        },
+        "2026-11-23": {
+          "avg": 1399.0,
+          "last": 1399.0,
+          "max": 1399.0,
+          "min": 1399.0,
+          "samples": 1,
+          "stores": [
+            "Globaldata"
+          ],
+          "sum": 1399.0
         }
       },
       "ean": null,
-      "first_seen": "2026-11-22T06:08:40.257072Z",
-      "last_seen": "2026-11-22T23:34:27.402860Z",
+      "first_seen": "2026-11-22T14:38:10.073689Z",
+      "last_seen": "2026-11-23T07:00:43.763446Z",
       "mpn": "9RGA6AB6VHKHJH0PT0",
       "title": "Portátil Gigabyte Gaming A16 GA6H 3VHK3PT864SD 16\" R7 260 32GB DDR5 1TB RTX 5060 FHD+ 165Hz",
       "url": null
@@ -18609,17 +19403,6 @@
     "url:135bea0e5a24f2d4e621": {
       "confidence": "LOCAL",
       "days": {
-        "2026-11-21": {
-          "avg": 679.99,
-          "last": 679.99,
-          "max": 679.99,
-          "min": 679.99,
-          "samples": 1,
-          "stores": [
-            "MEO"
-          ],
-          "sum": 679.99
-        },
         "2026-11-22": {
           "avg": 679.99,
           "last": 679.99,
@@ -18630,13 +19413,24 @@
             "MEO"
           ],
           "sum": 1359.98
+        },
+        "2026-11-23": {
+          "avg": 629.99,
+          "last": 629.99,
+          "max": 629.99,
+          "min": 629.99,
+          "samples": 1,
+          "stores": [
+            "MEO"
+          ],
+          "sum": 629.99
         }
       },
       "ean": null,
-      "first_seen": "2026-11-21T19:06:07.763541Z",
-      "last_seen": "2026-11-22T23:34:27.369590Z",
+      "first_seen": "2026-11-22T14:38:10.018703Z",
+      "last_seen": "2026-11-23T07:00:43.797256Z",
       "mpn": null,
-      "title": "Aspire Lite AL15-54P-54RB (15.6\", Intel Ultra 5 115U, 16GB DDR5, 512GB SSD)",
+      "title": "Acer Aspire Lite AL15-54P-54RB (15.6\", Intel Ultra 5 115U, 16GB DDR5, 512GB SSD)",
       "url": "https://loja.meo.pt/comprar/pcs/acer/aspire-lite-al15-54p-54rb"
     },
     "url:1867152d56a18c93b660": {
@@ -18697,17 +19491,6 @@
     "url:1cde23641f93ea7f4dff": {
       "confidence": "LOCAL",
       "days": {
-        "2026-11-21": {
-          "avg": 849.99,
-          "last": 849.99,
-          "max": 849.99,
-          "min": 849.99,
-          "samples": 1,
-          "stores": [
-            "MEO"
-          ],
-          "sum": 849.99
-        },
         "2026-11-22": {
           "avg": 849.99,
           "last": 849.99,
@@ -18718,11 +19501,22 @@
             "MEO"
           ],
           "sum": 1699.98
+        },
+        "2026-11-23": {
+          "avg": 849.99,
+          "last": 849.99,
+          "max": 849.99,
+          "min": 849.99,
+          "samples": 1,
+          "stores": [
+            "MEO"
+          ],
+          "sum": 849.99
         }
       },
       "ean": null,
-      "first_seen": "2026-11-21T19:06:07.783606Z",
-      "last_seen": "2026-11-22T23:34:27.382479Z",
+      "first_seen": "2026-11-22T14:38:10.040492Z",
+      "last_seen": "2026-11-23T07:00:43.737223Z",
       "mpn": null,
       "title": "OmniBook 3 16-bu0002np (16\" 2K, Core 5, 16GB, 512GB)",
       "url": "https://loja.meo.pt/comprar/pcs/hp/omnibook-3-16-bu0002np-16-2k-core-5-16gb-512gb"
@@ -19093,17 +19887,6 @@
     "url:45cd22c9a444f29a8c54": {
       "confidence": "LOCAL",
       "days": {
-        "2026-11-21": {
-          "avg": 899.99,
-          "last": 899.99,
-          "max": 899.99,
-          "min": 899.99,
-          "samples": 1,
-          "stores": [
-            "MEO"
-          ],
-          "sum": 899.99
-        },
         "2026-11-22": {
           "avg": 899.99,
           "last": 899.99,
@@ -19114,11 +19897,22 @@
             "MEO"
           ],
           "sum": 1799.98
+        },
+        "2026-11-23": {
+          "avg": 899.99,
+          "last": 899.99,
+          "max": 899.99,
+          "min": 899.99,
+          "samples": 1,
+          "stores": [
+            "MEO"
+          ],
+          "sum": 899.99
         }
       },
       "ean": null,
-      "first_seen": "2026-11-21T19:06:07.784623Z",
-      "last_seen": "2026-11-22T23:34:27.383144Z",
+      "first_seen": "2026-11-22T14:38:10.041495Z",
+      "last_seen": "2026-11-23T07:00:43.738120Z",
       "mpn": null,
       "title": "IdeaPad Slim 3 15IWC11-169 (15,3\", Core™ 7 350, 16GB, 512GB)",
       "url": "https://loja.meo.pt/comprar/pcs/lenovo/ideapad-slim-3-15iwc11-169-15-3-core-7-350-16gb-512gb"
@@ -19478,17 +20272,6 @@
     "url:6db6cc1565e78bf3efc6": {
       "confidence": "LOCAL",
       "days": {
-        "2026-11-21": {
-          "avg": 399.99,
-          "last": 399.99,
-          "max": 399.99,
-          "min": 399.99,
-          "samples": 1,
-          "stores": [
-            "MEO"
-          ],
-          "sum": 399.99
-        },
         "2026-11-22": {
           "avg": 399.99,
           "last": 399.99,
@@ -19499,11 +20282,22 @@
             "MEO"
           ],
           "sum": 799.98
+        },
+        "2026-11-23": {
+          "avg": 399.99,
+          "last": 399.99,
+          "max": 399.99,
+          "min": 399.99,
+          "samples": 1,
+          "stores": [
+            "MEO"
+          ],
+          "sum": 399.99
         }
       },
       "ean": null,
-      "first_seen": "2026-11-21T19:06:07.795015Z",
-      "last_seen": "2026-11-22T23:34:27.390175Z",
+      "first_seen": "2026-11-22T14:38:10.053010Z",
+      "last_seen": "2026-11-23T07:00:43.748501Z",
       "mpn": null,
       "title": "OmniBook 3 14-hy0017npx (14\", Athlon™ Silver 10, 4GB, 256GB SSD)",
       "url": "https://loja.meo.pt/comprar/pcs/hp/omnibook-3-14-hy0017npx-14-athlon-silver-10-4gb-256gb-ssd"
@@ -19511,17 +20305,6 @@
     "url:6dc19b768681535a389d": {
       "confidence": "LOCAL",
       "days": {
-        "2026-11-21": {
-          "avg": 899.99,
-          "last": 899.99,
-          "max": 899.99,
-          "min": 899.99,
-          "samples": 1,
-          "stores": [
-            "MEO"
-          ],
-          "sum": 899.99
-        },
         "2026-11-22": {
           "avg": 899.99,
           "last": 899.99,
@@ -19532,11 +20315,22 @@
             "MEO"
           ],
           "sum": 1799.98
+        },
+        "2026-11-23": {
+          "avg": 899.99,
+          "last": 899.99,
+          "max": 899.99,
+          "min": 899.99,
+          "samples": 1,
+          "stores": [
+            "MEO"
+          ],
+          "sum": 899.99
         }
       },
       "ean": null,
-      "first_seen": "2026-11-21T19:06:07.737358Z",
-      "last_seen": "2026-11-22T23:34:27.353592Z",
+      "first_seen": "2026-11-22T14:38:09.977047Z",
+      "last_seen": "2026-11-23T07:00:43.684162Z",
       "mpn": null,
       "title": "ASUS ExpertBook P1503CVA-73CHDCB3 (15.6 FHD, Intel 7, 16GB, 1TB) + Rato + McAfee 1 Ano Portátil com Intel i7, 16GB RAM e 1TB SSD. Potência e espaço para trabalho e lazer, com design moderno e eficiente.",
       "url": "https://loja.meo.pt/comprar/pcs/asus/x1503cva-15-i7-16-1tb-rato-mcafee-300nits"
@@ -19632,17 +20426,6 @@
     "url:8172577cde50c159c8dc": {
       "confidence": "LOCAL",
       "days": {
-        "2026-11-21": {
-          "avg": 899.99,
-          "last": 899.99,
-          "max": 899.99,
-          "min": 899.99,
-          "samples": 1,
-          "stores": [
-            "MEO"
-          ],
-          "sum": 899.99
-        },
         "2026-11-22": {
           "avg": 899.99,
           "last": 899.99,
@@ -19653,11 +20436,22 @@
             "MEO"
           ],
           "sum": 1799.98
+        },
+        "2026-11-23": {
+          "avg": 899.99,
+          "last": 899.99,
+          "max": 899.99,
+          "min": 899.99,
+          "samples": 1,
+          "stores": [
+            "MEO"
+          ],
+          "sum": 899.99
         }
       },
       "ean": null,
-      "first_seen": "2026-11-21T19:06:07.775653Z",
-      "last_seen": "2026-11-22T23:34:27.377182Z",
+      "first_seen": "2026-11-22T14:38:10.030722Z",
+      "last_seen": "2026-11-23T07:00:43.729870Z",
       "mpn": null,
       "title": "OmniBook 3 16-by0008np (16\", Ryzen7, 16GB, 1TB)",
       "url": "https://loja.meo.pt/comprar/pcs/hp/omnibook-3-16-by0008np-16-ryzen7"
@@ -19698,17 +20492,6 @@
     "url:8b7a74072cd8add935df": {
       "confidence": "LOCAL",
       "days": {
-        "2026-11-21": {
-          "avg": 949.99,
-          "last": 949.99,
-          "max": 949.99,
-          "min": 949.99,
-          "samples": 1,
-          "stores": [
-            "MEO"
-          ],
-          "sum": 949.99
-        },
         "2026-11-22": {
           "avg": 949.99,
           "last": 949.99,
@@ -19719,11 +20502,22 @@
             "MEO"
           ],
           "sum": 1899.98
+        },
+        "2026-11-23": {
+          "avg": 949.99,
+          "last": 949.99,
+          "max": 949.99,
+          "min": 949.99,
+          "samples": 1,
+          "stores": [
+            "MEO"
+          ],
+          "sum": 949.99
         }
       },
       "ean": null,
-      "first_seen": "2026-11-21T19:06:07.752272Z",
-      "last_seen": "2026-11-22T23:34:27.362567Z",
+      "first_seen": "2026-11-22T14:38:10.006312Z",
+      "last_seen": "2026-11-23T07:00:43.711098Z",
       "mpn": null,
       "title": "Victus 15‑fa2004np (15,6'' FHD 144Hz, RTX 3050)",
       "url": "https://loja.meo.pt/comprar/pcs/hp/victus-15-fa2004np-15-6-fhd-144hz-rtx-3050"
@@ -19764,17 +20558,6 @@
     "url:8d726ebc480ca08672eb": {
       "confidence": "LOCAL",
       "days": {
-        "2026-11-21": {
-          "avg": 1099.99,
-          "last": 1099.99,
-          "max": 1099.99,
-          "min": 1099.99,
-          "samples": 1,
-          "stores": [
-            "MEO"
-          ],
-          "sum": 1099.99
-        },
         "2026-11-22": {
           "avg": 1099.99,
           "last": 1099.99,
@@ -19785,11 +20568,22 @@
             "MEO"
           ],
           "sum": 2199.98
+        },
+        "2026-11-23": {
+          "avg": 1099.99,
+          "last": 1099.99,
+          "max": 1099.99,
+          "min": 1099.99,
+          "samples": 1,
+          "stores": [
+            "MEO"
+          ],
+          "sum": 1099.99
         }
       },
       "ean": null,
-      "first_seen": "2026-11-21T19:06:07.748892Z",
-      "last_seen": "2026-11-22T23:34:27.360706Z",
+      "first_seen": "2026-11-22T14:38:10.002808Z",
+      "last_seen": "2026-11-23T07:00:43.707589Z",
       "mpn": null,
       "title": "Victus 15‑fb3050np (15,6'' FHD 144Hz, RTX 4050)",
       "url": "https://loja.meo.pt/comprar/pcs/hp/victus-15-fb3050np-15-6-fhd-144hz-rtx-4050"
@@ -19797,17 +20591,6 @@
     "url:9302aeaa6e392ed5f023": {
       "confidence": "LOCAL",
       "days": {
-        "2026-11-21": {
-          "avg": 829.99,
-          "last": 829.99,
-          "max": 829.99,
-          "min": 829.99,
-          "samples": 1,
-          "stores": [
-            "MEO"
-          ],
-          "sum": 829.99
-        },
         "2026-11-22": {
           "avg": 829.99,
           "last": 829.99,
@@ -19818,13 +20601,24 @@
             "MEO"
           ],
           "sum": 1659.98
+        },
+        "2026-11-23": {
+          "avg": 999.99,
+          "last": 999.99,
+          "max": 999.99,
+          "min": 999.99,
+          "samples": 1,
+          "stores": [
+            "MEO"
+          ],
+          "sum": 999.99
         }
       },
       "ean": null,
-      "first_seen": "2026-11-21T19:06:07.747861Z",
-      "last_seen": "2026-11-22T23:34:27.360024Z",
+      "first_seen": "2026-11-22T14:38:09.999110Z",
+      "last_seen": "2026-11-23T07:00:43.801463Z",
       "mpn": null,
-      "title": "Aspire Go AG16-71P-97CX (16\", Intel Core i9 13900H, 16GB DDR5, 1TB SSD)",
+      "title": "Acer Aspire Go AG16-71P-97CX (16\", Intel Core i9 13900H, 16GB DDR5, 1TB SSD)",
       "url": "https://loja.meo.pt/comprar/pcs/acer/aspire-go-ag16-71p-97cx"
     },
     "url:9a0eacaec085c63a6efe": {
@@ -19896,17 +20690,6 @@
     "url:ab07cb8ae1aaad02cfbd": {
       "confidence": "LOCAL",
       "days": {
-        "2026-11-21": {
-          "avg": 1299.99,
-          "last": 1299.99,
-          "max": 1299.99,
-          "min": 1299.99,
-          "samples": 1,
-          "stores": [
-            "MEO"
-          ],
-          "sum": 1299.99
-        },
         "2026-11-22": {
           "avg": 1299.99,
           "last": 1299.99,
@@ -19917,11 +20700,22 @@
             "MEO"
           ],
           "sum": 2599.98
+        },
+        "2026-11-23": {
+          "avg": 1299.99,
+          "last": 1299.99,
+          "max": 1299.99,
+          "min": 1299.99,
+          "samples": 1,
+          "stores": [
+            "MEO"
+          ],
+          "sum": 1299.99
         }
       },
       "ean": null,
-      "first_seen": "2026-11-21T19:06:07.734984Z",
-      "last_seen": "2026-11-22T23:34:27.350582Z",
+      "first_seen": "2026-11-22T14:38:10.111566Z",
+      "last_seen": "2026-11-23T07:00:43.681965Z",
       "mpn": null,
       "title": "LOQ E 15ARP11-661 (15.6\" FHD 144Hz, Ryzen 7 170, 16GB, 512GB, RTX5050)",
       "url": "https://loja.meo.pt/comprar/pcs/lenovo/loq-e-15arp11-661-15-6-fhd-144hz-ryzen-7-170-16gb-512gb-rtx5050"
@@ -20336,17 +21130,6 @@
     "url:d9100d3c780417c87b93": {
       "confidence": "LOCAL",
       "days": {
-        "2026-11-21": {
-          "avg": 1099.99,
-          "last": 1099.99,
-          "max": 1099.99,
-          "min": 1099.99,
-          "samples": 1,
-          "stores": [
-            "MEO"
-          ],
-          "sum": 1099.99
-        },
         "2026-11-22": {
           "avg": 1099.99,
           "last": 1099.99,
@@ -20357,11 +21140,22 @@
             "MEO"
           ],
           "sum": 2199.98
+        },
+        "2026-11-23": {
+          "avg": 1099.99,
+          "last": 1099.99,
+          "max": 1099.99,
+          "min": 1099.99,
+          "samples": 1,
+          "stores": [
+            "MEO"
+          ],
+          "sum": 1099.99
         }
       },
       "ean": null,
-      "first_seen": "2026-11-21T19:06:07.794096Z",
-      "last_seen": "2026-11-22T23:34:27.389619Z",
+      "first_seen": "2026-11-22T14:38:10.052126Z",
+      "last_seen": "2026-11-23T07:00:43.747751Z",
       "mpn": null,
       "title": "Expertbook B3 B3605CCA-U72CHDCB1 (16\" u7 16 512GB) + Rato",
       "url": "https://loja.meo.pt/comprar/pcs/asus/expertbook-b3-b3605cca-u72chdcb1-16-u7-16-512gb"
@@ -20369,17 +21163,6 @@
     "url:dab3b0bf11c5410d9a34": {
       "confidence": "LOCAL",
       "days": {
-        "2026-11-21": {
-          "avg": 649.99,
-          "last": 649.99,
-          "max": 649.99,
-          "min": 649.99,
-          "samples": 1,
-          "stores": [
-            "MEO"
-          ],
-          "sum": 649.99
-        },
         "2026-11-22": {
           "avg": 649.99,
           "last": 649.99,
@@ -20390,11 +21173,22 @@
             "MEO"
           ],
           "sum": 1299.98
+        },
+        "2026-11-23": {
+          "avg": 649.99,
+          "last": 649.99,
+          "max": 649.99,
+          "min": 649.99,
+          "samples": 1,
+          "stores": [
+            "MEO"
+          ],
+          "sum": 649.99
         }
       },
       "ean": null,
-      "first_seen": "2026-11-21T19:06:07.740716Z",
-      "last_seen": "2026-11-22T23:34:27.355600Z",
+      "first_seen": "2026-11-22T14:38:09.980543Z",
+      "last_seen": "2026-11-23T07:00:43.687026Z",
       "mpn": null,
       "title": "ASUS ExpertBook P1503CVA-54CHDCB1 (15.6 FHD, Core 5, 16GB, 512GB) + Rato + McAfee 1 Ano Ecrã 15,6'', Intel Core 5, 16GB RAM e SSD 512GB, ideal para produtividade diária com desempenho rápido e fluido.",
       "url": "https://loja.meo.pt/comprar/pcs/asus/p1503cva-15-c5-16-512gb-rato-mca"
@@ -20468,17 +21262,6 @@
     "url:e6488e7045ac62059332": {
       "confidence": "LOCAL",
       "days": {
-        "2026-11-21": {
-          "avg": 1099.99,
-          "last": 1099.99,
-          "max": 1099.99,
-          "min": 1099.99,
-          "samples": 1,
-          "stores": [
-            "MEO"
-          ],
-          "sum": 1099.99
-        },
         "2026-11-22": {
           "avg": 1099.99,
           "last": 1099.99,
@@ -20489,11 +21272,22 @@
             "MEO"
           ],
           "sum": 2199.98
+        },
+        "2026-11-23": {
+          "avg": 1099.99,
+          "last": 1099.99,
+          "max": 1099.99,
+          "min": 1099.99,
+          "samples": 1,
+          "stores": [
+            "MEO"
+          ],
+          "sum": 1099.99
         }
       },
       "ean": null,
-      "first_seen": "2026-11-21T19:06:07.746052Z",
-      "last_seen": "2026-11-22T23:34:27.359369Z",
+      "first_seen": "2026-11-22T14:38:09.989097Z",
+      "last_seen": "2026-11-23T07:00:43.695383Z",
       "mpn": null,
       "title": "Victus 15-fb3054np Gaming (15,6\", Ryzen 5 7535HS, 16GB, 512GB SSD, RTX 3050)",
       "url": "https://loja.meo.pt/comprar/pcs/hp/victus-15-fb3054np-gaming"
@@ -20545,17 +21339,6 @@
     "url:f214b34a7f9cd5fc1d67": {
       "confidence": "LOCAL",
       "days": {
-        "2026-11-21": {
-          "avg": 749.99,
-          "last": 749.99,
-          "max": 749.99,
-          "min": 749.99,
-          "samples": 1,
-          "stores": [
-            "MEO"
-          ],
-          "sum": 749.99
-        },
         "2026-11-22": {
           "avg": 749.99,
           "last": 749.99,
@@ -20566,11 +21349,22 @@
             "MEO"
           ],
           "sum": 1499.98
+        },
+        "2026-11-23": {
+          "avg": 749.99,
+          "last": 749.99,
+          "max": 749.99,
+          "min": 749.99,
+          "samples": 1,
+          "stores": [
+            "MEO"
+          ],
+          "sum": 749.99
         }
       },
       "ean": null,
-      "first_seen": "2026-11-21T19:06:07.780894Z",
-      "last_seen": "2026-11-22T23:34:27.380662Z",
+      "first_seen": "2026-11-22T14:38:10.037718Z",
+      "last_seen": "2026-11-23T07:00:43.734738Z",
       "mpn": null,
       "title": "Aspire Lite 15 AL15-54P-7311 (15.6\", Intel U7, 16GB, 512GB)",
       "url": "https://loja.meo.pt/comprar/pcs/acer/aspire-lite-15-al15-54p-7311"
@@ -20709,5 +21503,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T23:34:33.667454Z"
+  "updated_at": "2026-11-23T07:00:50.993917Z"
 }
