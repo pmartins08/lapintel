@@ -1,5 +1,5 @@
 {
-  "conflicting_pairs": 9,
+  "conflicting_pairs": 24,
   "conflicts": [
     {
       "fields": [
@@ -7,107 +7,42 @@
       ],
       "identifier": "00199276276148",
       "identifier_type": "ean",
-      "left_store": "UPTECHBOX",
-      "left_title": "Portátil Gaming Lenovo LOQ 15AHP9 — Ryzen 7 7445HS + RTX 3050 6GB | 16GB DDR5 | 512GB SSD | 15.6\" 144Hz G-SYNC | Sem OS",
-      "left_url": "https://www.uptechbox.com/collections/computadores-portateis/products/portatil-gaming-lenovo-loq-15ahp9-ryzen-7-7445hs-rtx-3050-6gb-16gb-ddr5-512gb-ssd-15-6-144hz-g-sync-sem-os",
+      "left_store": "Globaldata",
+      "left_title": "Portátil Lenovo LOQ 15AHP9-148 15.6\" R7 7445HS 16GB DDR5 512GB RTX 3050 144Hz",
+      "left_url": "https://www.globaldata.pt/portatil-lenovo-loq-15ahp9-148-15.6-r7-7445hs-16gb-ddr5-512gb-rtx-3050-144hz/83DX00FKPG.html",
       "level": "NAO_FUNDIR",
       "reason": "identificador forte contradiz configuração técnica",
-      "right_store": "Globaldata",
-      "right_title": "Portátil Lenovo LOQ 15AHP9-148 15.6\" R7 7445HS 16GB DDR5 512GB RTX 3050 144Hz",
-      "right_url": "https://www.globaldata.pt/portatil-lenovo-loq-15ahp9-148-15.6-r7-7445hs-16gb-ddr5-512gb-rtx-3050-144hz/83DX00FKPG.html"
+      "right_store": "UPTECHBOX",
+      "right_title": "Portátil Gaming Lenovo LOQ 15AHP9 — Ryzen 7 7445HS + RTX 3050 6GB | 16GB DDR5 | 512GB SSD | 15.6\" 144Hz G-SYNC | Sem OS",
+      "right_url": "https://www.uptechbox.com/products/portatil-gaming-lenovo-loq-15ahp9-ryzen-7-7445hs-rtx-3050-6gb-16gb-ddr5-512gb-ssd-15-6-144hz-g-sync-sem-os"
+    },
+    {
+      "fields": [],
+      "identifier": null,
+      "identifier_type": null,
+      "left_store": "Globaldata",
+      "left_title": "Portátil Lenovo LOQ 15IRX10-423 15.6\" i7-13650HX 16GB DDR5 1TB RTX 5070 FHD 144Hz",
+      "left_url": "https://www.globaldata.pt/portatil-lenovo-loq-15irx10-423-15.6-i7-13650hx-16gb-ddr5-1tb-rtx-5070-fhd-144hz/83JE01KRPG.html",
+      "level": "NAO_FUNDIR",
+      "reason": "EAN/GTIN diferente",
+      "right_store": "UPTECHBOX",
+      "right_title": "Portátil Lenovo LOQ 15IRX10 - Intel i7-13645HX + RTX 5060 | 16GB DDR5 | 512GB SSD | 15.6\"FHD | S/SO",
+      "right_url": "https://www.uptechbox.com/products/portatil-lenovo-loq-15irx10-intel-i7-13645hx-rtx-5060-16gb-ddr5-512gb-ssd-15-6fhd-s-so"
     },
     {
       "fields": [
-        "cpu_modelo"
+        "armazenamento_tb"
       ],
-      "identifier": "00199276276148",
+      "identifier": "00826581281177",
       "identifier_type": "ean",
-      "left_store": "UPTECHBOX",
-      "left_title": "Portátil Gaming Lenovo LOQ 15AHP9 — Ryzen 7 7445HS + RTX 3050 6GB | 16GB DDR5 | 512GB SSD | 15.6\" 144Hz G-SYNC | Sem OS",
-      "left_url": "https://www.uptechbox.com/collections/computadores-portateis-gaming/products/portatil-gaming-lenovo-loq-15ahp9-ryzen-7-7445hs-rtx-3050-6gb-16gb-ddr5-512gb-ssd-15-6-144hz-g-sync-sem-os",
+      "left_store": "FNAC",
+      "left_title": "Computador Portátil HP AI 15-fd2004npx | 15,6'' | Intel® Core™ Ultra 5 225U | 24GB | 512GB SSD | Free DOS",
+      "left_url": "https://www.fnac.pt/Computador-Portatil-HP-AI-15-fd2004npx-15-6-Intel-Core-Ultra-5-225U-24GB-1TB-SSD-Free-DOS-Computador-Portatil-Computador-Portatil/a14231862",
       "level": "NAO_FUNDIR",
       "reason": "identificador forte contradiz configuração técnica",
-      "right_store": "Globaldata",
-      "right_title": "Portátil Lenovo LOQ 15AHP9-148 15.6\" R7 7445HS 16GB DDR5 512GB RTX 3050 144Hz",
-      "right_url": "https://www.globaldata.pt/portatil-lenovo-loq-15ahp9-148-15.6-r7-7445hs-16gb-ddr5-512gb-rtx-3050-144hz/83DX00FKPG.html"
-    },
-    {
-      "fields": [],
-      "identifier": null,
-      "identifier_type": null,
-      "left_store": "FNAC",
-      "left_title": "Computador Portátil Gaming Lenovo LOQ Essential 15ARP11 | 15,6\" | GeForce RTX 5050 | AMD Ryzen™ 7 170 | 16GB | 512GB SSD",
-      "left_url": "https://www.fnac.pt/LENOVO-LOQE-15ARP11-R7-16-512-5050-Computador-Portatil-Computador-Portatil-Gaming/a14333323",
-      "level": "NAO_FUNDIR",
-      "reason": "EAN/GTIN diferente",
-      "right_store": "Novo Atalho",
-      "right_title": "Portátil Lenovo LOQ Gaming Essential 15ARP11-675 15.6\" R7 16GB SSD 1TB RTX 5060 Cinza",
-      "right_url": "https://www.novoatalho.pt/port%C3%A1til-lenovo-loq-gaming-essential-15arp11-675-156-r7-16gb-ssd-1tb-rtx-5060-cinza-0199275234675-83va001upg"
-    },
-    {
-      "fields": [],
-      "identifier": null,
-      "identifier_type": null,
-      "left_store": "FNAC",
-      "left_title": "Computador Portátil Gaming Lenovo LOQ Essential 15ARP11 | 15,6\" | GeForce RTX 5050 | AMD Ryzen™ 7 170 | 16GB | 512GB SSD",
-      "left_url": "https://www.fnac.pt/LENOVO-LOQE-15ARP11-R7-16-512-5050-Computador-Portatil-Computador-Portatil-Gaming/a14333323",
-      "level": "NAO_FUNDIR",
-      "reason": "EAN/GTIN diferente",
-      "right_store": "Novo Atalho",
-      "right_title": "Portátil Lenovo LOQ Gaming Essential 15ARP11-136 15.6\" R7 16GB SSD 512GB RTX 5050 Cinza",
-      "right_url": "https://www.novoatalho.pt/port%C3%A1til-lenovo-loq-gaming-essential-15arp11-136-156-r7-16gb-ssd-512gb-rtx-5050-cinza-0199275830136-83va002hpg"
-    },
-    {
-      "fields": [],
-      "identifier": null,
-      "identifier_type": null,
-      "left_store": "UPTECHBOX",
-      "left_title": "Portátil Lenovo IdeaPad Slim 3 15ABR8 — AMD Ryzen 7 5825U | 16GB DDR4 | 512GB SSD | 15.6\" FHD | S/SO",
-      "left_url": "https://www.uptechbox.com/collections/computadores-portateis/products/portatil-lenovo-ideapad-slim-3-amd-ryzen-7-5825u-16gb-ddr5-1tb-ssd-15-6fhd-s-so",
-      "level": "NAO_FUNDIR",
-      "reason": "EAN/GTIN diferente",
-      "right_store": "FNAC",
-      "right_title": "Computador Portátil Lenovo IdeaPad Slim 3 15ABR8-205 | 15,6'' | AMD Ryzen™ 7 5825U | 16GB | 512GB SSD",
-      "right_url": "https://www.fnac.pt/LENOVO-IPS3-15ABR8-R7-16-512-SC-Computador-Portatil-Computador-Portatil/a14737473"
-    },
-    {
-      "fields": [],
-      "identifier": null,
-      "identifier_type": null,
-      "left_store": "UPTECHBOX",
-      "left_title": "Portátil Lenovo IdeaPad Slim 3 15ABR8 — AMD Ryzen 7 5825U | 16GB DDR4 | 512GB SSD | 15.6\" FHD | S/SO",
-      "left_url": "https://www.uptechbox.com/collections/computadores-portateis-notebooks/products/portatil-lenovo-ideapad-slim-3-amd-ryzen-7-5825u-16gb-ddr5-1tb-ssd-15-6fhd-s-so",
-      "level": "NAO_FUNDIR",
-      "reason": "EAN/GTIN diferente",
-      "right_store": "FNAC",
-      "right_title": "Computador Portátil Lenovo IdeaPad Slim 3 15ABR8-205 | 15,6'' | AMD Ryzen™ 7 5825U | 16GB | 512GB SSD",
-      "right_url": "https://www.fnac.pt/LENOVO-IPS3-15ABR8-R7-16-512-SC-Computador-Portatil-Computador-Portatil/a14737473"
-    },
-    {
-      "fields": [],
-      "identifier": null,
-      "identifier_type": null,
-      "left_store": "FNAC",
-      "left_title": "Computador Portátil Acer Aspire Lite 15 AL15-54P-7311 | 15,6'' | Intel Core™ Ultra 7 155U | 16GB | 512GB SSD",
-      "left_url": "https://www.fnac.pt/Computador-Portatil-Acer-Aspire-Lite-15-AL15-54P-7311-15-6-Intel-Core-Ultra-7-155U-16GB-512GB-SSD-Computador-Portatil-Computador-Portatil/a14604170?oref=39c9b509-7709-d4d0-7ed4-a7d428ec3a96",
-      "level": "NAO_FUNDIR",
-      "reason": "configuração difere em cpu_modelo",
-      "right_store": "Auchan",
-      "right_title": "portátil acer aspire lite al15-54p (15.6\" intel ultra 5 ram: 16gb 512gb ssd)",
-      "right_url": "https://www.auchan.pt/pt/tecnologia/informatica/computadores-portateis/portatil-acer-aspire-lite-al15-54p-%2815.6-intel-ultra-5-ram-16gb-512gb-ssd%29/4041885.html"
-    },
-    {
-      "fields": [],
-      "identifier": null,
-      "identifier_type": null,
-      "left_store": "UPTECHBOX",
-      "left_title": "Portátil Gaming Lenovo LOQ 15AHP10 — AMD Ryzen 7 250 + RTX 5050 8GB | 16GB DDR5 | 512GB SSD | 15.6\" FHD 144Hz | Windows 11 Home",
-      "left_url": "https://www.uptechbox.com/collections/computadores-portateis-gaming/products/portatil-gaming-lenovo-loq-15ahp10-amd-ryzen-7-250-rtx-5050-8gb-16gb-ddr5-512gb-ssd-15-6-fhd-144hz-windows-11-home",
-      "level": "NAO_FUNDIR",
-      "reason": "EAN/GTIN diferente",
-      "right_store": "Globaldata",
-      "right_title": "Portátil Lenovo LOQ 15AHP10-348 15.6\" R7 250 16GB DDR5 512GB RTX 5050 FHD 144Hz",
-      "right_url": "https://www.globaldata.pt/portatil-lenovo-loq-15ahp10-348-15.6-r7-250-16gb-ddr5-512gb-rtx-5050-fhd-144hz/83JG00H2PG.html"
+      "right_store": "Darty",
+      "right_title": "Computador Portátil HP AI 15-fd2004npx | 15,6'' | Intel® Core™ Ultra 5 225U | 24GB | 512GB SSD | Free DOS",
+      "right_url": "https://darty.pt/products/computador-portatil-hp-ai-15-fd2004npx-15-6-intel-core-ultra-5-225u-24gb-512gb-ssd-free-dos-0826581281177"
     },
     {
       "fields": [],
@@ -121,58 +56,721 @@
       "right_store": "FNAC",
       "right_title": "Computador Portátil Lenovo IdeaPad Slim 5 16IPH11-134 | OLED 16'' | Intel® Core™ Ultra 7 355 | 32GB | 1TB SSD",
       "right_url": "https://www.fnac.pt/Computador-Portatil-Lenovo-IdeaPad-Slim-5-16IPH11-134-OLED-16-Intel-Core-Ultra-7-355-32GB-1TB-SSD-Computador-Portatil-Computador-Portatil/a14603773"
+    },
+    {
+      "fields": [],
+      "identifier": null,
+      "identifier_type": null,
+      "left_store": "FNAC",
+      "left_title": "Computador Portátil Lenovo IdeaPad 5 2-in-1 14Q8X9-172 | Copilot+ PC | OLED 14\" | Snapdragon X1-26-100 | 16GB | 512GB SSD + Pen",
+      "left_url": "https://www.fnac.pt/LENOVO-IP5-OLED-X1-16-512-PEN-SC-Computador-Portatil-Computador-Portatil/a14832451",
+      "level": "NAO_FUNDIR",
+      "reason": "EAN/GTIN diferente",
+      "right_store": "Darty",
+      "right_title": "Computador Portátil Lenovo IdeaPad Slim 3 15Q8X10-064 | 15,3'' | Qualcomm Snapdragon X X1-26-100 | 16GB | 512GB SSD",
+      "right_url": "https://darty.pt/products/computador-portatil-lenovo-ideapad-slim-3-15q8x10-064-15-3-qualcomm-snapdragon-x-x1-26-100-16gb-512gb-ssd-0199275205064"
+    },
+    {
+      "fields": [],
+      "identifier": null,
+      "identifier_type": null,
+      "left_store": "FNAC",
+      "left_title": "Computador Portátil Asus Vivobook S14 Flip TP5408QA-U2038W | Tátil OLED 14\" | Qualcomm® Snapdragon® X - X1-26-100 | 16GB | 256GB SSD",
+      "left_url": "https://www.fnac.pt/Computador-Portatil-Asus-Vivobook-S14-Flip-TP5408QA-U2038W-Tatil-OLED-14-Qualcomm-Snapdragon-X-X1-26-100-16GB-256GB-SSD-Computador-Portatil-Computador-Portatil/a14840280",
+      "level": "NAO_FUNDIR",
+      "reason": "EAN/GTIN diferente",
+      "right_store": "Darty",
+      "right_title": "Computador Portátil Asus Zenbook A14 UX3407QA-X1PCOHDGB1 | 14\" | Snapdragon® X X1-26-100 | 16GB | 512GB SSD",
+      "right_url": "https://darty.pt/products/computador-portatil-asus-zenbook-a14-ux3407qa-x1pcohdgb1-14-snapdragon-x-x1-26-100-16gb-512gb-ssd-4711636385770"
+    },
+    {
+      "fields": [],
+      "identifier": null,
+      "identifier_type": null,
+      "left_store": "FNAC",
+      "left_title": "Computador Portátil Asus Vivobook S14 Flip TP5408QA-U2038W | Tátil OLED 14\" | Qualcomm® Snapdragon® X - X1-26-100 | 16GB | 256GB SSD",
+      "left_url": "https://www.fnac.pt/Computador-Portatil-Asus-Vivobook-S14-Flip-TP5408QA-U2038W-Tatil-OLED-14-Qualcomm-Snapdragon-X-X1-26-100-16GB-256GB-SSD-Computador-Portatil-Computador-Portatil/a14840280",
+      "level": "NAO_FUNDIR",
+      "reason": "EAN/GTIN diferente",
+      "right_store": "Darty",
+      "right_title": "Computador Portátil Asus Zenbook A14 UX3407QA-X1PCOHDGB1 | 14\" | Snapdragon® X X1-26-100 | 16GB | 512GB SSD + Mala + Rato",
+      "right_url": "https://darty.pt/products/computador-portatil-asus-zenbook-a14-ux3407qa-x1pcohdgb1-14-snapdragon-x-x1-26-100-16gb-512gb-ssd-mala-rato-2200028129334"
+    },
+    {
+      "fields": [],
+      "identifier": null,
+      "identifier_type": null,
+      "left_store": "FNAC",
+      "left_title": "Computador Portátil Asus Vivobook S14 Flip TP5408QA-U2038W | Tátil OLED 14\" | Qualcomm® Snapdragon® X - X1-26-100 | 16GB | 256GB SSD",
+      "left_url": "https://www.fnac.pt/Computador-Portatil-Asus-Vivobook-S14-Flip-TP5408QA-U2038W-Tatil-OLED-14-Qualcomm-Snapdragon-X-X1-26-100-16GB-256GB-SSD-Computador-Portatil-Computador-Portatil/a14840280",
+      "level": "NAO_FUNDIR",
+      "reason": "EAN/GTIN diferente",
+      "right_store": "Darty",
+      "right_title": "Computador Portátil Asus Zenbook A14 UX3407QA-X1PAOHDGB1 | 14\" | Snapdragon® X X1-26-100 | 32GB | 512GB SSD",
+      "right_url": "https://darty.pt/products/asus-zb-a14-o-ux3407-x-x1-26-32-512"
+    },
+    {
+      "fields": [],
+      "identifier": null,
+      "identifier_type": null,
+      "left_store": "FNAC",
+      "left_title": "Computador Portátil Asus Zenbook 14 UX3480QA-X1PCOHDGB01 | OLED 14\" | Qualcomm® Snapdragon® X X1-26-100 | 16GB | 512GB SSD",
+      "left_url": "https://www.fnac.pt/ASUS-ZB-14-X1-16-512-BG-Computador-Portatil-Computador-Portatil/a14827589",
+      "level": "NAO_FUNDIR",
+      "reason": "EAN/GTIN diferente",
+      "right_store": "Darty",
+      "right_title": "Computador Portátil Asus Zenbook A14 UX3407QA-X1PCOHDGB1 | 14\" | Snapdragon® X X1-26-100 | 16GB | 512GB SSD",
+      "right_url": "https://darty.pt/products/computador-portatil-asus-zenbook-a14-ux3407qa-x1pcohdgb1-14-snapdragon-x-x1-26-100-16gb-512gb-ssd-4711636385770"
+    },
+    {
+      "fields": [],
+      "identifier": null,
+      "identifier_type": null,
+      "left_store": "FNAC",
+      "left_title": "Computador Portátil Asus Zenbook 14 UX3480QA-X1PCOHDGB01 | OLED 14\" | Qualcomm® Snapdragon® X X1-26-100 | 16GB | 512GB SSD",
+      "left_url": "https://www.fnac.pt/ASUS-ZB-14-X1-16-512-BG-Computador-Portatil-Computador-Portatil/a14827589",
+      "level": "NAO_FUNDIR",
+      "reason": "EAN/GTIN diferente",
+      "right_store": "Darty",
+      "right_title": "Computador Portátil Asus Zenbook A14 UX3407QA-X1PCOHDGB1 | 14\" | Snapdragon® X X1-26-100 | 16GB | 512GB SSD + Mala + Rato",
+      "right_url": "https://darty.pt/products/computador-portatil-asus-zenbook-a14-ux3407qa-x1pcohdgb1-14-snapdragon-x-x1-26-100-16gb-512gb-ssd-mala-rato-2200028129334"
+    },
+    {
+      "fields": [],
+      "identifier": null,
+      "identifier_type": null,
+      "left_store": "FNAC",
+      "left_title": "Computador Portátil Asus Zenbook 14 UX3480QA-X1PCOHDGB01 | OLED 14\" | Qualcomm® Snapdragon® X X1-26-100 | 16GB | 512GB SSD",
+      "left_url": "https://www.fnac.pt/ASUS-ZB-14-X1-16-512-BG-Computador-Portatil-Computador-Portatil/a14827589",
+      "level": "NAO_FUNDIR",
+      "reason": "EAN/GTIN diferente",
+      "right_store": "Darty",
+      "right_title": "Computador Portátil Asus Zenbook A14 UX3407QA-X1PAOHDGB1 | 14\" | Snapdragon® X X1-26-100 | 32GB | 512GB SSD",
+      "right_url": "https://darty.pt/products/asus-zb-a14-o-ux3407-x-x1-26-32-512"
+    },
+    {
+      "fields": [],
+      "identifier": null,
+      "identifier_type": null,
+      "left_store": "FNAC",
+      "left_title": "Computador Portátil Asus Zenbook 14 UX3480QA-X1PCOHDKB01 | OLED 14\" | Qualcomm® Snapdragon® X1-26-100 | 16GB | 512GB SSD",
+      "left_url": "https://www.fnac.pt/Computador-Portatil-Asus-Zenbook-14-UX3480QA-X1PCOHDKB01-OLED-14-Qualcomm-Snapdragon-X1-26-100-16GB-512GB-SSD-Computador-Portatil-Computador-Portatil/a14827590",
+      "level": "NAO_FUNDIR",
+      "reason": "EAN/GTIN diferente",
+      "right_store": "Darty",
+      "right_title": "Computador Portátil Asus Zenbook A14 UX3407QA-X1PCOHDGB1 | 14\" | Snapdragon® X X1-26-100 | 16GB | 512GB SSD",
+      "right_url": "https://darty.pt/products/computador-portatil-asus-zenbook-a14-ux3407qa-x1pcohdgb1-14-snapdragon-x-x1-26-100-16gb-512gb-ssd-4711636385770"
+    },
+    {
+      "fields": [],
+      "identifier": null,
+      "identifier_type": null,
+      "left_store": "FNAC",
+      "left_title": "Computador Portátil Asus Zenbook 14 UX3480QA-X1PCOHDKB01 | OLED 14\" | Qualcomm® Snapdragon® X1-26-100 | 16GB | 512GB SSD",
+      "left_url": "https://www.fnac.pt/Computador-Portatil-Asus-Zenbook-14-UX3480QA-X1PCOHDKB01-OLED-14-Qualcomm-Snapdragon-X1-26-100-16GB-512GB-SSD-Computador-Portatil-Computador-Portatil/a14827590",
+      "level": "NAO_FUNDIR",
+      "reason": "EAN/GTIN diferente",
+      "right_store": "Darty",
+      "right_title": "Computador Portátil Asus Zenbook A14 UX3407QA-X1PCOHDGB1 | 14\" | Snapdragon® X X1-26-100 | 16GB | 512GB SSD + Mala + Rato",
+      "right_url": "https://darty.pt/products/computador-portatil-asus-zenbook-a14-ux3407qa-x1pcohdgb1-14-snapdragon-x-x1-26-100-16gb-512gb-ssd-mala-rato-2200028129334"
+    },
+    {
+      "fields": [],
+      "identifier": null,
+      "identifier_type": null,
+      "left_store": "FNAC",
+      "left_title": "Computador Portátil Asus Zenbook 14 UX3480QA-X1PCOHDKB01 | OLED 14\" | Qualcomm® Snapdragon® X1-26-100 | 16GB | 512GB SSD",
+      "left_url": "https://www.fnac.pt/Computador-Portatil-Asus-Zenbook-14-UX3480QA-X1PCOHDKB01-OLED-14-Qualcomm-Snapdragon-X1-26-100-16GB-512GB-SSD-Computador-Portatil-Computador-Portatil/a14827590",
+      "level": "NAO_FUNDIR",
+      "reason": "EAN/GTIN diferente",
+      "right_store": "Darty",
+      "right_title": "Computador Portátil Asus Zenbook A14 UX3407QA-X1PAOHDGB1 | 14\" | Snapdragon® X X1-26-100 | 32GB | 512GB SSD",
+      "right_url": "https://darty.pt/products/asus-zb-a14-o-ux3407-x-x1-26-32-512"
+    },
+    {
+      "fields": [],
+      "identifier": null,
+      "identifier_type": null,
+      "left_store": "FNAC",
+      "left_title": "Computador Portátil Lenovo IdeaPad Slim 5 16IPH11-134 | OLED 16'' | Intel® Core™ Ultra 7 355 | 32GB | 1TB SSD",
+      "left_url": "https://www.fnac.pt/Computador-Portatil-Lenovo-IdeaPad-Slim-5-16IPH11-134-OLED-16-Intel-Core-Ultra-7-355-32GB-1TB-SSD-Computador-Portatil-Computador-Portatil/a14603773",
+      "level": "NAO_FUNDIR",
+      "reason": "EAN/GTIN diferente",
+      "right_store": "Darty",
+      "right_title": "Computador Portátil Lenovo \tIdeaPad Slim 3 15IWC11-169 | 15,3'' | Intel® Core™ 7 350 | 16GB | 512GB SSD",
+      "right_url": "https://darty.pt/products/computador-portatil-lenovo-ideapad-slim-3-15iwc11-169-15-3-intel-core-7-350-16gb-512gb-ssd-0199276826169"
+    },
+    {
+      "fields": [],
+      "identifier": null,
+      "identifier_type": null,
+      "left_store": "UPTECHBOX",
+      "left_title": "Portátil Gaming Lenovo LOQ Essential 15ARP11 — Ryzen 7 170 + RTX 5060 8GB GDDR7 | 16GB DDR5 | 1TB SSD | 144Hz | Sem OS",
+      "left_url": "https://www.uptechbox.com/products/lenovo-loq-essential-15arp11-ryzen-7-170-rtx-5060-gaming-144hz",
+      "level": "NAO_FUNDIR",
+      "reason": "EAN/GTIN diferente",
+      "right_store": "Darty",
+      "right_title": "Computador Portátil Gaming Lenovo LOQ Essential 15ARP11 | 15,6\" | GeForce RTX 5050 | AMD Ryzen™ 7 170 | 16GB | 512GB SSD",
+      "right_url": "https://darty.pt/products/computador-portatil-gaming-lenovo-loq-essential-15arp11-15-6-geforce-rtx-5050-amd-ryzen-7-170-16gb-512gb-ssd-0199275316661"
+    },
+    {
+      "fields": [],
+      "identifier": null,
+      "identifier_type": null,
+      "left_store": "UPTECHBOX",
+      "left_title": "Portátil Gaming Lenovo LOQ Essential 15ARP11 — Ryzen 7 170 + RTX 5060 8GB GDDR7 | 16GB DDR5 | 1TB SSD | 144Hz | Sem OS",
+      "left_url": "https://www.uptechbox.com/products/lenovo-loq-essential-15arp11-ryzen-7-170-rtx-5060-gaming-144hz",
+      "level": "NAO_FUNDIR",
+      "reason": "EAN/GTIN diferente",
+      "right_store": "Novo Atalho",
+      "right_title": "Portátil Lenovo LOQ Gaming Essential 15ARP11-136 15.6\" R7 16GB SSD 512GB RTX 5050 Cinza",
+      "right_url": "https://www.novoatalho.pt/port%C3%A1til-lenovo-loq-gaming-essential-15arp11-136-156-r7-16gb-ssd-512gb-rtx-5050-cinza-0199275830136-83va002hpg"
+    },
+    {
+      "fields": [],
+      "identifier": null,
+      "identifier_type": null,
+      "left_store": "Darty",
+      "left_title": "Computador Portátil Gaming Lenovo LOQ Essential 15ARP11 | 15,6\" | GeForce RTX 5050 | AMD Ryzen™ 7 170 | 16GB | 512GB SSD",
+      "left_url": "https://darty.pt/products/computador-portatil-gaming-lenovo-loq-essential-15arp11-15-6-geforce-rtx-5050-amd-ryzen-7-170-16gb-512gb-ssd-0199275316661",
+      "level": "NAO_FUNDIR",
+      "reason": "EAN/GTIN diferente",
+      "right_store": "UPTECHBOX",
+      "right_title": "Portátil Gaming Lenovo LOQ Essential 15ARP11 — Ryzen 7 170 + RTX 5050 8GB GDDR7 | 16GB DDR5 | 512GB SSD | 144Hz | Sem OS",
+      "right_url": "https://www.uptechbox.com/products/lenovo-loq-essential-15arp11-ryzen-7-170-rtx-5050-gaming-144hz"
+    },
+    {
+      "fields": [],
+      "identifier": null,
+      "identifier_type": null,
+      "left_store": "Darty",
+      "left_title": "Computador Portátil Gaming Lenovo LOQ Essential 15ARP11 | 15,6\" | GeForce RTX 5050 | AMD Ryzen™ 7 170 | 16GB | 512GB SSD",
+      "left_url": "https://darty.pt/products/computador-portatil-gaming-lenovo-loq-essential-15arp11-15-6-geforce-rtx-5050-amd-ryzen-7-170-16gb-512gb-ssd-0199275316661",
+      "level": "NAO_FUNDIR",
+      "reason": "EAN/GTIN diferente",
+      "right_store": "Novo Atalho",
+      "right_title": "Portátil Lenovo LOQ Gaming Essential 15ARP11-675 15.6\" R7 16GB SSD 1TB RTX 5060 Cinza",
+      "right_url": "https://www.novoatalho.pt/port%C3%A1til-lenovo-loq-gaming-essential-15arp11-675-156-r7-16gb-ssd-1tb-rtx-5060-cinza-0199275234675-83va001upg"
+    },
+    {
+      "fields": [],
+      "identifier": null,
+      "identifier_type": null,
+      "left_store": "Darty",
+      "left_title": "Computador Portátil Gaming Lenovo LOQ Essential 15ARP11 | 15,6\" | GeForce RTX 5050 | AMD Ryzen™ 7 170 | 16GB | 512GB SSD",
+      "left_url": "https://darty.pt/products/computador-portatil-gaming-lenovo-loq-essential-15arp11-15-6-geforce-rtx-5050-amd-ryzen-7-170-16gb-512gb-ssd-0199275316661",
+      "level": "NAO_FUNDIR",
+      "reason": "EAN/GTIN diferente",
+      "right_store": "Novo Atalho",
+      "right_title": "Portátil Lenovo LOQ Gaming Essential 15ARP11-136 15.6\" R7 16GB SSD 512GB RTX 5050 Cinza",
+      "right_url": "https://www.novoatalho.pt/port%C3%A1til-lenovo-loq-gaming-essential-15arp11-136-156-r7-16gb-ssd-512gb-rtx-5050-cinza-0199275830136-83va002hpg"
+    },
+    {
+      "fields": [],
+      "identifier": null,
+      "identifier_type": null,
+      "left_store": "FNAC",
+      "left_title": "Computador Portátil Asus Zenbook A14 UX3407QA-X1PAOHDGB1 | 14\" | Snapdragon® X X1-26-100 | 32GB | 512GB SSD",
+      "left_url": "https://www.fnac.pt/Computador-Portatil-Asus-Zenbook-A14-UX3407QA-X1PAOHDGB1-14-Snapdragon-X-X1-26-100-32GB-512GB-SSD-Computador-Portatil-Computador-Portatil/a12601324",
+      "level": "NAO_FUNDIR",
+      "reason": "EAN/GTIN diferente",
+      "right_store": "Darty",
+      "right_title": "Computador Portátil Asus Zenbook A14 UX3407QA-X1PCOHDGB1 | 14\" | Snapdragon® X X1-26-100 | 16GB | 512GB SSD",
+      "right_url": "https://darty.pt/products/computador-portatil-asus-zenbook-a14-ux3407qa-x1pcohdgb1-14-snapdragon-x-x1-26-100-16gb-512gb-ssd-4711636385770"
+    },
+    {
+      "fields": [],
+      "identifier": null,
+      "identifier_type": null,
+      "left_store": "FNAC",
+      "left_title": "Computador Portátil Asus Zenbook A14 UX3407QA-X1PAOHDGB1 | 14\" | Snapdragon® X X1-26-100 | 32GB | 512GB SSD",
+      "left_url": "https://www.fnac.pt/Computador-Portatil-Asus-Zenbook-A14-UX3407QA-X1PAOHDGB1-14-Snapdragon-X-X1-26-100-32GB-512GB-SSD-Computador-Portatil-Computador-Portatil/a12601324",
+      "level": "NAO_FUNDIR",
+      "reason": "EAN/GTIN diferente",
+      "right_store": "Darty",
+      "right_title": "Computador Portátil Asus Zenbook A14 UX3407QA-X1PCOHDGB1 | 14\" | Snapdragon® X X1-26-100 | 16GB | 512GB SSD + Mala + Rato",
+      "right_url": "https://darty.pt/products/computador-portatil-asus-zenbook-a14-ux3407qa-x1pcohdgb1-14-snapdragon-x-x1-26-100-16gb-512gb-ssd-mala-rato-2200028129334"
+    },
+    {
+      "fields": [],
+      "identifier": null,
+      "identifier_type": null,
+      "left_store": "Globaldata",
+      "left_title": "Portátil Lenovo LOQ 15AHP10-348 15.6\" R7 250 16GB DDR5 512GB RTX 5050 FHD 144Hz",
+      "left_url": "https://www.globaldata.pt/portatil-lenovo-loq-15ahp10-348-15.6-r7-250-16gb-ddr5-512gb-rtx-5050-fhd-144hz/83JG00H2PG.html",
+      "level": "NAO_FUNDIR",
+      "reason": "EAN/GTIN diferente",
+      "right_store": "UPTECHBOX",
+      "right_title": "Portátil Gaming Lenovo LOQ 15AHP10 — Ryzen 7 250 + RTX 5060 | 144Hz G-SYNC",
+      "right_url": "https://www.uptechbox.com/products/lenovo-loq-15ahp10-ryzen-7-250-rtx-5060-gaming-144hz-g-sync"
+    },
+    {
+      "fields": [],
+      "identifier": null,
+      "identifier_type": null,
+      "left_store": "UPTECHBOX",
+      "left_title": "Portátil Gaming Lenovo LOQ Essential 15ARP11 — Ryzen 7 170 + RTX 5050 8GB GDDR7 | 16GB DDR5 | 512GB SSD | 144Hz | Sem OS",
+      "left_url": "https://www.uptechbox.com/products/lenovo-loq-essential-15arp11-ryzen-7-170-rtx-5050-gaming-144hz",
+      "level": "NAO_FUNDIR",
+      "reason": "EAN/GTIN diferente",
+      "right_store": "Novo Atalho",
+      "right_title": "Portátil Lenovo LOQ Gaming Essential 15ARP11-675 15.6\" R7 16GB SSD 1TB RTX 5060 Cinza",
+      "right_url": "https://www.novoatalho.pt/port%C3%A1til-lenovo-loq-gaming-essential-15arp11-675-156-r7-16gb-ssd-1tb-rtx-5060-cinza-0199275234675-83va001upg"
     }
   ],
   "cross_store_groups": [
     {
-      "best_price": 989.9,
-      "best_store": "Tek4life",
-      "configuration_key": "mpn:83dx00fkpg",
+      "best_price": 549.0,
+      "best_store": "Globaldata",
+      "configuration_key": "ean:4711636591638",
       "offers": [
         {
-          "loja": "Tek4life",
-          "price": 989.9,
-          "tier": "PRATA",
-          "titulo": "Portátil Lenovo LOQ Gaming 15AHP9-148 15.6\" R7 16GB/512GB RTX 3050 Cinzento s/ Sistema Operativo",
-          "url": "https://www.tek4life.pt/products/portatil-lenovo-loq-gaming-15ahp9-148-15-6-r7-16gb-512gb-rtx-3050-cinzento-s-sistema-operativo?variant=58060629934463",
-          "value_score": 92.0
-        },
-        {
           "loja": "Globaldata",
-          "price": 999.0,
+          "price": 549.0,
           "tier": "PRATA",
-          "titulo": "Portátil Lenovo LOQ 15AHP9-148 15.6\" R7 7445HS 16GB DDR5 512GB RTX 3050 144Hz",
-          "url": "https://www.globaldata.pt/portatil-lenovo-loq-15ahp9-148-15.6-r7-7445hs-16gb-ddr5-512gb-rtx-3050-144hz/83DX00FKPG.html",
-          "value_score": 104.6
+          "titulo": "Portátil ASUS VivoBook Go E1504FA-R50BLHDPS04 15.6\" R5 40 16GB 512GB Radeon Graphics FHD (sem carregador)",
+          "url": "https://www.globaldata.pt/portatil-asus-vivobook-go-e1504fa-r50blhdps04-15.6-r5-40-16gb-512gb-radeon-graphics-fhd-sem-carregador/90NB0ZR2-M07XE0.html",
+          "value_score": 99.2
         },
         {
-          "loja": "UPTECHBOX",
-          "price": 999.99,
-          "tier": "PRATA",
-          "titulo": "Portátil Gaming Lenovo LOQ 15AHP9 — Ryzen 7 7445HS + RTX 3050 6GB | 16GB DDR5 | 512GB SSD | 15.6\" 144Hz G-SYNC | Sem OS",
-          "url": "https://www.uptechbox.com/collections/computadores-portateis/products/portatil-gaming-lenovo-loq-15ahp9-ryzen-7-7445hs-rtx-3050-6gb-16gb-ddr5-512gb-ssd-15-6-144hz-g-sync-sem-os",
-          "value_score": 101.1
-        },
-        {
-          "loja": "UPTECHBOX",
-          "price": 999.99,
-          "tier": "PRATA",
-          "titulo": "Portátil Gaming Lenovo LOQ 15AHP9 — Ryzen 7 7445HS + RTX 3050 6GB | 16GB DDR5 | 512GB SSD | 15.6\" 144Hz G-SYNC | Sem OS",
-          "url": "https://www.uptechbox.com/collections/computadores-portateis-gaming/products/portatil-gaming-lenovo-loq-15ahp9-ryzen-7-7445hs-rtx-3050-6gb-16gb-ddr5-512gb-ssd-15-6-144hz-g-sync-sem-os",
-          "value_score": 101.1
+          "loja": "Novo Atalho",
+          "price": 549.9,
+          "tier": "BRONZE",
+          "titulo": "Portátil Asus VivoBook GO E1504FA-R50BLHDPS04 15.6\" R5 16GB SSD 512GB AMD Radeon Graphics Preto (NoCharger)",
+          "url": "https://www.novoatalho.pt/port%C3%A1til-asus-vivobook-go-e1504fa-r50blhdps04-156-r5-16gb-ssd-512gb-amd-radeon-graphics-preto-nocharger-4711636591638-90nb0zr2-m07xe0",
+          "value_score": 89.5
         }
       ],
-      "spread_eur": 10.09,
+      "spread_eur": 0.9,
       "stores": [
         "Globaldata",
-        "Tek4life",
+        "Novo Atalho"
+      ]
+    },
+    {
+      "best_price": 649.0,
+      "best_store": "FNAC",
+      "configuration_key": "ean:0199275205064",
+      "offers": [
+        {
+          "loja": "FNAC",
+          "price": 649.0,
+          "tier": "BRONZE",
+          "titulo": "Computador Portátil Lenovo IdeaPad Slim 3 15Q8X10-064 | 15,3'' | Qualcomm Snapdragon X X1-26-100 | 16GB | 512GB SSD",
+          "url": "https://www.fnac.pt/LENOVO-IPS3X-15Q8X10-X1-16-512-SC-Computador-Portatil-Computador-Portatil/a14603783",
+          "value_score": 89.1
+        },
+        {
+          "loja": "Darty",
+          "price": 649.0,
+          "tier": "BRONZE",
+          "titulo": "Computador Portátil Lenovo IdeaPad Slim 3 15Q8X10-064 | 15,3'' | Qualcomm Snapdragon X X1-26-100 | 16GB | 512GB SSD",
+          "url": "https://darty.pt/products/computador-portatil-lenovo-ideapad-slim-3-15q8x10-064-15-3-qualcomm-snapdragon-x-x1-26-100-16gb-512gb-ssd-0199275205064",
+          "value_score": 88.8
+        }
+      ],
+      "spread_eur": 0.0,
+      "stores": [
+        "Darty",
+        "FNAC"
+      ]
+    },
+    {
+      "best_price": 699.0,
+      "best_store": "FNAC",
+      "configuration_key": "ean:0199276807205",
+      "offers": [
+        {
+          "loja": "FNAC",
+          "price": 699.0,
+          "tier": "PRATA",
+          "titulo": "Computador Portátil Lenovo IdeaPad Slim 3 15ABR8-205 | 15,6'' | AMD Ryzen™ 7 5825U | 16GB | 512GB SSD",
+          "url": "https://www.fnac.pt/LENOVO-IPS3-15ABR8-R7-16-512-SC-Computador-Portatil-Computador-Portatil/a14737473",
+          "value_score": 101.1
+        },
+        {
+          "loja": "Darty",
+          "price": 699.0,
+          "tier": "PRATA",
+          "titulo": "Computador Portátil Lenovo IdeaPad Slim 3 15ABR8-205 | 15,6'' | AMD Ryzen™ 7 5825U | 16GB | 512GB SSD",
+          "url": "https://darty.pt/products/computador-portatil-lenovo-ideapad-slim-3-15abr8-205-15-6-amd-ryzen-7-5825u-16gb-512gb-ssd-0199276807205",
+          "value_score": 100.8
+        }
+      ],
+      "spread_eur": 0.0,
+      "stores": [
+        "Darty",
+        "FNAC"
+      ]
+    },
+    {
+      "best_price": 749.0,
+      "best_store": "Globaldata",
+      "configuration_key": "ean:4711636620826",
+      "offers": [
+        {
+          "loja": "Globaldata",
+          "price": 749.0,
+          "tier": "PRATA",
+          "titulo": "Portátil ASUS VivoBook 14 M1407GA-A73BLHDAS01 14\" Ryzen AI 7 445 16GB 512GB Radeon Graphics WUXGA (sem carregador)",
+          "url": "https://www.globaldata.pt/portatil-asus-vivobook-14-m1407ga-a73blhdas01-14-ryzen-ai-7-445-16gb-512gb-radeon-graphics-wuxga-sem-carregador/90NB1701-M003P0.html",
+          "value_score": 106.7
+        },
+        {
+          "loja": "UPTECHBOX",
+          "price": 749.99,
+          "tier": "PRATA",
+          "titulo": "Portátil Asus VivoBook 14 M1407GA - AMD Ryzen AI 7 445 | 16GB DDR5 | 512GB SSD | 14\"FHD+ | S/SO",
+          "url": "https://www.uptechbox.com/products/portatil-asus-vivobook-14-m1407ga-amd-ryzen-ai-7-445-16gb-ddr5-512gb-ssd-14fhd-s-so",
+          "value_score": 96.8
+        }
+      ],
+      "spread_eur": 0.99,
+      "stores": [
+        "Globaldata",
+        "UPTECHBOX"
+      ]
+    },
+    {
+      "best_price": 799.0,
+      "best_store": "FNAC",
+      "configuration_key": "ean:0881767340109",
+      "offers": [
+        {
+          "loja": "FNAC",
+          "price": 799.0,
+          "tier": "PRATA",
+          "titulo": "Computador Portátil HP OmniBook 5 Flip 14-fp0010npx | 14\" | Intel® Core™ 5 120U | 16GB | 512GB SSD",
+          "url": "https://www.fnac.pt/Computador-Portatil-HP-OmniBook-5-Flip-14-fp0010npx-14-Intel-Core-5-120U-16GB-512GB-SSD-Computador-Portatil-Computador-Portatil/a14775608",
+          "value_score": 93.3
+        },
+        {
+          "loja": "Darty",
+          "price": 799.0,
+          "tier": "PRATA",
+          "titulo": "Computador Portátil HP OmniBook 5 Flip 14-fp0010npx | 14\" | Intel® Core™ 5 120U | 16GB | 512GB SSD",
+          "url": "https://darty.pt/products/computador-portatil-hp-omnibook-5-flip-14-fp0010npx-14-intel-core-5-120u-16gb-512gb-ssd-0881767340109",
+          "value_score": 92.8
+        }
+      ],
+      "spread_eur": 0.0,
+      "stores": [
+        "Darty",
+        "FNAC"
+      ]
+    },
+    {
+      "best_price": 799.0,
+      "best_store": "FNAC",
+      "configuration_key": "ean:0199276826169",
+      "offers": [
+        {
+          "loja": "FNAC",
+          "price": 799.0,
+          "tier": "PRATA",
+          "titulo": "Computador Portátil Lenovo \tIdeaPad Slim 3 15IWC11-169 | 15,3'' | Intel® Core™ 7 350 | 16GB | 512GB SSD",
+          "url": "https://www.fnac.pt/Computador-Portatil-Lenovo-IdeaPad-Slim-3-15IWC11-169-15-3-Intel-Core-7-350-16GB-512GB-SSD-Computador-Portatil-Computador-Portatil/a14603788",
+          "value_score": 103.3
+        },
+        {
+          "loja": "Darty",
+          "price": 799.0,
+          "tier": "PRATA",
+          "titulo": "Computador Portátil Lenovo \tIdeaPad Slim 3 15IWC11-169 | 15,3'' | Intel® Core™ 7 350 | 16GB | 512GB SSD",
+          "url": "https://darty.pt/products/computador-portatil-lenovo-ideapad-slim-3-15iwc11-169-15-3-intel-core-7-350-16gb-512gb-ssd-0199276826169",
+          "value_score": 102.9
+        }
+      ],
+      "spread_eur": 0.0,
+      "stores": [
+        "Darty",
+        "FNAC"
+      ]
+    },
+    {
+      "best_price": 899.0,
+      "best_store": "FNAC",
+      "configuration_key": "ean:4711636629744",
+      "offers": [
+        {
+          "loja": "FNAC",
+          "price": 899.0,
+          "tier": "PRATA",
+          "titulo": "Computador Portátil Asus Vivobook 15 F1504MA-C73CLHDAB01 | 15,6'' | Intel Core 7 350 | 16GB | 512GB SSD",
+          "url": "https://www.fnac.pt/ASUS-VB15-F1504MA-C7-16-512-SC-Computador-Portatil-Computador-Portatil/a14840284",
+          "value_score": 93.4
+        },
+        {
+          "loja": "Darty",
+          "price": 899.0,
+          "tier": "PRATA",
+          "titulo": "Computador Portátil Asus Vivobook 15 F1504MA-C73CLHDAB01 | 15,6'' | Intel Core 7 350 | 16GB | 512GB SSD",
+          "url": "https://darty.pt/products/computador-portatil-asus-vivobook-15-f1504ma-c73clhdab01-15-6-intel-core-7-350-16gb-512gb-ssd-4711636629744",
+          "value_score": 93.0
+        }
+      ],
+      "spread_eur": 0.0,
+      "stores": [
+        "Darty",
+        "FNAC"
+      ]
+    },
+    {
+      "best_price": 979.0,
+      "best_store": "FNAC",
+      "configuration_key": "ean:4711387864982",
+      "offers": [
+        {
+          "loja": "FNAC",
+          "price": 979.0,
+          "tier": "PRATA",
+          "titulo": "Computador Portátil Asus Zenbook A14 UX3407QA-X1PAOHDGB1 | 14\" | Snapdragon® X X1-26-100 | 32GB | 512GB SSD",
+          "url": "https://www.fnac.pt/Computador-Portatil-Asus-Zenbook-A14-UX3407QA-X1PAOHDGB1-14-Snapdragon-X-X1-26-100-32GB-512GB-SSD-Computador-Portatil-Computador-Portatil/a12601324",
+          "value_score": 103.7
+        },
+        {
+          "loja": "Darty",
+          "price": 979.0,
+          "tier": "PRATA",
+          "titulo": "Computador Portátil Asus Zenbook A14 UX3407QA-X1PAOHDGB1 | 14\" | Snapdragon® X X1-26-100 | 32GB | 512GB SSD",
+          "url": "https://darty.pt/products/asus-zb-a14-o-ux3407-x-x1-26-32-512",
+          "value_score": 103.2
+        }
+      ],
+      "spread_eur": 0.0,
+      "stores": [
+        "Darty",
+        "FNAC"
+      ]
+    },
+    {
+      "best_price": 999.0,
+      "best_store": "FNAC",
+      "configuration_key": "ean:0881767371264",
+      "offers": [
+        {
+          "loja": "FNAC",
+          "price": 999.0,
+          "tier": "PRATA",
+          "titulo": "Computador Portátil HP OmniBook 3 16-by0010npx | OLED 16\" | AMD Ryzen 7 160 | 24GB | 1TB SSD",
+          "url": "https://www.fnac.pt/Computador-Portatil-HP-OmniBook-3-16-by0010npx-OLED-16-AMD-Ryzen-7-160-24GB-1TB-SSD-Computador-Portatil-Computador-Portatil/a14775609",
+          "value_score": 100.8
+        },
+        {
+          "loja": "Darty",
+          "price": 999.0,
+          "tier": "PRATA",
+          "titulo": "Computador Portátil HP OmniBook 3 16-by0010npx | OLED 16\" | AMD Ryzen 7 160 | 24GB | 1TB SSD",
+          "url": "https://darty.pt/products/computador-portatil-hp-omnibook-3-16-by0010npx-oled-16-amd-ryzen-7-160-24gb-1tb-ssd-0881767371264",
+          "value_score": 100.4
+        }
+      ],
+      "spread_eur": 0.0,
+      "stores": [
+        "Darty",
+        "FNAC"
+      ]
+    },
+    {
+      "best_price": 999.0,
+      "best_store": "FNAC",
+      "configuration_key": "ean:0199276828934",
+      "offers": [
+        {
+          "loja": "FNAC",
+          "price": 999.0,
+          "tier": "PRATA",
+          "titulo": "Computador Portátil Lenovo Yoga 7 2-in-1 14AGP11-934 | 14'' | AMD Ryzen™ AI 7 445 | 16GB | 512GB SSD",
+          "url": "https://www.fnac.pt/LENOVO-Y7-14AGP-OLE-R7-16-512-P-SC-Computador-Portatil-Computador-Portatil/a14603792",
+          "value_score": 102.5
+        },
+        {
+          "loja": "Darty",
+          "price": 999.0,
+          "tier": "PRATA",
+          "titulo": "Computador Portátil Lenovo Yoga 7 2-in-1 14AGP11-934 | 14'' | AMD Ryzen™ AI 7 445 | 16GB | 512GB SSD",
+          "url": "https://darty.pt/products/computador-portatil-lenovo-yoga-7-2-in-1-14agp11-934-14-amd-ryzen-ai-7-445-16gb-512gb-ssd-0199276828934",
+          "value_score": 99.1
+        }
+      ],
+      "spread_eur": 0.0,
+      "stores": [
+        "Darty",
+        "FNAC"
+      ]
+    },
+    {
+      "best_price": 999.0,
+      "best_store": "FNAC",
+      "configuration_key": "ean:0885981299236",
+      "offers": [
+        {
+          "loja": "FNAC",
+          "price": 999.0,
+          "tier": "PRATA",
+          "titulo": "Computador Portátil HP OmniBook 7 17-dc0000npx | 17,3'' | Intel® Core™ Ultra 7 256V | 16GB | 512GB SSD",
+          "url": "https://www.fnac.pt/Computador-Portatil-HP-OmniBook-7-17-dc0000npx-17-3-Intel-Core-Ultra-7-256V-16GB-512GB-SSD-Computador-Portatil-Computador-Portatil/a14584584",
+          "value_score": 103.4
+        },
+        {
+          "loja": "Darty",
+          "price": 999.0,
+          "tier": "PRATA",
+          "titulo": "Computador Portátil HP OmniBook 7 17-dc0000npx | 17,3'' | Intel® Core™ Ultra 7 256V | 16GB | 512GB SSD",
+          "url": "https://darty.pt/products/computador-portatil-hp-omnibook-7-17-dc0000npx-17-3-intel-core-ultra-7-256v-16gb-512gb-ssd-0885981299236",
+          "value_score": 103.0
+        }
+      ],
+      "spread_eur": 0.0,
+      "stores": [
+        "Darty",
+        "FNAC"
+      ]
+    },
+    {
+      "best_price": 999.0,
+      "best_store": "FNAC",
+      "configuration_key": "ean:2200028118833",
+      "offers": [
+        {
+          "loja": "FNAC",
+          "price": 999.0,
+          "tier": "PRATA",
+          "titulo": "Pack Computador Portátil Lenovo IdeaPad 5 2-em-1 14IPH11-213 | 14\" | Intel Core™ Ultra 5 322 | 16GB | 512GB SSD + Mochila + Rato + Pen",
+          "url": "https://www.fnac.pt/Pack-Fnac-Computador-Portatil-Lenovo-IdeaPad-5-2-em-1-14IPH11-213-14-Intel-Core-Ultra-5-322-16GB-512GB-SSD-Mochila-Rato-Pen-Computador-Portatil-Computador-Portatil/a14444621",
+          "value_score": 100.6
+        },
+        {
+          "loja": "Darty",
+          "price": 999.0,
+          "tier": "PRATA",
+          "titulo": "Pack Computador Portátil Lenovo IdeaPad 5 2-em-1 14IPH11-213 | 14\" | Intel Core™ Ultra 5 322 | 16GB | 512GB SSD + Mochila + Rato + Pen",
+          "url": "https://darty.pt/products/pack-computador-portatil-lenovo-ideapad-5-2-em-1-14iph11-213-14-intel-core-ultra-5-322-16gb-512gb-ssd-mochila-rato-pen-2200028118833",
+          "value_score": 100.2
+        }
+      ],
+      "spread_eur": 0.0,
+      "stores": [
+        "Darty",
+        "FNAC"
+      ]
+    },
+    {
+      "best_price": 999.99,
+      "best_store": "FNAC",
+      "configuration_key": "ean:0826581362135",
+      "offers": [
+        {
+          "loja": "FNAC",
+          "price": 999.99,
+          "tier": "PRATA",
+          "titulo": "Computador Portátil HP OmniBook X Flip 2-in-1 Next Gen AI 14-fk0000npx | 14\" | AMD Ryzen™ AI 5 340 | 16GB | 512GB SSD",
+          "url": "https://www.fnac.pt/Computador-Portatil-HP-OmniBook-X-Flip-2-in-1-Next-Gen-AI-14-fk0000npx-14-AMD-Ryzen-AI-5-340-16GB-512GB-SSD-Computador-Portatil-Computador-Portatil/a14231861",
+          "value_score": 97.9
+        },
+        {
+          "loja": "Darty",
+          "price": 999.99,
+          "tier": "PRATA",
+          "titulo": "Computador Portátil HP OmniBook X Flip 2-in-1 Next Gen AI 14-fk0000npx | 14\" | AMD Ryzen™ AI 5 340 | 16GB | 512GB SSD",
+          "url": "https://darty.pt/products/computador-portatil-hp-omnibook-x-flip-2-in-1-next-gen-ai-14-fk0000npx-14-amd-ryzen-ai-5-340-16gb-512gb-ssd-0826581362135",
+          "value_score": 97.5
+        }
+      ],
+      "spread_eur": 0.0,
+      "stores": [
+        "Darty",
+        "FNAC"
+      ]
+    },
+    {
+      "best_price": 1099.9,
+      "best_store": "Novo Atalho",
+      "configuration_key": "ean:00199275830136",
+      "offers": [
+        {
+          "loja": "Novo Atalho",
+          "price": 1099.9,
+          "tier": "PRATA",
+          "titulo": "Portátil Lenovo LOQ Gaming Essential 15ARP11-136 15.6\" R7 16GB SSD 512GB RTX 5050 Cinza",
+          "url": "https://www.novoatalho.pt/port%C3%A1til-lenovo-loq-gaming-essential-15arp11-136-156-r7-16gb-ssd-512gb-rtx-5050-cinza-0199275830136-83va002hpg",
+          "value_score": 109.0
+        },
+        {
+          "loja": "UPTECHBOX",
+          "price": 1099.99,
+          "tier": "PRATA",
+          "titulo": "Portátil Gaming Lenovo LOQ Essential 15ARP11 — Ryzen 7 170 + RTX 5050 8GB GDDR7 | 16GB DDR5 | 512GB SSD | 144Hz | Sem OS",
+          "url": "https://www.uptechbox.com/products/lenovo-loq-essential-15arp11-ryzen-7-170-rtx-5050-gaming-144hz",
+          "value_score": 107.9
+        }
+      ],
+      "spread_eur": 0.09,
+      "stores": [
+        "Novo Atalho",
         "UPTECHBOX"
       ]
     },
     {
       "best_price": 1199.0,
       "best_store": "Globaldata",
-      "configuration_key": "mpn:83jg00h2pg",
+      "configuration_key": "ean:4711636578905",
+      "offers": [
+        {
+          "loja": "Globaldata",
+          "price": 1199.0,
+          "tier": "PRATA",
+          "titulo": "Portátil ASUS VivoBook F1605VAPBF-94ALHDPB01 16\" Core 9 270H 24GB 512GB UMA UHD Graphics WUXGA W11 (sem carregador)",
+          "url": "https://www.globaldata.pt/portatil-asus-vivobook-f1605vapbf-94alhdpb01-16-core-9-270h-24gb-512gb-uma-uhd-graphics-wuxga-w11-sem-carregador/90NB13W3-M00ZC0.html",
+          "value_score": 100.9
+        },
+        {
+          "loja": "UPTECHBOX",
+          "price": 1199.99,
+          "tier": "PRATA",
+          "titulo": "Portátil Asus VivoBook 16 F1605VAP — Core 9 270H | 24GB DDR5 | 512GB SSD | 16\" WUXGA | Win 11 Home",
+          "url": "https://www.uptechbox.com/products/portatil-asus-vivobook-16-f1605vap-intel-core-9-16gb-ddr4-512gb-ssd-16-fhd-windows-11-home",
+          "value_score": 100.5
+        }
+      ],
+      "spread_eur": 0.99,
+      "stores": [
+        "Globaldata",
+        "UPTECHBOX"
+      ]
+    },
+    {
+      "best_price": 1199.0,
+      "best_store": "FNAC",
+      "configuration_key": "ean:0199275936708",
+      "offers": [
+        {
+          "loja": "FNAC",
+          "price": 1199.0,
+          "tier": "PRATA",
+          "titulo": "Computador Portátil Lenovo IdeaPad Slim 5 15Q8Y11-708 Copilot+ PC | 15.3\" | Snapdragon® X2 Plus | 32GB | 1TB SSD",
+          "url": "https://www.fnac.pt/Computador-Portatil-Lenovo-IdeaPad-Slim-5-15Q8Y11-708-Copilot-PC-15-3-Snapdragon-X2-Plus-32GB-1TB-SSD-Computador-Portatil-Computador-Portatil/a14260778",
+          "value_score": 105.6
+        },
+        {
+          "loja": "Darty",
+          "price": 1199.0,
+          "tier": "PRATA",
+          "titulo": "Computador Portátil Lenovo IdeaPad Slim 5 15Q8Y11-708 Copilot+ PC | 15.3\" | Snapdragon® X2 Plus | 32GB | 1TB SSD",
+          "url": "https://darty.pt/products/computador-portatil-lenovo-ideapad-slim-5-15q8y11-708-copilot-pc-15-3-snapdragon-x2-plus-32gb-1tb-ssd-0199275936708",
+          "value_score": 102.9
+        }
+      ],
+      "spread_eur": 0.0,
+      "stores": [
+        "Darty",
+        "FNAC"
+      ]
+    },
+    {
+      "best_price": 1199.0,
+      "best_store": "Globaldata",
+      "configuration_key": "ean:00199276818348",
       "offers": [
         {
           "loja": "Globaldata",
@@ -183,328 +781,642 @@
           "value_score": 113.3
         },
         {
-          "loja": "Tek4life",
-          "price": 1199.9,
-          "tier": "OURO",
-          "titulo": "Portátil Lenovo LOQ Gaming 15AHP10-348 15.6\" R7-250 16GB/512BG RTX5050 Cinzento s/ Sistema Operativo",
-          "url": "https://www.tek4life.pt/products/portatil-lenovo-loq-gaming-15ahp10-348-15-6-r7-250-16gb-512bg-rtx5050-cinzento-s-sistema-operativo?variant=58400481542527",
-          "value_score": 110.2
-        },
-        {
           "loja": "UPTECHBOX",
           "price": 1199.99,
           "tier": "OURO",
           "titulo": "Portatil Lenovo LOQ 15AHP10 - AMD Ryzen 7 250 + RTX 5050 | 16GB DDR5 | 512GB SSD | 15.6\"FHD | S/SO",
-          "url": "https://www.uptechbox.com/collections/computadores-portateis-gaming/products/portatil-lenovo-loq-15ahp10-amd-ryzen-7-250-rtx-5050-16gb-ddr5-512gb-ssd-15-6fhd-s-so",
+          "url": "https://www.uptechbox.com/products/portatil-lenovo-loq-15ahp10-amd-ryzen-7-250-rtx-5050-16gb-ddr5-512gb-ssd-15-6fhd-s-so",
           "value_score": 110.4
         }
       ],
       "spread_eur": 0.99,
       "stores": [
         "Globaldata",
-        "Tek4life",
         "UPTECHBOX"
       ]
     },
     {
-      "best_price": 499.0,
-      "best_store": "Darty",
-      "configuration_key": "ean:4711636393447",
+      "best_price": 1299.9,
+      "best_store": "Novo Atalho",
+      "configuration_key": "ean:00199275234675",
       "offers": [
         {
-          "loja": "Darty",
-          "price": 499.0,
-          "tier": "PRATA",
-          "titulo": "Computador Portátil Asus Vivobook Go 15 E1504FA-R50ALHDPB1 | 15,6'' | AMD Ryzen™ 5 40 | 16GB | 512GB SSD",
-          "url": "https://darty.pt/products/computador-portatil-asus-vivobook-go-15-e1504fa-r50alhdpb1-15-6-amd-ryzen-5-40-16gb-512gb-ssd-4711636393447",
-          "value_score": 94.5
-        },
-        {
-          "loja": "Globaldata",
-          "price": 599.0,
-          "tier": "PRATA",
-          "titulo": "Portátil ASUS VivoBook Go E1504FA 15.6\" R5 40 16GB 512GB UHD Graphics FHD W11",
-          "url": "https://www.globaldata.pt/portatil-asus-vivobook-go-e1504fa-15.6-r5-40-16gb-512gb-uhd-graphics-fhd-w11/E1504FA-R50ALHDPB1.html",
-          "value_score": 99.2
-        }
-      ],
-      "spread_eur": 100.0,
-      "stores": [
-        "Darty",
-        "Globaldata"
-      ]
-    },
-    {
-      "best_price": 909.9,
-      "best_store": "Tek4life",
-      "configuration_key": "model:15-FB3054NP|cpu:ryzen 5 7535hs|gpu:rtx 3050|ram:16|ssd:0.5",
-      "offers": [
-        {
-          "loja": "Tek4life",
-          "price": 909.9,
-          "tier": "PRATA",
-          "titulo": "Portátil HP Gaming Victus 15-FB3054NP 15.6\" R5-7535HS 16GB/512GB RTX 3050 Windows 11 Preto",
-          "url": "https://www.tek4life.pt/products/portatil-hp-gaming-victus-15-fb3054np-15-6-r5-7535hs-16gb-512gb-rtx-3050-windows-11-preto?variant=58431311053183",
-          "value_score": 101.2
-        },
-        {
-          "loja": "MEO",
-          "price": 1099.99,
-          "tier": "PRATA",
-          "titulo": "Victus 15-fb3054np Gaming (15,6\", Ryzen 5 7535HS, 16GB, 512GB SSD, RTX 3050)",
-          "url": "https://loja.meo.pt/comprar/pcs/hp/victus-15-fb3054np-gaming",
-          "value_score": 97.8
-        }
-      ],
-      "spread_eur": 190.09,
-      "stores": [
-        "MEO",
-        "Tek4life"
-      ]
-    },
-    {
-      "best_price": 1289.9,
-      "best_store": "Tek4life",
-      "configuration_key": "ean:0199276826244",
-      "offers": [
-        {
-          "loja": "Tek4life",
-          "price": 1289.9,
-          "tier": "PRATA",
-          "titulo": "Portátil Lenovo LOQ Gaming 15IRX10-244 15.6\" i7 16GB/512GB RTX 5060 Cinzento s/ Sistema Operativo",
-          "url": "https://www.tek4life.pt/products/portatil-lenovo-loq-gaming-15irx10-244-15-6-i7-16gb-512gb-rtx-5060-cinzento-s-sistema-operativo?variant=58195194511743",
-          "value_score": 100.7
-        },
-        {
-          "loja": "Globaldata",
-          "price": 1299.0,
+          "loja": "Novo Atalho",
+          "price": 1299.9,
           "tier": "OURO",
-          "titulo": "Portátil Lenovo LOQ 15IRX10-244 15.6\" i7-13645HX 16GB DDR5 512GB RTX 5060 144Hz",
-          "url": "https://www.globaldata.pt/portatil-lenovo-loq-15irx10-244-15.6-i7-13645hx-16gb-ddr5-512gb-rtx-5060-144hz/83JE01KTPG.html",
-          "value_score": 113.8
-        }
-      ],
-      "spread_eur": 9.1,
-      "stores": [
-        "Globaldata",
-        "Tek4life"
-      ]
-    },
-    {
-      "best_price": 1399.0,
-      "best_store": "Globaldata",
-      "configuration_key": "ean:4711636591652",
-      "offers": [
-        {
-          "loja": "Globaldata",
-          "price": 1399.0,
-          "tier": "PRATA",
-          "titulo": "Portátil ASUS VivoBook 18 M1807GA-A73BLHDAS02 18\" Ryzen AI 7 445 32GB 512GB Radeon Graphics (sem carregador)",
-          "url": "https://www.globaldata.pt/portatil-asus-vivobook-18-m1807ga-a73blhdas02-18-ryzen-ai-7-445-32gb-512gb-radeon-graphics-sem-carregador/90NB17Y1-M008N0.html",
-          "value_score": 103.2
+          "titulo": "Portátil Lenovo LOQ Gaming Essential 15ARP11-675 15.6\" R7 16GB SSD 1TB RTX 5060 Cinza",
+          "url": "https://www.novoatalho.pt/port%C3%A1til-lenovo-loq-gaming-essential-15arp11-675-156-r7-16gb-ssd-1tb-rtx-5060-cinza-0199275234675-83va001upg",
+          "value_score": 115.0
         },
         {
           "loja": "UPTECHBOX",
-          "price": 1399.99,
-          "tier": "PRATA",
-          "titulo": "Portátil Asus Vivobook 18 M1807GA — Ryzen AI 7 445 | 32GB DDR5 | 512GB SSD | 18\" WUXGA 144Hz | Sem OS | Sem carregador",
-          "url": "https://www.uptechbox.com/collections/computadores-portateis-notebooks/products/portatil-asus-vivobook-18-m1807ga-amd-ryzen-ai-7-445-32gb-ddr5-512gb-ssd-18wuxga-s-so",
-          "value_score": 93.2
+          "price": 1299.99,
+          "tier": "OURO",
+          "titulo": "Portátil Gaming Lenovo LOQ Essential 15ARP11 — Ryzen 7 170 + RTX 5060 8GB GDDR7 | 16GB DDR5 | 1TB SSD | 144Hz | Sem OS",
+          "url": "https://www.uptechbox.com/products/lenovo-loq-essential-15arp11-ryzen-7-170-rtx-5060-gaming-144hz",
+          "value_score": 114.0
         }
       ],
-      "spread_eur": 0.99,
+      "spread_eur": 0.09,
       "stores": [
-        "Globaldata",
+        "Novo Atalho",
         "UPTECHBOX"
       ]
     }
   ],
-  "exact_pairs": 9,
-  "generated_at": "2026-11-27T07:49:58.124346Z",
+  "exact_pairs": 18,
+  "generated_at": "2026-11-27T21:01:46.254891Z",
   "identities": [
     {
-      "identity": "ean:0199276276148",
+      "identity": "ean:0199275205064",
       "offers": [
         {
-          "cpu": "r7 7445hs",
-          "ean": "0199276276148",
-          "gpu": "rtx 3050",
-          "mpn": "83DX00FKPG",
+          "cpu": null,
+          "ean": "0199275205064",
+          "gpu": "integrada",
+          "mpn": null,
+          "price": 649.0,
+          "ram_gb": 16,
+          "refresh_hz": null,
+          "resolution": "fhd+",
+          "storage_tb": 0.5,
+          "store": "FNAC",
+          "title": "Computador Portátil Lenovo IdeaPad Slim 3 15Q8X10-064 | 15,3'' | Qualcomm Snapdragon X X1-26-100 | 16GB | 512GB SSD",
+          "url": "https://www.fnac.pt/LENOVO-IPS3X-15Q8X10-X1-16-512-SC-Computador-Portatil-Computador-Portatil/a14603783"
+        },
+        {
+          "cpu": null,
+          "ean": "0199275205064",
+          "gpu": "integrada",
+          "mpn": null,
+          "price": 649.0,
+          "ram_gb": 16,
+          "refresh_hz": null,
+          "resolution": "fhd+",
+          "storage_tb": 0.5,
+          "store": "Darty",
+          "title": "Computador Portátil Lenovo IdeaPad Slim 3 15Q8X10-064 | 15,3'' | Qualcomm Snapdragon X X1-26-100 | 16GB | 512GB SSD",
+          "url": "https://darty.pt/products/computador-portatil-lenovo-ideapad-slim-3-15q8x10-064-15-3-qualcomm-snapdragon-x-x1-26-100-16gb-512gb-ssd-0199275205064"
+        }
+      ],
+      "stores": [
+        "Darty",
+        "FNAC"
+      ]
+    },
+    {
+      "identity": "ean:0199275936708",
+      "offers": [
+        {
+          "cpu": null,
+          "ean": "0199275936708",
+          "gpu": "desconhecida",
+          "mpn": null,
+          "price": 1199.0,
+          "ram_gb": 32,
+          "refresh_hz": 165,
+          "resolution": "qhd+",
+          "storage_tb": 1.0,
+          "store": "FNAC",
+          "title": "Computador Portátil Lenovo IdeaPad Slim 5 15Q8Y11-708 Copilot+ PC | 15.3\" | Snapdragon® X2 Plus | 32GB | 1TB SSD",
+          "url": "https://www.fnac.pt/Computador-Portatil-Lenovo-IdeaPad-Slim-5-15Q8Y11-708-Copilot-PC-15-3-Snapdragon-X2-Plus-32GB-1TB-SSD-Computador-Portatil-Computador-Portatil/a14260778"
+        },
+        {
+          "cpu": null,
+          "ean": "0199275936708",
+          "gpu": "desconhecida",
+          "mpn": null,
+          "price": 1199.0,
+          "ram_gb": 32,
+          "refresh_hz": 165,
+          "resolution": "qhd+",
+          "storage_tb": 1.0,
+          "store": "Darty",
+          "title": "Computador Portátil Lenovo IdeaPad Slim 5 15Q8Y11-708 Copilot+ PC | 15.3\" | Snapdragon® X2 Plus | 32GB | 1TB SSD",
+          "url": "https://darty.pt/products/computador-portatil-lenovo-ideapad-slim-5-15q8y11-708-copilot-pc-15-3-snapdragon-x2-plus-32gb-1tb-ssd-0199275936708"
+        }
+      ],
+      "stores": [
+        "Darty",
+        "FNAC"
+      ]
+    },
+    {
+      "identity": "ean:0199276807205",
+      "offers": [
+        {
+          "cpu": "ryzen 7 5825u",
+          "ean": "0199276807205",
+          "gpu": "desconhecida",
+          "mpn": null,
+          "price": 699.0,
+          "ram_gb": 16,
+          "refresh_hz": null,
+          "resolution": "fhd",
+          "storage_tb": 0.5,
+          "store": "FNAC",
+          "title": "Computador Portátil Lenovo IdeaPad Slim 3 15ABR8-205 | 15,6'' | AMD Ryzen™ 7 5825U | 16GB | 512GB SSD",
+          "url": "https://www.fnac.pt/LENOVO-IPS3-15ABR8-R7-16-512-SC-Computador-Portatil-Computador-Portatil/a14737473"
+        },
+        {
+          "cpu": "ryzen 7 5825u",
+          "ean": "0199276807205",
+          "gpu": "desconhecida",
+          "mpn": null,
+          "price": 699.0,
+          "ram_gb": 16,
+          "refresh_hz": null,
+          "resolution": "fhd",
+          "storage_tb": 0.5,
+          "store": "Darty",
+          "title": "Computador Portátil Lenovo IdeaPad Slim 3 15ABR8-205 | 15,6'' | AMD Ryzen™ 7 5825U | 16GB | 512GB SSD",
+          "url": "https://darty.pt/products/computador-portatil-lenovo-ideapad-slim-3-15abr8-205-15-6-amd-ryzen-7-5825u-16gb-512gb-ssd-0199276807205"
+        }
+      ],
+      "stores": [
+        "Darty",
+        "FNAC"
+      ]
+    },
+    {
+      "identity": "ean:0199276826169",
+      "offers": [
+        {
+          "cpu": "core 7 350",
+          "ean": "0199276826169",
+          "gpu": "desconhecida",
+          "mpn": null,
+          "price": 799.0,
+          "ram_gb": 16,
+          "refresh_hz": 60,
+          "resolution": "fhd+",
+          "storage_tb": 0.5,
+          "store": "FNAC",
+          "title": "Computador Portátil Lenovo \tIdeaPad Slim 3 15IWC11-169 | 15,3'' | Intel® Core™ 7 350 | 16GB | 512GB SSD",
+          "url": "https://www.fnac.pt/Computador-Portatil-Lenovo-IdeaPad-Slim-3-15IWC11-169-15-3-Intel-Core-7-350-16GB-512GB-SSD-Computador-Portatil-Computador-Portatil/a14603788"
+        },
+        {
+          "cpu": "core 7 350",
+          "ean": "0199276826169",
+          "gpu": "desconhecida",
+          "mpn": null,
+          "price": 799.0,
+          "ram_gb": 16,
+          "refresh_hz": 60,
+          "resolution": "fhd+",
+          "storage_tb": 0.5,
+          "store": "Darty",
+          "title": "Computador Portátil Lenovo \tIdeaPad Slim 3 15IWC11-169 | 15,3'' | Intel® Core™ 7 350 | 16GB | 512GB SSD",
+          "url": "https://darty.pt/products/computador-portatil-lenovo-ideapad-slim-3-15iwc11-169-15-3-intel-core-7-350-16gb-512gb-ssd-0199276826169"
+        }
+      ],
+      "stores": [
+        "Darty",
+        "FNAC"
+      ]
+    },
+    {
+      "identity": "ean:0199276828934",
+      "offers": [
+        {
+          "cpu": "ryzen ai 7 445",
+          "ean": "0199276828934",
+          "gpu": "radeon 840m",
+          "mpn": null,
           "price": 999.0,
           "ram_gb": 16,
-          "refresh_hz": 144,
-          "resolution": "fhd",
+          "refresh_hz": 60,
+          "resolution": "fhd+",
           "storage_tb": 0.5,
-          "store": "Globaldata",
-          "title": "Portátil Lenovo LOQ 15AHP9-148 15.6\" R7 7445HS 16GB DDR5 512GB RTX 3050 144Hz",
-          "url": "https://www.globaldata.pt/portatil-lenovo-loq-15ahp9-148-15.6-r7-7445hs-16gb-ddr5-512gb-rtx-3050-144hz/83DX00FKPG.html"
+          "store": "FNAC",
+          "title": "Computador Portátil Lenovo Yoga 7 2-in-1 14AGP11-934 | 14'' | AMD Ryzen™ AI 7 445 | 16GB | 512GB SSD",
+          "url": "https://www.fnac.pt/LENOVO-Y7-14AGP-OLE-R7-16-512-P-SC-Computador-Portatil-Computador-Portatil/a14603792"
         },
         {
-          "cpu": null,
-          "ean": "0199276276148",
-          "gpu": "rtx 3050",
-          "mpn": "83DX00FKPG",
-          "price": 989.9,
+          "cpu": "ryzen ai 7 445",
+          "ean": "0199276828934",
+          "gpu": "radeon 840m",
+          "mpn": null,
+          "price": 999.0,
           "ram_gb": 16,
-          "refresh_hz": null,
-          "resolution": null,
+          "refresh_hz": 60,
+          "resolution": "fhd+",
           "storage_tb": 0.5,
-          "store": "Tek4life",
-          "title": "Portátil Lenovo LOQ Gaming 15AHP9-148 15.6\" R7 16GB/512GB RTX 3050 Cinzento s/ Sistema Operativo",
-          "url": "https://www.tek4life.pt/products/portatil-lenovo-loq-gaming-15ahp9-148-15-6-r7-16gb-512gb-rtx-3050-cinzento-s-sistema-operativo?variant=58060629934463"
+          "store": "Darty",
+          "title": "Computador Portátil Lenovo Yoga 7 2-in-1 14AGP11-934 | 14'' | AMD Ryzen™ AI 7 445 | 16GB | 512GB SSD",
+          "url": "https://darty.pt/products/computador-portatil-lenovo-yoga-7-2-in-1-14agp11-934-14-amd-ryzen-ai-7-445-16gb-512gb-ssd-0199276828934"
         }
       ],
       "stores": [
-        "Globaldata",
-        "Tek4life"
+        "Darty",
+        "FNAC"
       ]
     },
     {
-      "identity": "ean:0199276818348",
+      "identity": "ean:0826581281177",
       "offers": [
         {
-          "cpu": "ryzen 7 250",
-          "ean": "0199276818348",
-          "gpu": "rtx 5050",
-          "mpn": "83JG00H2PG",
-          "price": 1199.9,
-          "ram_gb": 16,
-          "refresh_hz": 144,
+          "cpu": "core ultra 5 225u",
+          "ean": "0826581281177",
+          "gpu": "desconhecida",
+          "mpn": null,
+          "price": 699.0,
+          "ram_gb": 24,
+          "refresh_hz": null,
           "resolution": "fhd",
-          "storage_tb": 0.5,
-          "store": "Tek4life",
-          "title": "Portátil Lenovo LOQ Gaming 15AHP10-348 15.6\" R7-250 16GB/512BG RTX5050 Cinzento s/ Sistema Operativo",
-          "url": "https://www.tek4life.pt/products/portatil-lenovo-loq-gaming-15ahp10-348-15-6-r7-250-16gb-512bg-rtx5050-cinzento-s-sistema-operativo?variant=58400481542527"
+          "storage_tb": 1.0,
+          "store": "FNAC",
+          "title": "Computador Portátil HP AI 15-fd2004npx | 15,6'' | Intel® Core™ Ultra 5 225U | 24GB | 512GB SSD | Free DOS",
+          "url": "https://www.fnac.pt/Computador-Portatil-HP-AI-15-fd2004npx-15-6-Intel-Core-Ultra-5-225U-24GB-1TB-SSD-Free-DOS-Computador-Portatil-Computador-Portatil/a14231862"
         },
         {
-          "cpu": "ryzen 7 250",
-          "ean": "0199276818348",
-          "gpu": "rtx 5050",
-          "mpn": "83JG00H2PG",
+          "cpu": "core ultra 5 225u",
+          "ean": "0826581281177",
+          "gpu": "desconhecida",
+          "mpn": null,
+          "price": 699.0,
+          "ram_gb": 24,
+          "refresh_hz": null,
+          "resolution": "fhd",
+          "storage_tb": 0.5,
+          "store": "Darty",
+          "title": "Computador Portátil HP AI 15-fd2004npx | 15,6'' | Intel® Core™ Ultra 5 225U | 24GB | 512GB SSD | Free DOS",
+          "url": "https://darty.pt/products/computador-portatil-hp-ai-15-fd2004npx-15-6-intel-core-ultra-5-225u-24gb-512gb-ssd-free-dos-0826581281177"
+        }
+      ],
+      "stores": [
+        "Darty",
+        "FNAC"
+      ]
+    },
+    {
+      "identity": "ean:0826581362135",
+      "offers": [
+        {
+          "cpu": "ryzen ai 5 340",
+          "ean": "0826581362135",
+          "gpu": "radeon 840m",
+          "mpn": null,
+          "price": 999.99,
+          "ram_gb": 16,
+          "refresh_hz": null,
+          "resolution": "fhd+",
+          "storage_tb": 0.5,
+          "store": "FNAC",
+          "title": "Computador Portátil HP OmniBook X Flip 2-in-1 Next Gen AI 14-fk0000npx | 14\" | AMD Ryzen™ AI 5 340 | 16GB | 512GB SSD",
+          "url": "https://www.fnac.pt/Computador-Portatil-HP-OmniBook-X-Flip-2-in-1-Next-Gen-AI-14-fk0000npx-14-AMD-Ryzen-AI-5-340-16GB-512GB-SSD-Computador-Portatil-Computador-Portatil/a14231861"
+        },
+        {
+          "cpu": "ryzen ai 5 340",
+          "ean": "0826581362135",
+          "gpu": "radeon 840m",
+          "mpn": null,
+          "price": 999.99,
+          "ram_gb": 16,
+          "refresh_hz": null,
+          "resolution": "fhd+",
+          "storage_tb": 0.5,
+          "store": "Darty",
+          "title": "Computador Portátil HP OmniBook X Flip 2-in-1 Next Gen AI 14-fk0000npx | 14\" | AMD Ryzen™ AI 5 340 | 16GB | 512GB SSD",
+          "url": "https://darty.pt/products/computador-portatil-hp-omnibook-x-flip-2-in-1-next-gen-ai-14-fk0000npx-14-amd-ryzen-ai-5-340-16gb-512gb-ssd-0826581362135"
+        }
+      ],
+      "stores": [
+        "Darty",
+        "FNAC"
+      ]
+    },
+    {
+      "identity": "ean:0881767340109",
+      "offers": [
+        {
+          "cpu": null,
+          "ean": "0881767340109",
+          "gpu": "desconhecida",
+          "mpn": null,
+          "price": 799.0,
+          "ram_gb": 16,
+          "refresh_hz": null,
+          "resolution": "fhd+",
+          "storage_tb": 0.5,
+          "store": "FNAC",
+          "title": "Computador Portátil HP OmniBook 5 Flip 14-fp0010npx | 14\" | Intel® Core™ 5 120U | 16GB | 512GB SSD",
+          "url": "https://www.fnac.pt/Computador-Portatil-HP-OmniBook-5-Flip-14-fp0010npx-14-Intel-Core-5-120U-16GB-512GB-SSD-Computador-Portatil-Computador-Portatil/a14775608"
+        },
+        {
+          "cpu": null,
+          "ean": "0881767340109",
+          "gpu": "desconhecida",
+          "mpn": null,
+          "price": 799.0,
+          "ram_gb": 16,
+          "refresh_hz": null,
+          "resolution": "fhd+",
+          "storage_tb": 0.5,
+          "store": "Darty",
+          "title": "Computador Portátil HP OmniBook 5 Flip 14-fp0010npx | 14\" | Intel® Core™ 5 120U | 16GB | 512GB SSD",
+          "url": "https://darty.pt/products/computador-portatil-hp-omnibook-5-flip-14-fp0010npx-14-intel-core-5-120u-16gb-512gb-ssd-0881767340109"
+        }
+      ],
+      "stores": [
+        "Darty",
+        "FNAC"
+      ]
+    },
+    {
+      "identity": "ean:0881767371264",
+      "offers": [
+        {
+          "cpu": "ryzen 7 160",
+          "ean": "0881767371264",
+          "gpu": "radeon 680m",
+          "mpn": null,
+          "price": 999.0,
+          "ram_gb": 24,
+          "refresh_hz": null,
+          "resolution": "fhd+",
+          "storage_tb": 1.0,
+          "store": "FNAC",
+          "title": "Computador Portátil HP OmniBook 3 16-by0010npx | OLED 16\" | AMD Ryzen 7 160 | 24GB | 1TB SSD",
+          "url": "https://www.fnac.pt/Computador-Portatil-HP-OmniBook-3-16-by0010npx-OLED-16-AMD-Ryzen-7-160-24GB-1TB-SSD-Computador-Portatil-Computador-Portatil/a14775609"
+        },
+        {
+          "cpu": "ryzen 7 160",
+          "ean": "0881767371264",
+          "gpu": "radeon 680m",
+          "mpn": null,
+          "price": 999.0,
+          "ram_gb": 24,
+          "refresh_hz": null,
+          "resolution": "fhd+",
+          "storage_tb": 1.0,
+          "store": "Darty",
+          "title": "Computador Portátil HP OmniBook 3 16-by0010npx | OLED 16\" | AMD Ryzen 7 160 | 24GB | 1TB SSD",
+          "url": "https://darty.pt/products/computador-portatil-hp-omnibook-3-16-by0010npx-oled-16-amd-ryzen-7-160-24gb-1tb-ssd-0881767371264"
+        }
+      ],
+      "stores": [
+        "Darty",
+        "FNAC"
+      ]
+    },
+    {
+      "identity": "ean:0885981299236",
+      "offers": [
+        {
+          "cpu": "core ultra 7 256v",
+          "ean": "0885981299236",
+          "gpu": "intel arc graphics 140v",
+          "mpn": null,
+          "price": 999.0,
+          "ram_gb": 16,
+          "refresh_hz": null,
+          "resolution": "fhd",
+          "storage_tb": 0.5,
+          "store": "FNAC",
+          "title": "Computador Portátil HP OmniBook 7 17-dc0000npx | 17,3'' | Intel® Core™ Ultra 7 256V | 16GB | 512GB SSD",
+          "url": "https://www.fnac.pt/Computador-Portatil-HP-OmniBook-7-17-dc0000npx-17-3-Intel-Core-Ultra-7-256V-16GB-512GB-SSD-Computador-Portatil-Computador-Portatil/a14584584"
+        },
+        {
+          "cpu": "core ultra 7 256v",
+          "ean": "0885981299236",
+          "gpu": "intel arc graphics 140v",
+          "mpn": null,
+          "price": 999.0,
+          "ram_gb": 16,
+          "refresh_hz": null,
+          "resolution": "fhd",
+          "storage_tb": 0.5,
+          "store": "Darty",
+          "title": "Computador Portátil HP OmniBook 7 17-dc0000npx | 17,3'' | Intel® Core™ Ultra 7 256V | 16GB | 512GB SSD",
+          "url": "https://darty.pt/products/computador-portatil-hp-omnibook-7-17-dc0000npx-17-3-intel-core-ultra-7-256v-16gb-512gb-ssd-0885981299236"
+        }
+      ],
+      "stores": [
+        "Darty",
+        "FNAC"
+      ]
+    },
+    {
+      "identity": "ean:2200028118833",
+      "offers": [
+        {
+          "cpu": "core ultra 5 322",
+          "ean": "2200028118833",
+          "gpu": "desconhecida",
+          "mpn": null,
+          "price": 999.0,
+          "ram_gb": 16,
+          "refresh_hz": 60,
+          "resolution": "fhd+",
+          "storage_tb": 0.5,
+          "store": "FNAC",
+          "title": "Pack Computador Portátil Lenovo IdeaPad 5 2-em-1 14IPH11-213 | 14\" | Intel Core™ Ultra 5 322 | 16GB | 512GB SSD + Mochila + Rato + Pen",
+          "url": "https://www.fnac.pt/Pack-Fnac-Computador-Portatil-Lenovo-IdeaPad-5-2-em-1-14IPH11-213-14-Intel-Core-Ultra-5-322-16GB-512GB-SSD-Mochila-Rato-Pen-Computador-Portatil-Computador-Portatil/a14444621"
+        },
+        {
+          "cpu": "core ultra 5 322",
+          "ean": "2200028118833",
+          "gpu": "desconhecida",
+          "mpn": null,
+          "price": 999.0,
+          "ram_gb": 16,
+          "refresh_hz": 60,
+          "resolution": "fhd+",
+          "storage_tb": 0.5,
+          "store": "Darty",
+          "title": "Pack Computador Portátil Lenovo IdeaPad 5 2-em-1 14IPH11-213 | 14\" | Intel Core™ Ultra 5 322 | 16GB | 512GB SSD + Mochila + Rato + Pen",
+          "url": "https://darty.pt/products/pack-computador-portatil-lenovo-ideapad-5-2-em-1-14iph11-213-14-intel-core-ultra-5-322-16gb-512gb-ssd-mochila-rato-pen-2200028118833"
+        }
+      ],
+      "stores": [
+        "Darty",
+        "FNAC"
+      ]
+    },
+    {
+      "identity": "ean:4711387864982",
+      "offers": [
+        {
+          "cpu": null,
+          "ean": "4711387864982",
+          "gpu": "desconhecida",
+          "mpn": null,
+          "price": 979.0,
+          "ram_gb": 32,
+          "refresh_hz": 60,
+          "resolution": "fhd+",
+          "storage_tb": 0.5,
+          "store": "FNAC",
+          "title": "Computador Portátil Asus Zenbook A14 UX3407QA-X1PAOHDGB1 | 14\" | Snapdragon® X X1-26-100 | 32GB | 512GB SSD",
+          "url": "https://www.fnac.pt/Computador-Portatil-Asus-Zenbook-A14-UX3407QA-X1PAOHDGB1-14-Snapdragon-X-X1-26-100-32GB-512GB-SSD-Computador-Portatil-Computador-Portatil/a12601324"
+        },
+        {
+          "cpu": null,
+          "ean": "4711387864982",
+          "gpu": "desconhecida",
+          "mpn": null,
+          "price": 979.0,
+          "ram_gb": 32,
+          "refresh_hz": 60,
+          "resolution": "fhd+",
+          "storage_tb": 0.5,
+          "store": "Darty",
+          "title": "Computador Portátil Asus Zenbook A14 UX3407QA-X1PAOHDGB1 | 14\" | Snapdragon® X X1-26-100 | 32GB | 512GB SSD",
+          "url": "https://darty.pt/products/asus-zb-a14-o-ux3407-x-x1-26-32-512"
+        }
+      ],
+      "stores": [
+        "Darty",
+        "FNAC"
+      ]
+    },
+    {
+      "identity": "ean:4711636578905",
+      "offers": [
+        {
+          "cpu": "core 9 270h",
+          "ean": "4711636578905",
+          "gpu": "desconhecida",
+          "mpn": "90NB13W3-M00ZC0",
           "price": 1199.0,
-          "ram_gb": 16,
-          "refresh_hz": 144,
-          "resolution": "fhd",
+          "ram_gb": 24,
+          "refresh_hz": 60,
+          "resolution": "fhd+",
           "storage_tb": 0.5,
           "store": "Globaldata",
-          "title": "Portátil Lenovo LOQ 15AHP10-348 15.6\" R7 250 16GB DDR5 512GB RTX 5050 FHD 144Hz",
-          "url": "https://www.globaldata.pt/portatil-lenovo-loq-15ahp10-348-15.6-r7-250-16gb-ddr5-512gb-rtx-5050-fhd-144hz/83JG00H2PG.html"
-        }
-      ],
-      "stores": [
-        "Globaldata",
-        "Tek4life"
-      ]
-    },
-    {
-      "identity": "ean:0199276826244",
-      "offers": [
-        {
-          "cpu": null,
-          "ean": "0199276826244",
-          "gpu": "rtx 5060",
-          "mpn": "83JE01KTPG",
-          "price": 1289.9,
-          "ram_gb": 16,
-          "refresh_hz": null,
-          "resolution": null,
-          "storage_tb": 0.5,
-          "store": "Tek4life",
-          "title": "Portátil Lenovo LOQ Gaming 15IRX10-244 15.6\" i7 16GB/512GB RTX 5060 Cinzento s/ Sistema Operativo",
-          "url": "https://www.tek4life.pt/products/portatil-lenovo-loq-gaming-15irx10-244-15-6-i7-16gb-512gb-rtx-5060-cinzento-s-sistema-operativo?variant=58195194511743"
+          "title": "Portátil ASUS VivoBook F1605VAPBF-94ALHDPB01 16\" Core 9 270H 24GB 512GB UMA UHD Graphics WUXGA W11 (sem carregador)",
+          "url": "https://www.globaldata.pt/portatil-asus-vivobook-f1605vapbf-94alhdpb01-16-core-9-270h-24gb-512gb-uma-uhd-graphics-wuxga-w11-sem-carregador/90NB13W3-M00ZC0.html"
         },
         {
-          "cpu": "i7-13645hx",
-          "ean": "0199276826244",
-          "gpu": "rtx 5060",
-          "mpn": "83JE01KTPG",
-          "price": 1299.0,
-          "ram_gb": 16,
-          "refresh_hz": 144,
-          "resolution": "fhd",
+          "cpu": "core 9 270h",
+          "ean": "4711636578905",
+          "gpu": "desconhecida",
+          "mpn": null,
+          "price": 1199.99,
+          "ram_gb": 24,
+          "refresh_hz": 60,
+          "resolution": "fhd+",
           "storage_tb": 0.5,
-          "store": "Globaldata",
-          "title": "Portátil Lenovo LOQ 15IRX10-244 15.6\" i7-13645HX 16GB DDR5 512GB RTX 5060 144Hz",
-          "url": "https://www.globaldata.pt/portatil-lenovo-loq-15irx10-244-15.6-i7-13645hx-16gb-ddr5-512gb-rtx-5060-144hz/83JE01KTPG.html"
+          "store": "UPTECHBOX",
+          "title": "Portátil Asus VivoBook 16 F1605VAP — Core 9 270H | 24GB DDR5 | 512GB SSD | 16\" WUXGA | Win 11 Home",
+          "url": "https://www.uptechbox.com/products/portatil-asus-vivobook-16-f1605vap-intel-core-9-16gb-ddr4-512gb-ssd-16-fhd-windows-11-home"
         }
       ],
       "stores": [
         "Globaldata",
-        "Tek4life"
+        "UPTECHBOX"
       ]
     },
     {
-      "identity": "ean:4711636393447",
+      "identity": "ean:4711636591638",
       "offers": [
         {
           "cpu": null,
-          "ean": "4711636393447",
+          "ean": "4711636591638",
           "gpu": "dedicada",
-          "mpn": "E1504FA-R50ALHDPB1",
-          "price": 599.0,
+          "mpn": "90NB0ZR2-M07XE0",
+          "price": 549.0,
           "ram_gb": 16,
           "refresh_hz": 60,
           "resolution": "fhd",
           "storage_tb": 0.5,
           "store": "Globaldata",
-          "title": "Portátil ASUS VivoBook Go E1504FA 15.6\" R5 40 16GB 512GB UHD Graphics FHD W11",
-          "url": "https://www.globaldata.pt/portatil-asus-vivobook-go-e1504fa-15.6-r5-40-16gb-512gb-uhd-graphics-fhd-w11/E1504FA-R50ALHDPB1.html"
+          "title": "Portátil ASUS VivoBook Go E1504FA-R50BLHDPS04 15.6\" R5 40 16GB 512GB Radeon Graphics FHD (sem carregador)",
+          "url": "https://www.globaldata.pt/portatil-asus-vivobook-go-e1504fa-r50blhdps04-15.6-r5-40-16gb-512gb-radeon-graphics-fhd-sem-carregador/90NB0ZR2-M07XE0.html"
         },
         {
           "cpu": null,
-          "ean": "4711636393447",
-          "gpu": "desconhecida",
+          "ean": "4711636591638",
+          "gpu": "integrada",
+          "mpn": "90NB0ZR2-M07XE0",
+          "price": 549.9,
+          "ram_gb": 16,
+          "refresh_hz": 60,
+          "resolution": "fhd",
+          "storage_tb": 0.5,
+          "store": "Novo Atalho",
+          "title": "Portátil Asus VivoBook GO E1504FA-R50BLHDPS04 15.6\" R5 16GB SSD 512GB AMD Radeon Graphics Preto (NoCharger)",
+          "url": "https://www.novoatalho.pt/port%C3%A1til-asus-vivobook-go-e1504fa-r50blhdps04-156-r5-16gb-ssd-512gb-amd-radeon-graphics-preto-nocharger-4711636591638-90nb0zr2-m07xe0"
+        }
+      ],
+      "stores": [
+        "Globaldata",
+        "Novo Atalho"
+      ]
+    },
+    {
+      "identity": "ean:4711636620826",
+      "offers": [
+        {
+          "cpu": "ryzen ai 7 445",
+          "ean": "4711636620826",
+          "gpu": "radeon 840m",
+          "mpn": "90NB1701-M003P0",
+          "price": 749.0,
+          "ram_gb": 16,
+          "refresh_hz": null,
+          "resolution": "fhd+",
+          "storage_tb": 0.5,
+          "store": "Globaldata",
+          "title": "Portátil ASUS VivoBook 14 M1407GA-A73BLHDAS01 14\" Ryzen AI 7 445 16GB 512GB Radeon Graphics WUXGA (sem carregador)",
+          "url": "https://www.globaldata.pt/portatil-asus-vivobook-14-m1407ga-a73blhdas01-14-ryzen-ai-7-445-16gb-512gb-radeon-graphics-wuxga-sem-carregador/90NB1701-M003P0.html"
+        },
+        {
+          "cpu": "ryzen ai 7 445",
+          "ean": "4711636620826",
+          "gpu": "radeon 840m",
           "mpn": null,
-          "price": 499.0,
+          "price": 749.99,
+          "ram_gb": 16,
+          "refresh_hz": null,
+          "resolution": "fhd+",
+          "storage_tb": 0.5,
+          "store": "UPTECHBOX",
+          "title": "Portátil Asus VivoBook 14 M1407GA - AMD Ryzen AI 7 445 | 16GB DDR5 | 512GB SSD | 14\"FHD+ | S/SO",
+          "url": "https://www.uptechbox.com/products/portatil-asus-vivobook-14-m1407ga-amd-ryzen-ai-7-445-16gb-ddr5-512gb-ssd-14fhd-s-so"
+        }
+      ],
+      "stores": [
+        "Globaldata",
+        "UPTECHBOX"
+      ]
+    },
+    {
+      "identity": "ean:4711636629744",
+      "offers": [
+        {
+          "cpu": "core 7 350",
+          "ean": "4711636629744",
+          "gpu": "integrada",
+          "mpn": null,
+          "price": 899.0,
+          "ram_gb": 16,
+          "refresh_hz": 60,
+          "resolution": "fhd",
+          "storage_tb": 0.5,
+          "store": "FNAC",
+          "title": "Computador Portátil Asus Vivobook 15 F1504MA-C73CLHDAB01 | 15,6'' | Intel Core 7 350 | 16GB | 512GB SSD",
+          "url": "https://www.fnac.pt/ASUS-VB15-F1504MA-C7-16-512-SC-Computador-Portatil-Computador-Portatil/a14840284"
+        },
+        {
+          "cpu": "core 7 350",
+          "ean": "4711636629744",
+          "gpu": "integrada",
+          "mpn": null,
+          "price": 899.0,
           "ram_gb": 16,
           "refresh_hz": 60,
           "resolution": "fhd",
           "storage_tb": 0.5,
           "store": "Darty",
-          "title": "Computador Portátil Asus Vivobook Go 15 E1504FA-R50ALHDPB1 | 15,6'' | AMD Ryzen™ 5 40 | 16GB | 512GB SSD",
-          "url": "https://darty.pt/products/computador-portatil-asus-vivobook-go-15-e1504fa-r50alhdpb1-15-6-amd-ryzen-5-40-16gb-512gb-ssd-4711636393447"
+          "title": "Computador Portátil Asus Vivobook 15 F1504MA-C73CLHDAB01 | 15,6'' | Intel Core 7 350 | 16GB | 512GB SSD",
+          "url": "https://darty.pt/products/computador-portatil-asus-vivobook-15-f1504ma-c73clhdab01-15-6-intel-core-7-350-16gb-512gb-ssd-4711636629744"
         }
       ],
       "stores": [
         "Darty",
-        "Globaldata"
-      ]
-    },
-    {
-      "identity": "ean:4711636591652",
-      "offers": [
-        {
-          "cpu": "ryzen ai 7 445",
-          "ean": "4711636591652",
-          "gpu": "radeon 840m",
-          "mpn": null,
-          "price": 1399.99,
-          "ram_gb": 32,
-          "refresh_hz": 144,
-          "resolution": "fhd+",
-          "storage_tb": 0.5,
-          "store": "UPTECHBOX",
-          "title": "Portátil Asus Vivobook 18 M1807GA — Ryzen AI 7 445 | 32GB DDR5 | 512GB SSD | 18\" WUXGA 144Hz | Sem OS | Sem carregador",
-          "url": "https://www.uptechbox.com/collections/computadores-portateis-notebooks/products/portatil-asus-vivobook-18-m1807ga-amd-ryzen-ai-7-445-32gb-ddr5-512gb-ssd-18wuxga-s-so"
-        },
-        {
-          "cpu": "ryzen ai 7 445",
-          "ean": "4711636591652",
-          "gpu": "radeon 840m",
-          "mpn": "90NB17Y1-M008N0",
-          "price": 1399.0,
-          "ram_gb": 32,
-          "refresh_hz": 144,
-          "resolution": "fhd+",
-          "storage_tb": 0.5,
-          "store": "Globaldata",
-          "title": "Portátil ASUS VivoBook 18 M1807GA-A73BLHDAS02 18\" Ryzen AI 7 445 32GB 512GB Radeon Graphics (sem carregador)",
-          "url": "https://www.globaldata.pt/portatil-asus-vivobook-18-m1807ga-a73blhdas02-18-ryzen-ai-7-445-32gb-512gb-radeon-graphics-sem-carregador/90NB17Y1-M008N0.html"
-        }
-      ],
-      "stores": [
-        "Globaldata",
-        "UPTECHBOX"
+        "FNAC"
       ]
     },
     {
@@ -618,21 +1530,21 @@
       ]
     },
     {
-      "identity": "cfg:omen 16-am0044np (16\" 2k, ultra 5-225h, 24gb, 1tb, rtx5060)|hp|omen|core ultra 5 225h|rtx 5060|ram:24|ssd:1.0|res:fhd+|hz:144",
+      "identity": "cfg:loq e 15arp11-661 (15.6\" fhd 144hz, ryzen 7 170, 16gb, 512gb, rtx5050)|lenovo|loq|ryzen 7 170|rtx 5050|ram:16|ssd:0.5|res:fhd|hz:144",
       "offers": [
         {
-          "cpu": "core ultra 5 225h",
+          "cpu": "ryzen 7 170",
           "ean": null,
-          "gpu": "rtx 5060",
+          "gpu": "rtx 5050",
           "mpn": null,
-          "price": 1399.99,
-          "ram_gb": 24,
+          "price": 1299.99,
+          "ram_gb": 16,
           "refresh_hz": 144,
-          "resolution": "fhd+",
-          "storage_tb": 1.0,
+          "resolution": "fhd",
+          "storage_tb": 0.5,
           "store": "MEO",
-          "title": "OMEN 16-am0044np (16\" 2K, Ultra 5-225H, 24GB, 1TB, RTX5060)",
-          "url": "https://loja.meo.pt/comprar/pcs/hp/omen-16-am0044np-16-2k-ultra-5-225h-24gb-1tb-rtx5060"
+          "title": "LOQ E 15ARP11-661 (15.6\" FHD 144Hz, Ryzen 7 170, 16GB, 512GB, RTX5050)",
+          "url": "https://loja.meo.pt/comprar/pcs/lenovo/loq-e-15arp11-661-15-6-fhd-144hz-ryzen-7-170-16gb-512gb-rtx5050"
         }
       ],
       "stores": [
@@ -706,28 +1618,6 @@
       ]
     },
     {
-      "identity": "cfg:portatil acer aspire lite al15-54p (15.6\" intel ultra 5 ram: 16gb 512gb ssd)|acer|aspire|core ultra 5 115u|integrada|ram:16|ssd:0.5|res:?|hz:?",
-      "offers": [
-        {
-          "cpu": "core ultra 5 115u",
-          "ean": null,
-          "gpu": "integrada",
-          "mpn": null,
-          "price": 549.99,
-          "ram_gb": 16,
-          "refresh_hz": null,
-          "resolution": null,
-          "storage_tb": 0.5,
-          "store": "Auchan",
-          "title": "portátil acer aspire lite al15-54p (15.6\" intel ultra 5 ram: 16gb 512gb ssd)",
-          "url": "https://www.auchan.pt/pt/tecnologia/informatica/computadores-portateis/portatil-acer-aspire-lite-al15-54p-%2815.6-intel-ultra-5-ram-16gb-512gb-ssd%29/4041885.html"
-        }
-      ],
-      "stores": [
-        "Auchan"
-      ]
-    },
-    {
       "identity": "cfg:victus 15-fb3054np gaming (15,6\", ryzen 5 7535hs, 16gb, 512gb ssd, rtx 3050)|hp|victus|ryzen 5 7535hs|rtx 3050|ram:16|ssd:0.5|res:fhd|hz:144",
       "offers": [
         {
@@ -794,64 +1684,6 @@
       ]
     },
     {
-      "identity": "ean:0197529122518",
-      "offers": [
-        {
-          "cpu": null,
-          "ean": "0197529122518",
-          "gpu": "rtx 4070",
-          "mpn": "82YA0079PG",
-          "price": 1499.9,
-          "ram_gb": 16,
-          "refresh_hz": null,
-          "resolution": null,
-          "storage_tb": 0.5,
-          "store": "Tek4life",
-          "title": "Portátil Lenovo Legion Slim 16IRH8-518 16\" i7 16GB/512GB RTX 4070 s/ Sistema Operativo",
-          "url": "https://www.tek4life.pt/products/portatil-lenovo-legion-slim-16irh8-518-16-i7-16gb-512gb-rtx-4070-s-sistema-operativo?variant=56430444839295"
-        }
-      ],
-      "stores": [
-        "Tek4life"
-      ]
-    },
-    {
-      "identity": "ean:0197531673404",
-      "offers": [
-        {
-          "cpu": "core ultra 9 185h",
-          "ean": "0197531673404",
-          "gpu": "desconhecida",
-          "mpn": null,
-          "price": 899.0,
-          "ram_gb": 16,
-          "refresh_hz": null,
-          "resolution": "fhd+",
-          "storage_tb": null,
-          "store": "UPTECHBOX",
-          "title": "Portátil Lenovo IdeaPad Slim 5i 14IMH10 — Core Ultra 9 185H + Intel Arc | 16GB DDR5 | 14\" WUXGA | Sem OS",
-          "url": "https://www.uptechbox.com/collections/computadores-portateis/products/portatil-lenovo-ideapad-slim-5i-14-core-ultra-9"
-        },
-        {
-          "cpu": "core ultra 9 185h",
-          "ean": "0197531673404",
-          "gpu": "desconhecida",
-          "mpn": null,
-          "price": 899.0,
-          "ram_gb": 16,
-          "refresh_hz": null,
-          "resolution": "fhd+",
-          "storage_tb": null,
-          "store": "UPTECHBOX",
-          "title": "Portátil Lenovo IdeaPad Slim 5i 14IMH10 — Core Ultra 9 185H + Intel Arc | 16GB DDR5 | 14\" WUXGA | Sem OS",
-          "url": "https://www.uptechbox.com/collections/computadores-portateis-notebooks/products/portatil-lenovo-ideapad-slim-5i-14-core-ultra-9"
-        }
-      ],
-      "stores": [
-        "UPTECHBOX"
-      ]
-    },
-    {
       "identity": "ean:0198701053002",
       "offers": [
         {
@@ -867,28 +1699,6 @@
           "store": "FNAC",
           "title": "Computador Portátil HP OmniBook X 14-fe0002np | 14\" | Snapdragon® X Elite X1E-78-100 | 32GB | 1TB SSD",
           "url": "https://www.fnac.pt/Computador-Portatil-HP-OmniBook-X-14-fe0002np-14-Snapdragon-X-Elite-X1E-78-100-32GB-1TB-SSD-Computador-Portatil-Computador-Portatil/a12097566"
-        }
-      ],
-      "stores": [
-        "FNAC"
-      ]
-    },
-    {
-      "identity": "ean:0199275205064",
-      "offers": [
-        {
-          "cpu": null,
-          "ean": "0199275205064",
-          "gpu": "integrada",
-          "mpn": null,
-          "price": 649.0,
-          "ram_gb": 16,
-          "refresh_hz": null,
-          "resolution": "fhd+",
-          "storage_tb": 0.5,
-          "store": "FNAC",
-          "title": "Computador Portátil Lenovo IdeaPad Slim 3 15Q8X10-064 | 15,3'' | Qualcomm Snapdragon X X1-26-100 | 16GB | 512GB SSD",
-          "url": "https://www.fnac.pt/LENOVO-IPS3X-15Q8X10-X1-16-512-SC-Computador-Portatil-Computador-Portatil/a14603783"
         }
       ],
       "stores": [
@@ -952,13 +1762,13 @@
           "refresh_hz": 144,
           "resolution": "fhd",
           "storage_tb": 0.5,
-          "store": "FNAC",
+          "store": "Darty",
           "title": "Computador Portátil Gaming Lenovo LOQ Essential 15ARP11 | 15,6\" | GeForce RTX 5050 | AMD Ryzen™ 7 170 | 16GB | 512GB SSD",
-          "url": "https://www.fnac.pt/LENOVO-LOQE-15ARP11-R7-16-512-5050-Computador-Portatil-Computador-Portatil-Gaming/a14333323"
+          "url": "https://darty.pt/products/computador-portatil-gaming-lenovo-loq-essential-15arp11-15-6-geforce-rtx-5050-amd-ryzen-7-170-16gb-512gb-ssd-0199275316661"
         }
       ],
       "stores": [
-        "FNAC"
+        "Darty"
       ]
     },
     {
@@ -1028,28 +1838,6 @@
       ]
     },
     {
-      "identity": "ean:0199275936708",
-      "offers": [
-        {
-          "cpu": null,
-          "ean": "0199275936708",
-          "gpu": "desconhecida",
-          "mpn": null,
-          "price": 1199.0,
-          "ram_gb": 32,
-          "refresh_hz": 165,
-          "resolution": "qhd+",
-          "storage_tb": 1.0,
-          "store": "FNAC",
-          "title": "Computador Portátil Lenovo IdeaPad Slim 5 15Q8Y11-708 Copilot+ PC | 15.3\" | Snapdragon® X2 Plus | 32GB | 1TB SSD",
-          "url": "https://www.fnac.pt/Computador-Portatil-Lenovo-IdeaPad-Slim-5-15Q8Y11-708-Copilot-PC-15-3-Snapdragon-X2-Plus-32GB-1TB-SSD-Computador-Portatil-Computador-Portatil/a14260778"
-        }
-      ],
-      "stores": [
-        "FNAC"
-      ]
-    },
-    {
       "identity": "ean:0199275936715",
       "offers": [
         {
@@ -1065,6 +1853,28 @@
           "store": "Globaldata",
           "title": "Portátil Lenovo IdeaPad Slim 5x 15Q8Y11-715 15,3” Snapdragon X2P-42-100 16GB DDR5 1TB WQXGA OLED 165Hz W11 (Sem Carregador)",
           "url": "https://www.globaldata.pt/portatil-lenovo-ideapad-slim-5x-15q8y11-715-15-3-snapdragon-x2p-42-100-16gb-ddr5-1tb-wqxga-oled-165hz-w11-sem-carregador/83RL000VPG.html"
+        }
+      ],
+      "stores": [
+        "Globaldata"
+      ]
+    },
+    {
+      "identity": "ean:0199276276148",
+      "offers": [
+        {
+          "cpu": "r7 7445hs",
+          "ean": "0199276276148",
+          "gpu": "rtx 3050",
+          "mpn": "83DX00FKPG",
+          "price": 999.0,
+          "ram_gb": 16,
+          "refresh_hz": 144,
+          "resolution": "fhd",
+          "storage_tb": 0.5,
+          "store": "Globaldata",
+          "title": "Portátil Lenovo LOQ 15AHP9-148 15.6\" R7 7445HS 16GB DDR5 512GB RTX 3050 144Hz",
+          "url": "https://www.globaldata.pt/portatil-lenovo-loq-15ahp9-148-15.6-r7-7445hs-16gb-ddr5-512gb-rtx-3050-144hz/83DX00FKPG.html"
         }
       ],
       "stores": [
@@ -1116,28 +1926,6 @@
       ]
     },
     {
-      "identity": "ean:0199276807205",
-      "offers": [
-        {
-          "cpu": "ryzen 7 5825u",
-          "ean": "0199276807205",
-          "gpu": "desconhecida",
-          "mpn": null,
-          "price": 699.0,
-          "ram_gb": 16,
-          "refresh_hz": null,
-          "resolution": "fhd",
-          "storage_tb": 0.5,
-          "store": "FNAC",
-          "title": "Computador Portátil Lenovo IdeaPad Slim 3 15ABR8-205 | 15,6'' | AMD Ryzen™ 7 5825U | 16GB | 512GB SSD",
-          "url": "https://www.fnac.pt/LENOVO-IPS3-15ABR8-R7-16-512-SC-Computador-Portatil-Computador-Portatil/a14737473"
-        }
-      ],
-      "stores": [
-        "FNAC"
-      ]
-    },
-    {
       "identity": "ean:0199276811486",
       "offers": [
         {
@@ -1153,6 +1941,28 @@
           "store": "Globaldata",
           "title": "Portátil Lenovo IdeaPad Slim 5 14AKP10-486 14\" Ryzen AI 7 350 32GB 1TB WUXGA OLED Radeon 860M (sem carregador)",
           "url": "https://www.globaldata.pt/portatil-lenovo-ideapad-slim-5-14akp10-486-14-ryzen-ai-7-350-32gb-1tb-wuxga-oled-radeon-860m-sem-carregador/83HX00DTPG.html"
+        }
+      ],
+      "stores": [
+        "Globaldata"
+      ]
+    },
+    {
+      "identity": "ean:0199276818348",
+      "offers": [
+        {
+          "cpu": "ryzen 7 250",
+          "ean": "0199276818348",
+          "gpu": "rtx 5050",
+          "mpn": "83JG00H2PG",
+          "price": 1199.0,
+          "ram_gb": 16,
+          "refresh_hz": 144,
+          "resolution": "fhd",
+          "storage_tb": 0.5,
+          "store": "Globaldata",
+          "title": "Portátil Lenovo LOQ 15AHP10-348 15.6\" R7 250 16GB DDR5 512GB RTX 5050 FHD 144Hz",
+          "url": "https://www.globaldata.pt/portatil-lenovo-loq-15ahp10-348-15.6-r7-250-16gb-ddr5-512gb-rtx-5050-fhd-144hz/83JG00H2PG.html"
         }
       ],
       "stores": [
@@ -1270,87 +2080,43 @@
       ]
     },
     {
-      "identity": "ean:0199276826169",
+      "identity": "ean:0821844127261",
       "offers": [
         {
-          "cpu": "core 7 350",
-          "ean": "0199276826169",
-          "gpu": "desconhecida",
-          "mpn": null,
-          "price": 799.0,
-          "ram_gb": 16,
-          "refresh_hz": 60,
-          "resolution": "fhd+",
-          "storage_tb": 0.5,
-          "store": "FNAC",
-          "title": "Computador Portátil Lenovo \tIdeaPad Slim 3 15IWC11-169 | 15,3'' | Intel® Core™ 7 350 | 16GB | 512GB SSD",
-          "url": "https://www.fnac.pt/Computador-Portatil-Lenovo-IdeaPad-Slim-3-15IWC11-169-15-3-Intel-Core-7-350-16GB-512GB-SSD-Computador-Portatil-Computador-Portatil/a14603788"
-        }
-      ],
-      "stores": [
-        "FNAC"
-      ]
-    },
-    {
-      "identity": "ean:0199276828934",
-      "offers": [
-        {
-          "cpu": "ryzen ai 7 445",
-          "ean": "0199276828934",
-          "gpu": "radeon 840m",
+          "cpu": "ryzen 7 7445h",
+          "ean": "0821844127261",
+          "gpu": "rtx 4050",
           "mpn": null,
           "price": 999.0,
           "ram_gb": 16,
-          "refresh_hz": 60,
-          "resolution": "fhd+",
-          "storage_tb": 0.5,
-          "store": "FNAC",
-          "title": "Computador Portátil Lenovo Yoga 7 2-in-1 14AGP11-934 | 14'' | AMD Ryzen™ AI 7 445 | 16GB | 512GB SSD",
-          "url": "https://www.fnac.pt/LENOVO-Y7-14AGP-OLE-R7-16-512-P-SC-Computador-Portatil-Computador-Portatil/a14603792"
-        }
-      ],
-      "stores": [
-        "FNAC"
-      ]
-    },
-    {
-      "identity": "ean:0199896471862",
-      "offers": [
-        {
-          "cpu": "ryzen 5 7535hs",
-          "ean": "0199896471862",
-          "gpu": "rtx 3050",
-          "mpn": "D36JMEA#AB9",
-          "price": 909.9,
-          "ram_gb": 16,
           "refresh_hz": 144,
           "resolution": "fhd",
-          "storage_tb": 0.5,
-          "store": "Tek4life",
-          "title": "Portátil HP Gaming Victus 15-FB3054NP 15.6\" R5-7535HS 16GB/512GB RTX 3050 Windows 11 Preto",
-          "url": "https://www.tek4life.pt/products/portatil-hp-gaming-victus-15-fb3054np-15-6-r5-7535hs-16gb-512gb-rtx-3050-windows-11-preto?variant=58431311053183"
+          "storage_tb": 1.0,
+          "store": "Darty",
+          "title": "Computador Portátil Gaming Victus by HP 15-fb3059np | 15.6\" | NVIDIA GeForce RTX™ 4050 | AMD Ryzen™ 7 7445H | 16GB | 1TB SSD",
+          "url": "https://darty.pt/products/computador-portatil-gaming-victus-by-hp-15-fb3059np-15-6-nvidia-geforce-rtx-4050-amd-ryzen-7-7445h-16gb-1tb-ssd-0821844127261"
         }
       ],
       "stores": [
-        "Tek4life"
+        "Darty"
       ]
     },
     {
-      "identity": "ean:0199896978392",
+      "identity": "ean:0821844152362",
       "offers": [
         {
-          "cpu": null,
-          "ean": "0199896978392",
-          "gpu": "desconhecida",
+          "cpu": "ryzen 5 240",
+          "ean": "0821844152362",
+          "gpu": "radeon 760m",
           "mpn": null,
-          "price": 849.99,
-          "ram_gb": 16,
-          "refresh_hz": null,
-          "resolution": "fhd",
+          "price": 1299.98,
+          "ram_gb": 24,
+          "refresh_hz": 165,
+          "resolution": "fhd+",
           "storage_tb": 1.0,
           "store": "FNAC",
-          "title": "Computador Portátil HP OmniBook 3 Next Gen AI 14-hz0001np | 14\" | Qualcomm® Snapdragon® X X1-26-100 | 16GB | 1TB SSD",
-          "url": "https://www.fnac.pt/Computador-Portatil-OmniBook-3-Next-Gen-AI-14-hz0001np-14-Qualcomm-Snapdragon-X-X1-26-100-16GB-1TB-SSD-Computador-Portatil-Computador-Portatil/a13890618"
+          "title": "Computador Portátil Gaming HP HyperX OMEN 15-gb0014npx | 15'' | GeForce RTX™ 5050 | AMD Ryzen™ 5 240 | 24GB | 1TB SSD",
+          "url": "https://www.fnac.pt/Computador-Portatil-Gaming-HP-HyperX-OMEN-15-gb0014npx-15-GeForce-RTX-5050-AMD-Ryzen-5-240-24GB-1TB-SSD-Computador-Portatil-Computador-Portatil-Gaming/a14290768"
         }
       ],
       "stores": [
@@ -1377,6 +2143,28 @@
       ],
       "stores": [
         "FNAC"
+      ]
+    },
+    {
+      "identity": "ean:0821844210772",
+      "offers": [
+        {
+          "cpu": null,
+          "ean": "0821844210772",
+          "gpu": "desconhecida",
+          "mpn": "D73PWEA#AB9",
+          "price": 659.9,
+          "ram_gb": 16,
+          "refresh_hz": null,
+          "resolution": "fhd+",
+          "storage_tb": 0.5,
+          "store": "Tek4life",
+          "title": "Portátil HP OmniBook 3 16-by0004npx 16\" R5 16GB/512GB Prateado s/ Sistema Operativo",
+          "url": "https://www.tek4life.pt/products/portatil-hp-omnibook-3-16-by0004npx-16-r5-16gb-512gb-prateado-s-sistema-operativo"
+        }
+      ],
+      "stores": [
+        "Tek4life"
       ]
     },
     {
@@ -1446,50 +2234,6 @@
       ]
     },
     {
-      "identity": "ean:0826581281177",
-      "offers": [
-        {
-          "cpu": "core ultra 5 225u",
-          "ean": "0826581281177",
-          "gpu": "desconhecida",
-          "mpn": null,
-          "price": 699.0,
-          "ram_gb": 24,
-          "refresh_hz": null,
-          "resolution": "fhd",
-          "storage_tb": 1.0,
-          "store": "FNAC",
-          "title": "Computador Portátil HP AI 15-fd2004npx | 15,6'' | Intel® Core™ Ultra 5 225U | 24GB | 512GB SSD | Free DOS",
-          "url": "https://www.fnac.pt/Computador-Portatil-HP-AI-15-fd2004npx-15-6-Intel-Core-Ultra-5-225U-24GB-1TB-SSD-Free-DOS-Computador-Portatil-Computador-Portatil/a14231862"
-        }
-      ],
-      "stores": [
-        "FNAC"
-      ]
-    },
-    {
-      "identity": "ean:0826581362135",
-      "offers": [
-        {
-          "cpu": "ryzen ai 5 340",
-          "ean": "0826581362135",
-          "gpu": "radeon 840m",
-          "mpn": null,
-          "price": 999.99,
-          "ram_gb": 16,
-          "refresh_hz": null,
-          "resolution": "fhd+",
-          "storage_tb": 0.5,
-          "store": "FNAC",
-          "title": "Computador Portátil HP OmniBook X Flip 2-in-1 Next Gen AI 14-fk0000npx | 14\" | AMD Ryzen™ AI 5 340 | 16GB | 512GB SSD",
-          "url": "https://www.fnac.pt/Computador-Portatil-HP-OmniBook-X-Flip-2-in-1-Next-Gen-AI-14-fk0000npx-14-AMD-Ryzen-AI-5-340-16GB-512GB-SSD-Computador-Portatil-Computador-Portatil/a14231861"
-        }
-      ],
-      "stores": [
-        "FNAC"
-      ]
-    },
-    {
       "identity": "ean:0828132836157",
       "offers": [
         {
@@ -1502,9 +2246,75 @@
           "refresh_hz": 60,
           "resolution": "fhd+",
           "storage_tb": 0.5,
-          "store": "FNAC",
+          "store": "Darty",
           "title": "Computador Portátil Lenovo Yoga Slim 7 14ILL11 - Aura Edition | OLED 14'' | Intel® Core™ Ultra 7 266V | 16GB | 512GB SSD + HUB + Sleeve + Rato",
-          "url": "https://www.fnac.pt/Computador-Portatil-Lenovo-Yoga-Slim-7-14ILL11-Aura-Edition-OLED-14-Intel-Core-Ultra-7-266V-16GB-512GB-SSD-HUB-Sleeve-Rato-Computador-Portatil-Computador-Portatil/a14763374"
+          "url": "https://darty.pt/products/computador-portatil-lenovo-yoga-slim-7-14ill11-aura-edition-oled-14-intel-core-ultra-7-266v-16gb-512gb-ssd-hub-sleeve-rato-0828132836157"
+        }
+      ],
+      "stores": [
+        "Darty"
+      ]
+    },
+    {
+      "identity": "ean:0828143115135",
+      "offers": [
+        {
+          "cpu": "core 7 230h",
+          "ean": "0828143115135",
+          "gpu": "rtx 3050",
+          "mpn": "83Y9007GPG",
+          "price": 1299.9,
+          "ram_gb": 16,
+          "refresh_hz": null,
+          "resolution": "fhd+",
+          "storage_tb": 0.5,
+          "store": "Novo Atalho",
+          "title": "Portátil Lenovo LOQ Gaming Essential 15IRH11E-135 15.3\" Core 7 230H 16GB SSD 512GB RTX 3050 W11 Home Cinza",
+          "url": "https://www.novoatalho.pt/port%C3%A1til-lenovo-loq-gaming-essential-15irh11e-135-153-core-7-230h-16gb-ssd-512gb-rtx-3050-w11-home-cinza-0828143115135-83y9007gpg"
+        }
+      ],
+      "stores": [
+        "Novo Atalho"
+      ]
+    },
+    {
+      "identity": "ean:0828143115166",
+      "offers": [
+        {
+          "cpu": "core 5 205h",
+          "ean": "0828143115166",
+          "gpu": "rtx 3050",
+          "mpn": "83Y9007HPG",
+          "price": 1199.9,
+          "ram_gb": 16,
+          "refresh_hz": null,
+          "resolution": "fhd+",
+          "storage_tb": 0.5,
+          "store": "Novo Atalho",
+          "title": "Portátil Lenovo LOQ Gaming Essential 15IRH11E-166 15.3\" Core 5 205H 16GB SSD 512GB RTX 3050 Cinza",
+          "url": "https://www.novoatalho.pt/port%C3%A1til-lenovo-loq-gaming-essential-15irh11e-166-153-core-5-205h-16gb-ssd-512gb-rtx-3050-cinza-0828143115166-83y9007hpg"
+        }
+      ],
+      "stores": [
+        "Novo Atalho"
+      ]
+    },
+    {
+      "identity": "ean:0828143354688",
+      "offers": [
+        {
+          "cpu": "core ultra 5 325",
+          "ean": "0828143354688",
+          "gpu": "desconhecida",
+          "mpn": null,
+          "price": 1299.99,
+          "ram_gb": 16,
+          "refresh_hz": 120,
+          "resolution": "qhd+",
+          "storage_tb": 0.5,
+          "store": "FNAC",
+          "title": "Computador Portátil Lenovo Googlebook 15IPH12 | 15,3'' | Intel® Core™ Ultra 5 325 | 16GB | 512GB SSD",
+          "url": "https://www.fnac.pt/Computador-Portatil-Lenovo-Googlebook-15IPH12-15-3-Intel-Core-Ultra-5-325-16GB-512GB-SSD-Computador-Portatil-Computador-Portatil/a14737475"
         }
       ],
       "stores": [
@@ -1556,28 +2366,6 @@
       ]
     },
     {
-      "identity": "ean:0881767340109",
-      "offers": [
-        {
-          "cpu": null,
-          "ean": "0881767340109",
-          "gpu": "desconhecida",
-          "mpn": null,
-          "price": 799.0,
-          "ram_gb": 16,
-          "refresh_hz": null,
-          "resolution": "fhd+",
-          "storage_tb": 0.5,
-          "store": "FNAC",
-          "title": "Computador Portátil HP OmniBook 5 Flip 14-fp0010npx | 14\" | Intel® Core™ 5 120U | 16GB | 512GB SSD",
-          "url": "https://www.fnac.pt/Computador-Portatil-HP-OmniBook-5-Flip-14-fp0010npx-14-Intel-Core-5-120U-16GB-512GB-SSD-Computador-Portatil-Computador-Portatil/a14775608"
-        }
-      ],
-      "stores": [
-        "FNAC"
-      ]
-    },
-    {
       "identity": "ean:0881767371486",
       "offers": [
         {
@@ -1593,28 +2381,6 @@
           "store": "FNAC",
           "title": "Computador Portátil HP OmniBook 3 AI 14-ht0005npx | 14\" | Intel® Core™ Ultra 5 225U | 24GB | 512GB SSD",
           "url": "https://www.fnac.pt/Computador-Portatil-HP-OmniBook-3-AI-14-ht0005npx-14-Intel-Core-Ultra-5-225U-24GB-512GB-SSD-Computador-Portatil-Computador-Portatil/a14775607"
-        }
-      ],
-      "stores": [
-        "FNAC"
-      ]
-    },
-    {
-      "identity": "ean:0885981299236",
-      "offers": [
-        {
-          "cpu": "core ultra 7 256v",
-          "ean": "0885981299236",
-          "gpu": "intel arc graphics 140v",
-          "mpn": null,
-          "price": 999.0,
-          "ram_gb": 16,
-          "refresh_hz": null,
-          "resolution": "fhd",
-          "storage_tb": 0.5,
-          "store": "FNAC",
-          "title": "Computador Portátil HP OmniBook 7 17-dc0000npx | 17,3'' | Intel® Core™ Ultra 7 256V | 16GB | 512GB SSD",
-          "url": "https://www.fnac.pt/Computador-Portatil-HP-OmniBook-7-17-dc0000npx-17-3-Intel-Core-Ultra-7-256V-16GB-512GB-SSD-Computador-Portatil-Computador-Portatil/a14584584"
         }
       ],
       "stores": [
@@ -1644,57 +2410,21 @@
       ]
     },
     {
-      "identity": "ean:197530408144",
+      "identity": "ean:198157289901",
       "offers": [
         {
-          "cpu": null,
-          "ean": "197530408144",
-          "gpu": "desconhecida",
+          "cpu": "ryzen 7 250",
+          "ean": "198157289901",
+          "gpu": "rtx 5060",
           "mpn": null,
-          "price": 499.99,
-          "ram_gb": null,
-          "refresh_hz": null,
-          "resolution": null,
-          "storage_tb": null,
-          "store": "UPTECHBOX",
-          "title": "Portátil Lenovo V15 G4",
-          "url": "https://www.uptechbox.com/collections/computadores-portateis/products/lenovo-v15-g4"
-        }
-      ],
-      "stores": [
-        "UPTECHBOX"
-      ]
-    },
-    {
-      "identity": "ean:198154809973",
-      "offers": [
-        {
-          "cpu": "core ultra 7 155h",
-          "ean": "198154809973",
-          "gpu": "desconhecida",
-          "mpn": null,
-          "price": 1099.99,
+          "price": 1499.99,
           "ram_gb": 32,
-          "refresh_hz": null,
-          "resolution": "fhd+",
+          "refresh_hz": 144,
+          "resolution": "fhd",
           "storage_tb": 1.0,
           "store": "UPTECHBOX",
-          "title": "Portátil Lenovo IdeaPad Slim 5 14IMH9 — Core Ultra 7 155H | 32GB | 1TB SSD | 14\" OLED WUXGA | Sem OS",
-          "url": "https://www.uptechbox.com/collections/computadores-portateis/products/lenovo-ideapad-slim-5-14imh9-intel-ultra-7-155h-32gb-lpddr5x-1tb-m2-nvme"
-        },
-        {
-          "cpu": "core ultra 7 155h",
-          "ean": "198154809973",
-          "gpu": "desconhecida",
-          "mpn": null,
-          "price": 1099.99,
-          "ram_gb": 32,
-          "refresh_hz": null,
-          "resolution": "fhd+",
-          "storage_tb": 1.0,
-          "store": "UPTECHBOX",
-          "title": "Portátil Lenovo IdeaPad Slim 5 14IMH9 — Core Ultra 7 155H | 32GB | 1TB SSD | 14\" OLED WUXGA | Sem OS",
-          "url": "https://www.uptechbox.com/collections/computadores-portateis-notebooks/products/lenovo-ideapad-slim-5-14imh9-intel-ultra-7-155h-32gb-lpddr5x-1tb-m2-nvme"
+          "title": "Portátil Gaming Lenovo LOQ 15AHP10 — Ryzen 7 250 + RTX 5060 | 144Hz G-SYNC",
+          "url": "https://www.uptechbox.com/products/lenovo-loq-15ahp10-ryzen-7-250-rtx-5060-gaming-144hz-g-sync"
         }
       ],
       "stores": [
@@ -1702,71 +2432,43 @@
       ]
     },
     {
-      "identity": "ean:199272357827",
-      "offers": [
-        {
-          "cpu": "ryzen 5 7520u",
-          "ean": "199272357827",
-          "gpu": "desconhecida",
-          "mpn": null,
-          "price": 599.99,
-          "ram_gb": 16,
-          "refresh_hz": null,
-          "resolution": "fhd",
-          "storage_tb": 0.5,
-          "store": "UPTECHBOX",
-          "title": "Portátil Lenovo IdeaPad Slim 3 15AMN8 — Ryzen 5 7520U | 16GB LPDDR5 | 512GB SSD | 15.6\" FHD | Win 11",
-          "url": "https://www.uptechbox.com/collections/computadores-portateis/products/lenovo-ideapad-slim-3-amd-ryzen-5-7520u-15amn8-827"
-        },
-        {
-          "cpu": "ryzen 5 7520u",
-          "ean": "199272357827",
-          "gpu": "desconhecida",
-          "mpn": null,
-          "price": 599.99,
-          "ram_gb": 16,
-          "refresh_hz": null,
-          "resolution": "fhd",
-          "storage_tb": 0.5,
-          "store": "UPTECHBOX",
-          "title": "Portátil Lenovo IdeaPad Slim 3 15AMN8 — Ryzen 5 7520U | 16GB LPDDR5 | 512GB SSD | 15.6\" FHD | Win 11",
-          "url": "https://www.uptechbox.com/collections/computadores-portateis-notebooks/products/lenovo-ideapad-slim-3-amd-ryzen-5-7520u-15amn8-827"
-        }
-      ],
-      "stores": [
-        "UPTECHBOX"
-      ]
-    },
-    {
-      "identity": "ean:199274382865",
+      "identity": "ean:199275234675",
       "offers": [
         {
           "cpu": "ryzen 7 170",
-          "ean": "199274382865",
-          "gpu": "radeon 680m",
+          "ean": "199275234675",
+          "gpu": "rtx 5060",
           "mpn": null,
-          "price": 799.99,
+          "price": 1299.99,
           "ram_gb": 16,
-          "refresh_hz": 60,
-          "resolution": "fhd+",
+          "refresh_hz": 144,
+          "resolution": "fhd",
           "storage_tb": 1.0,
           "store": "UPTECHBOX",
-          "title": "Portátil Lenovo IdeaPad Slim 3 15ARP10 — Ryzen 7 170 + Radeon 680M | 16GB DDR5 | 1TB SSD | Win 11 Home",
-          "url": "https://www.uptechbox.com/collections/computadores-portateis/products/lenovo-ideapad-slim-3-15arp10-865"
-        },
+          "title": "Portátil Gaming Lenovo LOQ Essential 15ARP11 — Ryzen 7 170 + RTX 5060 8GB GDDR7 | 16GB DDR5 | 1TB SSD | 144Hz | Sem OS",
+          "url": "https://www.uptechbox.com/products/lenovo-loq-essential-15arp11-ryzen-7-170-rtx-5060-gaming-144hz"
+        }
+      ],
+      "stores": [
+        "UPTECHBOX"
+      ]
+    },
+    {
+      "identity": "ean:199275830136",
+      "offers": [
         {
           "cpu": "ryzen 7 170",
-          "ean": "199274382865",
-          "gpu": "radeon 680m",
+          "ean": "199275830136",
+          "gpu": "rtx 5050",
           "mpn": null,
-          "price": 799.99,
+          "price": 1099.99,
           "ram_gb": 16,
-          "refresh_hz": 60,
-          "resolution": "fhd+",
-          "storage_tb": 1.0,
+          "refresh_hz": 144,
+          "resolution": "fhd",
+          "storage_tb": 0.5,
           "store": "UPTECHBOX",
-          "title": "Portátil Lenovo IdeaPad Slim 3 15ARP10 — Ryzen 7 170 + Radeon 680M | 16GB DDR5 | 1TB SSD | Win 11 Home",
-          "url": "https://www.uptechbox.com/collections/computadores-portateis-notebooks/products/lenovo-ideapad-slim-3-15arp10-865"
+          "title": "Portátil Gaming Lenovo LOQ Essential 15ARP11 — Ryzen 7 170 + RTX 5050 8GB GDDR7 | 16GB DDR5 | 512GB SSD | 144Hz | Sem OS",
+          "url": "https://www.uptechbox.com/products/lenovo-loq-essential-15arp11-ryzen-7-170-rtx-5050-gaming-144hz"
         }
       ],
       "stores": [
@@ -1788,93 +2490,7 @@
           "storage_tb": 0.5,
           "store": "UPTECHBOX",
           "title": "Portátil Gaming Lenovo LOQ 15AHP9 — Ryzen 7 7445HS + RTX 3050 6GB | 16GB DDR5 | 512GB SSD | 15.6\" 144Hz G-SYNC | Sem OS",
-          "url": "https://www.uptechbox.com/collections/computadores-portateis/products/portatil-gaming-lenovo-loq-15ahp9-ryzen-7-7445hs-rtx-3050-6gb-16gb-ddr5-512gb-ssd-15-6-144hz-g-sync-sem-os"
-        },
-        {
-          "cpu": "ryzen 7 7445hs",
-          "ean": "199276276148",
-          "gpu": "rtx 3050",
-          "mpn": null,
-          "price": 999.99,
-          "ram_gb": 16,
-          "refresh_hz": 144,
-          "resolution": null,
-          "storage_tb": 0.5,
-          "store": "UPTECHBOX",
-          "title": "Portátil Gaming Lenovo LOQ 15AHP9 — Ryzen 7 7445HS + RTX 3050 6GB | 16GB DDR5 | 512GB SSD | 15.6\" 144Hz G-SYNC | Sem OS",
-          "url": "https://www.uptechbox.com/collections/computadores-portateis-gaming/products/portatil-gaming-lenovo-loq-15ahp9-ryzen-7-7445hs-rtx-3050-6gb-16gb-ddr5-512gb-ssd-15-6-144hz-g-sync-sem-os"
-        }
-      ],
-      "stores": [
-        "UPTECHBOX"
-      ]
-    },
-    {
-      "identity": "ean:199276801548",
-      "offers": [
-        {
-          "cpu": "ryzen 7 5825u",
-          "ean": "199276801548",
-          "gpu": "desconhecida",
-          "mpn": null,
-          "price": 599.99,
-          "ram_gb": 16,
-          "refresh_hz": null,
-          "resolution": "fhd",
-          "storage_tb": 0.5,
-          "store": "UPTECHBOX",
-          "title": "Portátil Lenovo IdeaPad Slim 3 15ABR8 — AMD Ryzen 7 5825U | 16GB DDR4 | 512GB SSD | 15.6\" FHD | S/SO",
-          "url": "https://www.uptechbox.com/collections/computadores-portateis/products/portatil-lenovo-ideapad-slim-3-amd-ryzen-7-5825u-16gb-ddr5-1tb-ssd-15-6fhd-s-so"
-        },
-        {
-          "cpu": "ryzen 7 5825u",
-          "ean": "199276801548",
-          "gpu": "desconhecida",
-          "mpn": null,
-          "price": 599.99,
-          "ram_gb": 16,
-          "refresh_hz": null,
-          "resolution": "fhd",
-          "storage_tb": 0.5,
-          "store": "UPTECHBOX",
-          "title": "Portátil Lenovo IdeaPad Slim 3 15ABR8 — AMD Ryzen 7 5825U | 16GB DDR4 | 512GB SSD | 15.6\" FHD | S/SO",
-          "url": "https://www.uptechbox.com/collections/computadores-portateis-notebooks/products/portatil-lenovo-ideapad-slim-3-amd-ryzen-7-5825u-16gb-ddr5-1tb-ssd-15-6fhd-s-so"
-        }
-      ],
-      "stores": [
-        "UPTECHBOX"
-      ]
-    },
-    {
-      "identity": "ean:199276811479",
-      "offers": [
-        {
-          "cpu": "core 7 350",
-          "ean": "199276811479",
-          "gpu": "desconhecida",
-          "mpn": null,
-          "price": 699.99,
-          "ram_gb": 16,
-          "refresh_hz": null,
-          "resolution": "fhd+",
-          "storage_tb": 0.5,
-          "store": "UPTECHBOX",
-          "title": "Portatil Lenovo IdeaPad Slim 3i 14IWC11 - Intel Core 7 350 | 16GB DDR5 | 512GB SSD | 14\" WUXGA | S/SO",
-          "url": "https://www.uptechbox.com/collections/computadores-portateis/products/portatil-lenovo-ideapad-slim-3i-14iwc11-intel-core-7-350-16gb-ddr5-512gb-ssd-14-wuxga-s-so"
-        },
-        {
-          "cpu": "core 7 350",
-          "ean": "199276811479",
-          "gpu": "desconhecida",
-          "mpn": null,
-          "price": 699.99,
-          "ram_gb": 16,
-          "refresh_hz": null,
-          "resolution": "fhd+",
-          "storage_tb": 0.5,
-          "store": "UPTECHBOX",
-          "title": "Portatil Lenovo IdeaPad Slim 3i 14IWC11 - Intel Core 7 350 | 16GB DDR5 | 512GB SSD | 14\" WUXGA | S/SO",
-          "url": "https://www.uptechbox.com/collections/computadores-portateis-notebooks/products/portatil-lenovo-ideapad-slim-3i-14iwc11-intel-core-7-350-16gb-ddr5-512gb-ssd-14-wuxga-s-so"
+          "url": "https://www.uptechbox.com/products/portatil-gaming-lenovo-loq-15ahp9-ryzen-7-7445hs-rtx-3050-6gb-16gb-ddr5-512gb-ssd-15-6-144hz-g-sync-sem-os"
         }
       ],
       "stores": [
@@ -1896,7 +2512,7 @@
           "storage_tb": 0.5,
           "store": "UPTECHBOX",
           "title": "Portatil Lenovo LOQ 15AHP10 - AMD Ryzen 7 250 + RTX 5050 | 16GB DDR5 | 512GB SSD | 15.6\"FHD | S/SO",
-          "url": "https://www.uptechbox.com/collections/computadores-portateis-gaming/products/portatil-lenovo-loq-15ahp10-amd-ryzen-7-250-rtx-5050-16gb-ddr5-512gb-ssd-15-6fhd-s-so"
+          "url": "https://www.uptechbox.com/products/portatil-lenovo-loq-15ahp10-amd-ryzen-7-250-rtx-5050-16gb-ddr5-512gb-ssd-15-6fhd-s-so"
         }
       ],
       "stores": [
@@ -1904,21 +2520,21 @@
       ]
     },
     {
-      "identity": "ean:199276818379",
+      "identity": "ean:199276826244",
       "offers": [
         {
-          "cpu": "ryzen 7 250",
-          "ean": "199276818379",
-          "gpu": "rtx 5050",
+          "cpu": "i7-13645hx",
+          "ean": "199276826244",
+          "gpu": "rtx 5060",
           "mpn": null,
-          "price": 1599.99,
+          "price": 1299.99,
           "ram_gb": 16,
-          "refresh_hz": 144,
+          "refresh_hz": null,
           "resolution": "fhd",
           "storage_tb": 0.5,
           "store": "UPTECHBOX",
-          "title": "Portátil Gaming Lenovo LOQ 15AHP10 — AMD Ryzen 7 250 + RTX 5050 8GB | 16GB DDR5 | 512GB SSD | 15.6\" FHD 144Hz | Windows 11 Home",
-          "url": "https://www.uptechbox.com/collections/computadores-portateis-gaming/products/portatil-gaming-lenovo-loq-15ahp10-amd-ryzen-7-250-rtx-5050-8gb-16gb-ddr5-512gb-ssd-15-6-fhd-144hz-windows-11-home"
+          "title": "Portátil Lenovo LOQ 15IRX10 - Intel i7-13645HX + RTX 5060 | 16GB DDR5 | 512GB SSD | 15.6\"FHD | S/SO",
+          "url": "https://www.uptechbox.com/products/portatil-lenovo-loq-15irx10-intel-i7-13645hx-rtx-5060-16gb-ddr5-512gb-ssd-15-6fhd-s-so"
         }
       ],
       "stores": [
@@ -1926,25 +2542,47 @@
       ]
     },
     {
-      "identity": "ean:2200028118833",
+      "identity": "ean:2200028129327",
       "offers": [
         {
-          "cpu": "core ultra 5 322",
-          "ean": "2200028118833",
-          "gpu": "desconhecida",
+          "cpu": "core ultra 5 226v",
+          "ean": "2200028129327",
+          "gpu": "intel arc graphics 130v",
           "mpn": null,
-          "price": 999.0,
+          "price": 799.0,
           "ram_gb": 16,
           "refresh_hz": 60,
           "resolution": "fhd+",
           "storage_tb": 0.5,
-          "store": "FNAC",
-          "title": "Pack Computador Portátil Lenovo IdeaPad 5 2-em-1 14IPH11-213 | 14\" | Intel Core™ Ultra 5 322 | 16GB | 512GB SSD + Mochila + Rato + Pen",
-          "url": "https://www.fnac.pt/Pack-Fnac-Computador-Portatil-Lenovo-IdeaPad-5-2-em-1-14IPH11-213-14-Intel-Core-Ultra-5-322-16GB-512GB-SSD-Mochila-Rato-Pen-Computador-Portatil-Computador-Portatil/a14444621"
+          "store": "Darty",
+          "title": "Computador Portátil Asus S14 S5406SAL-U52AOHDSB01 Copilot+ PC | 14\" OLED | Intel Core Ultra 5 226V | 16GB | 512GB SSD + Mochila + Rato",
+          "url": "https://darty.pt/products/computador-portatil-asus-s14-s5406sal-u52aohdsb01-copilot-pc-14-oled-intel-core-ultra-5-226v-16gb-512gb-ssd-mochila-rato-2200028129327"
         }
       ],
       "stores": [
-        "FNAC"
+        "Darty"
+      ]
+    },
+    {
+      "identity": "ean:2200028129334",
+      "offers": [
+        {
+          "cpu": null,
+          "ean": "2200028129334",
+          "gpu": "desconhecida",
+          "mpn": null,
+          "price": 879.0,
+          "ram_gb": 16,
+          "refresh_hz": 60,
+          "resolution": "fhd+",
+          "storage_tb": 0.5,
+          "store": "Darty",
+          "title": "Computador Portátil Asus Zenbook A14 UX3407QA-X1PCOHDGB1 | 14\" | Snapdragon® X X1-26-100 | 16GB | 512GB SSD + Mala + Rato",
+          "url": "https://darty.pt/products/computador-portatil-asus-zenbook-a14-ux3407qa-x1pcohdgb1-14-snapdragon-x-x1-26-100-16gb-512gb-ssd-mala-rato-2200028129334"
+        }
+      ],
+      "stores": [
+        "Darty"
       ]
     },
     {
@@ -1970,113 +2608,69 @@
       ]
     },
     {
-      "identity": "ean:4711387470633",
+      "identity": "ean:4711387410080",
       "offers": [
         {
-          "cpu": null,
-          "ean": "4711387470633",
-          "gpu": "rtx 3050",
-          "mpn": null,
-          "price": 329.9,
-          "ram_gb": null,
-          "refresh_hz": null,
-          "resolution": null,
-          "storage_tb": null,
-          "store": "UPTECHBOX",
-          "title": "Placa Gráfica Asus Dual GeForce RTX 3050 OC 6GB GDDR6",
-          "url": "https://www.uptechbox.com/collections/componentes-placas-graficas/products/asus-dual-geforce-rtx-3050-oc-6gb"
-        }
-      ],
-      "stores": [
-        "UPTECHBOX"
-      ]
-    },
-    {
-      "identity": "ean:4711387779392",
-      "offers": [
-        {
-          "cpu": null,
-          "ean": "4711387779392",
+          "cpu": "ryzen 7 7730u",
+          "ean": "4711387410080",
           "gpu": "desconhecida",
           "mpn": null,
-          "price": 479.9,
-          "ram_gb": null,
-          "refresh_hz": null,
-          "resolution": null,
-          "storage_tb": null,
-          "store": "UPTECHBOX",
-          "title": "Placa Gráfica ASUS Dual Radeon™ RX 7600 OC Edition EVO",
-          "url": "https://www.uptechbox.com/collections/componentes-placas-graficas/products/placa-grafica-asus-dual-radeon%E2%84%A2-rx-7600-oc-edition-evo"
-        }
-      ],
-      "stores": [
-        "UPTECHBOX"
-      ]
-    },
-    {
-      "identity": "ean:4711387829592",
-      "offers": [
-        {
-          "cpu": null,
-          "ean": "4711387829592",
-          "gpu": "dedicada",
-          "mpn": null,
-          "price": 1049.99,
+          "price": 899.99,
           "ram_gb": 16,
           "refresh_hz": null,
-          "resolution": null,
-          "storage_tb": null,
-          "store": "UPTECHBOX",
-          "title": "Placa Gráfica Asus Prime Radeon RX 9070 OC Edition 16GB GDDR6",
-          "url": "https://www.uptechbox.com/collections/componentes-placas-graficas/products/placa-grafica-asus-prime-radeon-rx-9070-prime-oc-edition-16gb-gddr6"
+          "resolution": "qhd+",
+          "storage_tb": 0.5,
+          "store": "Darty",
+          "title": "Computador Portátil Asus VivoBook M1505YA-R77AOHDPB2 | OLED 15,6'' | Ryzen™ 7 7730U | 16GB | 512GB SSD",
+          "url": "https://darty.pt/products/computador-portatil-asus-vivobook-m1505ya-r77aohdpb2-oled-15-6-ryzen-7-7730u-16gb-512gb-ssd-4711387410080"
         }
       ],
       "stores": [
-        "UPTECHBOX"
+        "Darty"
       ]
     },
     {
-      "identity": "ean:4711387849071",
+      "identity": "ean:4711474912886",
       "offers": [
         {
-          "cpu": null,
-          "ean": "4711387849071",
-          "gpu": "rtx 5070",
+          "cpu": "ryzen 7 260",
+          "ean": "4711474912886",
+          "gpu": "rtx 5050",
           "mpn": null,
-          "price": 1199.99,
-          "ram_gb": 12,
-          "refresh_hz": null,
-          "resolution": null,
-          "storage_tb": null,
-          "store": "UPTECHBOX",
-          "title": "Placa Gráfica Asus TUF Gaming RTX 5070 12GB OC",
-          "url": "https://www.uptechbox.com/collections/componentes-placas-graficas/products/asus-tuf-gaming-rtx-5070-12gb"
-        }
-      ],
-      "stores": [
-        "UPTECHBOX"
-      ]
-    },
-    {
-      "identity": "ean:4711387994054",
-      "offers": [
-        {
-          "cpu": null,
-          "ean": "4711387994054",
-          "gpu": "rtx 5060 ti",
-          "mpn": null,
-          "price": 999.99,
+          "price": 1099.0,
           "ram_gb": 16,
-          "refresh_hz": null,
-          "resolution": null,
-          "storage_tb": null,
-          "store": "UPTECHBOX",
-          "title": "Placa Gráfica Asus Prime GeForce RTX 5060 Ti 16GB GDDR7 OC Edition",
-          "url": "https://www.uptechbox.com/collections/componentes-placas-graficas/products/placa-grafica-asus-prime-geforce-rtx-5060ti-16gb-gddr7-oc-edition"
+          "refresh_hz": 180,
+          "resolution": "fhd+",
+          "storage_tb": 0.5,
+          "store": "Darty",
+          "title": "Computador Portátil Gaming Acer Nitro V 16 AI ANV16-42-R0E8 | 16'' | GeForce RTX 5050 | AMD Ryzen™ 7 260 | 16GB | 512GB SSD + Controlador",
+          "url": "https://darty.pt/products/computador-portatil-gaming-acer-nitro-v-16-ai-anv16-42-r0e8-16-geforce-rtx-5050-amd-ryzen-7-260-16gb-512gb-ssd-controlador-4711474912886"
         }
       ],
       "stores": [
-        "UPTECHBOX"
+        "Darty"
+      ]
+    },
+    {
+      "identity": "ean:4711474953940",
+      "offers": [
+        {
+          "cpu": "core ultra 5 115u",
+          "ean": "4711474953940",
+          "gpu": "integrada",
+          "mpn": null,
+          "price": 619.0,
+          "ram_gb": 16,
+          "refresh_hz": 60,
+          "resolution": "fhd",
+          "storage_tb": 0.5,
+          "store": "Darty",
+          "title": "Computador Portátil Acer Aspire Lite 15 AL15-54P-54RB | 15,6'' |  Intel® Core™ Ultra 5 115U | 16GB | 512GB SSD",
+          "url": "https://darty.pt/products/computador-portatil-acer-aspire-lite-15-al15-54p-54rb-15-6-intel-core-ultra-5-115u-16gb-512gb-ssd-4711474953940"
+        }
+      ],
+      "stores": [
+        "Darty"
       ]
     },
     {
@@ -2087,206 +2681,84 @@
           "ean": "4711474953988",
           "gpu": "integrada",
           "mpn": null,
-          "price": 823.0,
+          "price": 699.0,
           "ram_gb": 16,
           "refresh_hz": 60,
           "resolution": "fhd",
           "storage_tb": 0.5,
-          "store": "FNAC",
+          "store": "Darty",
           "title": "Computador Portátil Acer Aspire Lite 15 AL15-54P-7311 | 15,6'' | Intel Core™ Ultra 7 155U | 16GB | 512GB SSD",
-          "url": "https://www.fnac.pt/Computador-Portatil-Acer-Aspire-Lite-15-AL15-54P-7311-15-6-Intel-Core-Ultra-7-155U-16GB-512GB-SSD-Computador-Portatil-Computador-Portatil/a14604170?oref=39c9b509-7709-d4d0-7ed4-a7d428ec3a96"
+          "url": "https://darty.pt/products/computador-portatil-acer-aspire-lite-15-al15-54p-7311-15-6-intel-core-ultra-7-155u-16gb-512gb-ssd-4711474953988"
         }
       ],
       "stores": [
-        "FNAC"
+        "Darty"
       ]
     },
     {
-      "identity": "ean:4711636047074",
+      "identity": "ean:4711636355230",
       "offers": [
         {
-          "cpu": "ryzen 7 260",
-          "ean": "4711636047074",
-          "gpu": "rtx 5060",
+          "cpu": "ryzen ai 7 445",
+          "ean": "4711636355230",
+          "gpu": "radeon 840m",
           "mpn": null,
-          "price": 1599.99,
+          "price": 1299.99,
           "ram_gb": 32,
-          "refresh_hz": 165,
+          "refresh_hz": 144,
           "resolution": "fhd+",
-          "storage_tb": null,
-          "store": "UPTECHBOX",
-          "title": "Portátil Gaming Asus TUF A16 FA608UM — Ryzen 7 260 + RTX 5060 8GB | 32GB DDR5 | WUXGA 165Hz | Sem OS",
-          "url": "https://www.uptechbox.com/collections/computadores-portateis/products/tuf-gaming-a16-fa608um-amd-ryzen-7-260-nvidia-rtx-5060-32gb-ram-1tb-ssd-16-165hz-sso"
-        },
-        {
-          "cpu": "ryzen 7 260",
-          "ean": "4711636047074",
-          "gpu": "rtx 5060",
-          "mpn": null,
-          "price": 1599.99,
-          "ram_gb": 32,
-          "refresh_hz": 165,
-          "resolution": "fhd+",
-          "storage_tb": null,
-          "store": "UPTECHBOX",
-          "title": "Portátil Gaming Asus TUF A16 FA608UM — Ryzen 7 260 + RTX 5060 8GB | 32GB DDR5 | WUXGA 165Hz | Sem OS",
-          "url": "https://www.uptechbox.com/collections/computadores-portateis-gaming/products/tuf-gaming-a16-fa608um-amd-ryzen-7-260-nvidia-rtx-5060-32gb-ram-1tb-ssd-16-165hz-sso"
+          "storage_tb": 1.0,
+          "store": "Darty",
+          "title": "Computador Portátil ASUS Vivobook 18 M1807GA-A73ALHDAB1 | 18'' | AMD Ryzen™ AI 7 445 | 32GB | 1TB SSD",
+          "url": "https://darty.pt/products/computador-portatil-asus-vivobook-18-m1807ga-a73alhdab1-18-amd-ryzen-ai-7-445-32gb-1tb-ssd-4711636355230"
         }
       ],
       "stores": [
-        "UPTECHBOX"
+        "Darty"
       ]
     },
     {
-      "identity": "ean:4711636047227",
-      "offers": [
-        {
-          "cpu": "core i5-13450hx",
-          "ean": "4711636047227",
-          "gpu": "rtx 5050",
-          "mpn": null,
-          "price": 1499.99,
-          "ram_gb": 16,
-          "refresh_hz": 165,
-          "resolution": "fhd+",
-          "storage_tb": null,
-          "store": "UPTECHBOX",
-          "title": "Portátil Gaming Asus TUF F16 FX608JH — Core i5-13450HX + RTX 5050 8GB | 16GB DDR5 | WUXGA 165Hz | Sem OS",
-          "url": "https://www.uptechbox.com/collections/computadores-portateis/products/asus-tuf-gaming-f16-fx608jh-intel-core-i5-13450hxnvidia-rtx-505016gb-ram1tb-ssd16-165hz-sso"
-        },
-        {
-          "cpu": "core i5-13450hx",
-          "ean": "4711636047227",
-          "gpu": "rtx 5050",
-          "mpn": null,
-          "price": 1499.99,
-          "ram_gb": 16,
-          "refresh_hz": 165,
-          "resolution": "fhd+",
-          "storage_tb": null,
-          "store": "UPTECHBOX",
-          "title": "Portátil Gaming Asus TUF F16 FX608JH — Core i5-13450HX + RTX 5050 8GB | 16GB DDR5 | WUXGA 165Hz | Sem OS",
-          "url": "https://www.uptechbox.com/collections/computadores-portateis-gaming/products/asus-tuf-gaming-f16-fx608jh-intel-core-i5-13450hxnvidia-rtx-505016gb-ram1tb-ssd16-165hz-sso"
-        }
-      ],
-      "stores": [
-        "UPTECHBOX"
-      ]
-    },
-    {
-      "identity": "ean:4711636060448",
-      "offers": [
-        {
-          "cpu": "ryzen 5 7520u",
-          "ean": "4711636060448",
-          "gpu": "desconhecida",
-          "mpn": null,
-          "price": 549.99,
-          "ram_gb": 16,
-          "refresh_hz": null,
-          "resolution": "fhd",
-          "storage_tb": 0.5,
-          "store": "UPTECHBOX",
-          "title": "Portátil Asus VivoBook Go 15 E1504FA — Ryzen 5 7520U | 16GB LPDDR5 | 512GB SSD | 15.6\" FHD | Sem OS",
-          "url": "https://www.uptechbox.com/collections/computadores-portateis/products/vivobook-go-15-e1504fa-amd-ryzen-5-7520u-16gb-ddr5-512gb-ssd-156-ips-fhd-preto-sso"
-        },
-        {
-          "cpu": "ryzen 5 7520u",
-          "ean": "4711636060448",
-          "gpu": "desconhecida",
-          "mpn": null,
-          "price": 549.99,
-          "ram_gb": 16,
-          "refresh_hz": null,
-          "resolution": "fhd",
-          "storage_tb": 0.5,
-          "store": "UPTECHBOX",
-          "title": "Portátil Asus VivoBook Go 15 E1504FA — Ryzen 5 7520U | 16GB LPDDR5 | 512GB SSD | 15.6\" FHD | Sem OS",
-          "url": "https://www.uptechbox.com/collections/computadores-portateis-notebooks/products/vivobook-go-15-e1504fa-amd-ryzen-5-7520u-16gb-ddr5-512gb-ssd-156-ips-fhd-preto-sso"
-        }
-      ],
-      "stores": [
-        "UPTECHBOX"
-      ]
-    },
-    {
-      "identity": "ean:4711636123570",
-      "offers": [
-        {
-          "cpu": "core 5 120u",
-          "ean": "4711636123570",
-          "gpu": "desconhecida",
-          "mpn": null,
-          "price": 899.99,
-          "ram_gb": 16,
-          "refresh_hz": null,
-          "resolution": "fhd",
-          "storage_tb": 0.5,
-          "store": "UPTECHBOX",
-          "title": "Portátil Asus ExpertBook B1 - Intel Core 5 120U | 16GB DDR5 | 512GB SSD | 15.6\" FHD | Windows 11 Pro",
-          "url": "https://www.uptechbox.com/collections/computadores-portateis/products/portatil-asus-expertbook-b1"
-        }
-      ],
-      "stores": [
-        "UPTECHBOX"
-      ]
-    },
-    {
-      "identity": "ean:4711636154796",
-      "offers": [
-        {
-          "cpu": "ryzen 7 260",
-          "ean": "4711636154796",
-          "gpu": "rtx 5050",
-          "mpn": null,
-          "price": 1499.99,
-          "ram_gb": 32,
-          "refresh_hz": 165,
-          "resolution": "fhd+",
-          "storage_tb": null,
-          "store": "UPTECHBOX",
-          "title": "Portátil Gaming Asus TUF A16 FA608UH — Ryzen 7 260 + RTX 5050 8GB | 32GB DDR5 | WUXGA 165Hz | Sem OS",
-          "url": "https://www.uptechbox.com/collections/computadores-portateis/products/asus-tuf-gaming-a16-fa608uh-amd-ryzen-7-260-nvidia-rtx-5050-32gb-ram-1tb-ssd-sso"
-        },
-        {
-          "cpu": "ryzen 7 260",
-          "ean": "4711636154796",
-          "gpu": "rtx 5050",
-          "mpn": null,
-          "price": 1499.99,
-          "ram_gb": 32,
-          "refresh_hz": 165,
-          "resolution": "fhd+",
-          "storage_tb": null,
-          "store": "UPTECHBOX",
-          "title": "Portátil Gaming Asus TUF A16 FA608UH — Ryzen 7 260 + RTX 5050 8GB | 32GB DDR5 | WUXGA 165Hz | Sem OS",
-          "url": "https://www.uptechbox.com/collections/computadores-portateis-gaming/products/asus-tuf-gaming-a16-fa608uh-amd-ryzen-7-260-nvidia-rtx-5050-32gb-ram-1tb-ssd-sso"
-        }
-      ],
-      "stores": [
-        "UPTECHBOX"
-      ]
-    },
-    {
-      "identity": "ean:4711636196765",
+      "identity": "ean:4711636385770",
       "offers": [
         {
           "cpu": null,
-          "ean": "4711636196765",
-          "gpu": "dedicada",
+          "ean": "4711636385770",
+          "gpu": "desconhecida",
           "mpn": null,
           "price": 899.99,
           "ram_gb": 16,
-          "refresh_hz": null,
-          "resolution": null,
-          "storage_tb": null,
-          "store": "UPTECHBOX",
-          "title": "Placa Gráfica Asus Dual AMD Radeon RX 9060 XT 16GB GDDR6",
-          "url": "https://www.uptechbox.com/collections/componentes-placas-graficas/products/asus-dual-amd-radeon-rx-9060-xt-16gb"
+          "refresh_hz": 60,
+          "resolution": "fhd+",
+          "storage_tb": 0.5,
+          "store": "Darty",
+          "title": "Computador Portátil Asus Zenbook A14 UX3407QA-X1PCOHDGB1 | 14\" | Snapdragon® X X1-26-100 | 16GB | 512GB SSD",
+          "url": "https://darty.pt/products/computador-portatil-asus-zenbook-a14-ux3407qa-x1pcohdgb1-14-snapdragon-x-x1-26-100-16gb-512gb-ssd-4711636385770"
         }
       ],
       "stores": [
-        "UPTECHBOX"
+        "Darty"
+      ]
+    },
+    {
+      "identity": "ean:4711636393447",
+      "offers": [
+        {
+          "cpu": null,
+          "ean": "4711636393447",
+          "gpu": "dedicada",
+          "mpn": "E1504FA-R50ALHDPB1",
+          "price": 599.0,
+          "ram_gb": 16,
+          "refresh_hz": 60,
+          "resolution": "fhd",
+          "storage_tb": 0.5,
+          "store": "Globaldata",
+          "title": "Portátil ASUS VivoBook Go E1504FA 15.6\" R5 40 16GB 512GB UHD Graphics FHD W11",
+          "url": "https://www.globaldata.pt/portatil-asus-vivobook-go-e1504fa-15.6-r5-40-16gb-512gb-uhd-graphics-fhd-w11/E1504FA-R50ALHDPB1.html"
+        }
+      ],
+      "stores": [
+        "Globaldata"
       ]
     },
     {
@@ -2312,39 +2784,25 @@
       ]
     },
     {
-      "identity": "ean:4711636514224",
+      "identity": "ean:4711636401203",
       "offers": [
         {
-          "cpu": "core ultra 7 255h",
-          "ean": "4711636514224",
-          "gpu": "desconhecida",
+          "cpu": null,
+          "ean": "4711636401203",
+          "gpu": "integrada",
           "mpn": null,
-          "price": 1199.99,
-          "ram_gb": 32,
-          "refresh_hz": null,
+          "price": 979.0,
+          "ram_gb": 24,
+          "refresh_hz": 60,
           "resolution": "fhd+",
           "storage_tb": 1.0,
-          "store": "UPTECHBOX",
-          "title": "Portátil Asus VivoBook 16 F1607CA —Intel  Core Ultra 7 255H + Intel Arc | 32GB RAM | 1TB SSD | 16\"WUXGA(1920x1200) | S/SO",
-          "url": "https://www.uptechbox.com/collections/computadores-portateis/products/portatil-asus-vivobook-16-f1607ca-u73blhdas01"
-        },
-        {
-          "cpu": "core ultra 7 255h",
-          "ean": "4711636514224",
-          "gpu": "desconhecida",
-          "mpn": null,
-          "price": 1199.99,
-          "ram_gb": 32,
-          "refresh_hz": null,
-          "resolution": "fhd+",
-          "storage_tb": 1.0,
-          "store": "UPTECHBOX",
-          "title": "Portátil Asus VivoBook 16 F1607CA —Intel  Core Ultra 7 255H + Intel Arc | 32GB RAM | 1TB SSD | 16\"WUXGA(1920x1200) | S/SO",
-          "url": "https://www.uptechbox.com/collections/computadores-portateis-notebooks/products/portatil-asus-vivobook-16-f1607ca-u73blhdas01"
+          "store": "Darty",
+          "title": "Computador Portátil Asus Vivobook 16 F1605VA-94CLHDPB1 | 16\" | Intel® Core™ 9-270H | 24GB | 1TB SSD",
+          "url": "https://darty.pt/products/computador-portatil-asus-vivobook-16-f1605va-94clhdpb1-16-intel-core-9-270h-24gb-1tb-ssd-4711636401203"
         }
       ],
       "stores": [
-        "UPTECHBOX"
+        "Darty"
       ]
     },
     {
@@ -2414,6 +2872,28 @@
       ]
     },
     {
+      "identity": "ean:4711636553377",
+      "offers": [
+        {
+          "cpu": "core ultra 7 255h",
+          "ean": "4711636553377",
+          "gpu": "desconhecida",
+          "mpn": null,
+          "price": 1499.99,
+          "ram_gb": 32,
+          "refresh_hz": null,
+          "resolution": "fhd+",
+          "storage_tb": 0.5,
+          "store": "UPTECHBOX",
+          "title": "Portátil Asus ExpertBook B3405CCA — Intel Core Ultra 7 255H + Intel Arc 140T | 32GB DDR5 | 512GB SSD | 14\" WUXGA | Windows 11 Pro",
+          "url": "https://www.uptechbox.com/products/portatil-asus-expertbook-b3405cca-intel-core-ultra-7-255h-intel-arc-140t-32gb-ddr5-512gb-ssd-14-wuxga-windows-11-pro"
+        }
+      ],
+      "stores": [
+        "UPTECHBOX"
+      ]
+    },
+    {
       "identity": "ean:4711636576789",
       "offers": [
         {
@@ -2436,43 +2916,21 @@
       ]
     },
     {
-      "identity": "ean:4711636578905",
+      "identity": "ean:4711636591652",
       "offers": [
         {
-          "cpu": "core 9 270h",
-          "ean": "4711636578905",
-          "gpu": "desconhecida",
-          "mpn": "90NB13W3-M00ZC0",
-          "price": 1199.0,
-          "ram_gb": 24,
-          "refresh_hz": 60,
+          "cpu": "ryzen ai 7 445",
+          "ean": "4711636591652",
+          "gpu": "radeon 840m",
+          "mpn": "90NB17Y1-M008N0",
+          "price": 1399.0,
+          "ram_gb": 32,
+          "refresh_hz": 144,
           "resolution": "fhd+",
           "storage_tb": 0.5,
           "store": "Globaldata",
-          "title": "Portátil ASUS VivoBook F1605VAPBF-94ALHDPB01 16\" Core 9 270H 24GB 512GB UMA UHD Graphics WUXGA W11 (sem carregador)",
-          "url": "https://www.globaldata.pt/portatil-asus-vivobook-f1605vapbf-94alhdpb01-16-core-9-270h-24gb-512gb-uma-uhd-graphics-wuxga-w11-sem-carregador/90NB13W3-M00ZC0.html"
-        }
-      ],
-      "stores": [
-        "Globaldata"
-      ]
-    },
-    {
-      "identity": "ean:4711636591638",
-      "offers": [
-        {
-          "cpu": null,
-          "ean": "4711636591638",
-          "gpu": "dedicada",
-          "mpn": "90NB0ZR2-M07XE0",
-          "price": 549.0,
-          "ram_gb": 16,
-          "refresh_hz": null,
-          "resolution": "fhd",
-          "storage_tb": 0.5,
-          "store": "Globaldata",
-          "title": "Portátil ASUS VivoBook Go E1504FA-R50BLHDPS04 15.6\" R5 40 16GB 512GB Radeon Graphics FHD (sem carregador)",
-          "url": "https://www.globaldata.pt/portatil-asus-vivobook-go-e1504fa-r50blhdps04-15.6-r5-40-16gb-512gb-radeon-graphics-fhd-sem-carregador/90NB0ZR2-M07XE0.html"
+          "title": "Portátil ASUS VivoBook 18 M1807GA-A73BLHDAS02 18\" Ryzen AI 7 445 32GB 512GB Radeon Graphics (sem carregador)",
+          "url": "https://www.globaldata.pt/portatil-asus-vivobook-18-m1807ga-a73blhdas02-18-ryzen-ai-7-445-32gb-512gb-radeon-graphics-sem-carregador/90NB17Y1-M008N0.html"
         }
       ],
       "stores": [
@@ -2499,28 +2957,6 @@
       ],
       "stores": [
         "Globaldata"
-      ]
-    },
-    {
-      "identity": "ean:4711636601399",
-      "offers": [
-        {
-          "cpu": null,
-          "ean": "4711636601399",
-          "gpu": "desconhecida",
-          "mpn": null,
-          "price": 999.99,
-          "ram_gb": 12,
-          "refresh_hz": null,
-          "resolution": null,
-          "storage_tb": null,
-          "store": "UPTECHBOX",
-          "title": "Placa Gráfica Asus T1 GeForce RTX™ 5070 12GB GDDR7 OC Edition",
-          "url": "https://www.uptechbox.com/collections/componentes-placas-graficas/products/placa-grafica-asus-t1-geforce-rtx%E2%84%A2-5070-12gb-gddr7-oc-edition"
-        }
-      ],
-      "stores": [
-        "UPTECHBOX"
       ]
     },
     {
@@ -2568,28 +3004,6 @@
       ]
     },
     {
-      "identity": "ean:4711636620826",
-      "offers": [
-        {
-          "cpu": "ryzen ai 7 445",
-          "ean": "4711636620826",
-          "gpu": "radeon 840m",
-          "mpn": "90NB1701-M003P0",
-          "price": 749.0,
-          "ram_gb": 16,
-          "refresh_hz": null,
-          "resolution": "fhd+",
-          "storage_tb": 0.5,
-          "store": "Globaldata",
-          "title": "Portátil ASUS VivoBook 14 M1407GA-A73BLHDAS01 14\" Ryzen AI 7 445 16GB 512GB Radeon Graphics WUXGA (sem carregador)",
-          "url": "https://www.globaldata.pt/portatil-asus-vivobook-14-m1407ga-a73blhdas01-14-ryzen-ai-7-445-16gb-512gb-radeon-graphics-wuxga-sem-carregador/90NB1701-M003P0.html"
-        }
-      ],
-      "stores": [
-        "Globaldata"
-      ]
-    },
-    {
       "identity": "ean:4711636620833",
       "offers": [
         {
@@ -2627,50 +3041,6 @@
           "store": "FNAC",
           "title": "Computador Portátil Asus Vivobook 15 F1504MA-C53ALHDAB01 | 15,6'' | Intel® Core™ 5 320 | 16GB | 512GB SSD",
           "url": "https://www.fnac.pt/ASUS-VB15-F1504MA-C5-16-512-SC-Computador-Portatil-Computador-Portatil/a14840277"
-        }
-      ],
-      "stores": [
-        "FNAC"
-      ]
-    },
-    {
-      "identity": "ean:4711636629720",
-      "offers": [
-        {
-          "cpu": "ryzen ai 7 445",
-          "ean": "4711636629720",
-          "gpu": "radeon 840m",
-          "mpn": "90NB17M1-M00980",
-          "price": 1199.0,
-          "ram_gb": 32,
-          "refresh_hz": null,
-          "resolution": "fhd+",
-          "storage_tb": 0.5,
-          "store": "Globaldata",
-          "title": "Portátil ASUS Vivobook S16 OLED M3607GA-A73COHDCS02 16\" Ryzen AI 7 44 32GB 512GB Radeon Graphics WUXGA (sem carregador)",
-          "url": "https://www.globaldata.pt/portatil-asus-vivobook-s16-oled-m3607ga-a73cohdcs02-16-ryzen-ai-7-44-32gb-512gb-radeon-graphics-wuxga-sem-carregador/90NB17M1-M00980.html"
-        }
-      ],
-      "stores": [
-        "Globaldata"
-      ]
-    },
-    {
-      "identity": "ean:4711636629744",
-      "offers": [
-        {
-          "cpu": "core 7 350",
-          "ean": "4711636629744",
-          "gpu": "integrada",
-          "mpn": null,
-          "price": 899.0,
-          "ram_gb": 16,
-          "refresh_hz": 60,
-          "resolution": "fhd",
-          "storage_tb": 0.5,
-          "store": "FNAC",
-          "title": "Computador Portátil Asus Vivobook 15 F1504MA-C73CLHDAB01 | 15,6'' | Intel Core 7 350 | 16GB | 512GB SSD",
-          "url": "https://www.fnac.pt/ASUS-VB15-F1504MA-C7-16-512-SC-Computador-Portatil-Computador-Portatil/a14840284"
         }
       ],
       "stores": [
@@ -2795,7 +3165,7 @@
           "ean": "4711721132203",
           "gpu": "integrada",
           "mpn": null,
-          "price": 349.0,
+          "price": 379.0,
           "ram_gb": 4,
           "refresh_hz": 60,
           "resolution": "fhd",
@@ -2803,6 +3173,28 @@
           "store": "FNAC",
           "title": "Computador Portátil Acer Chromebook 314 CB0A314-1H-C8Q9 | 14'' | Intel® Celeron® N4500 | 4GB | 64GB eMMC",
           "url": "https://www.fnac.pt/Computador-Portatil-Acer-Chromebook-314-CB0A314-1H-C8Q9-14-Intel-Celeron-N4500-4GB-64GB-eMMC-Computador-Portatil-Computador-Portatil/a14584585"
+        }
+      ],
+      "stores": [
+        "FNAC"
+      ]
+    },
+    {
+      "identity": "ean:4711721259108",
+      "offers": [
+        {
+          "cpu": "core ultra 5 325",
+          "ean": "4711721259108",
+          "gpu": "desconhecida",
+          "mpn": null,
+          "price": 1299.99,
+          "ram_gb": 16,
+          "refresh_hz": 120,
+          "resolution": null,
+          "storage_tb": 0.25,
+          "store": "FNAC",
+          "title": "Computador Portátil Acer Googlebook 14 GP714-91N-56XA | OLED 14'' | Intel® Core™ Ultra 5 325 | 16GB | 256GB SSD",
+          "url": "https://www.fnac.pt/Computador-Portatil-Acer-Googlebook-14-GP714-91N-56XA-OLED-14-Intel-Core-Ultra-5-325-16GB-256GB-SSD-Computador-Portatil-Computador-Portatil/a14775750"
         }
       ],
       "stores": [
@@ -2868,57 +3260,7 @@
           "storage_tb": 0.5,
           "store": "UPTECHBOX",
           "title": "Portátil Gaming HP HyperX OMEN 15 — Ryzen 5 240 + RTX 5050 8GB | 16GB DDR5 | 512GB SSD | 15.3\" 2K 165Hz | Sem Sistema Operativo",
-          "url": "https://www.uptechbox.com/collections/computadores-portateis/products/portatil-hp-hyperx-omen-15-amd-ryzen-5-240-rtx-5050-16gb-ddr5-512gb-ssd-15-3-2k"
-        },
-        {
-          "cpu": "ryzen 5 240",
-          "ean": "821844152379",
-          "gpu": "rtx 5050",
-          "mpn": null,
-          "price": 1099.9,
-          "ram_gb": 16,
-          "refresh_hz": 165,
-          "resolution": "fhd+",
-          "storage_tb": 0.5,
-          "store": "UPTECHBOX",
-          "title": "Portátil Gaming HP HyperX OMEN 15 — Ryzen 5 240 + RTX 5050 8GB | 16GB DDR5 | 512GB SSD | 15.3\" 2K 165Hz | Sem Sistema Operativo",
-          "url": "https://www.uptechbox.com/collections/computadores-portateis-gaming/products/portatil-hp-hyperx-omen-15-amd-ryzen-5-240-rtx-5050-16gb-ddr5-512gb-ssd-15-3-2k"
-        }
-      ],
-      "stores": [
-        "UPTECHBOX"
-      ]
-    },
-    {
-      "identity": "ean:821844210772",
-      "offers": [
-        {
-          "cpu": null,
-          "ean": "821844210772",
-          "gpu": "desconhecida",
-          "mpn": null,
-          "price": 549.0,
-          "ram_gb": 16,
-          "refresh_hz": null,
-          "resolution": "fhd+",
-          "storage_tb": 0.5,
-          "store": "UPTECHBOX",
-          "title": "Portátil HP OmniBook 3 16 — Ryzen 5 40 | 16GB LPDDR5 | 512GB SSD | 16\" FHD+ 16:10 | Numpad | Sem OS",
-          "url": "https://www.uptechbox.com/collections/computadores-portateis/products/portatil-hp-omnibook-3-laptop-16-amd-ryzen-5-40-16gb-ddr5-512gb-ssd-16-fhd"
-        },
-        {
-          "cpu": null,
-          "ean": "821844210772",
-          "gpu": "desconhecida",
-          "mpn": null,
-          "price": 549.0,
-          "ram_gb": 16,
-          "refresh_hz": null,
-          "resolution": "fhd+",
-          "storage_tb": 0.5,
-          "store": "UPTECHBOX",
-          "title": "Portátil HP OmniBook 3 16 — Ryzen 5 40 | 16GB LPDDR5 | 512GB SSD | 16\" FHD+ 16:10 | Numpad | Sem OS",
-          "url": "https://www.uptechbox.com/collections/computadores-portateis-notebooks/products/portatil-hp-omnibook-3-laptop-16-amd-ryzen-5-40-16gb-ddr5-512gb-ssd-16-fhd"
+          "url": "https://www.uptechbox.com/products/portatil-hp-hyperx-omen-15-amd-ryzen-5-240-rtx-5050-16gb-ddr5-512gb-ssd-15-3-2k"
         }
       ],
       "stores": [
@@ -2946,39 +3288,24 @@
       "stores": [
         "Globaldata"
       ]
-    },
-    {
-      "identity": "mpn:9rga6ab6vhkhjh0pt0",
-      "offers": [
-        {
-          "cpu": "ryzen 7 260",
-          "ean": null,
-          "gpu": "rtx 5060",
-          "mpn": "9RGA6AB6VHKHJH0PT0",
-          "price": 1399.0,
-          "ram_gb": 32,
-          "refresh_hz": 165,
-          "resolution": "fhd+",
-          "storage_tb": 1.0,
-          "store": "Globaldata",
-          "title": "Portátil Gigabyte Gaming A16 GA6H 3VHK3PT864SD 16\" R7 260 32GB DDR5 1TB RTX 5060 FHD+ 165Hz",
-          "url": "https://www.globaldata.pt/portatil-gigabyte-gaming-a16-ga6h-3vhk3pt864sd-16-r7-260-32gb-ddr5-1tb-rtx-5060-fhd-165hz/9RGA6AB6VHKHJH0PT0.html"
-        }
-      ],
-      "stores": [
-        "Globaldata"
-      ]
     }
   ],
-  "identity_count": 108,
-  "probable_pairs": 2,
+  "identity_count": 101,
+  "probable_pairs": 4,
   "probable_review": [
     {
-      "left_store": "FNAC",
-      "left_url": "https://www.fnac.pt/Computador-Portatil-Acer-Aspire-Lite-15-AL15-54P-7311-15-6-Intel-Core-Ultra-7-155U-16GB-512GB-SSD-Computador-Portatil-Computador-Portatil/a14604170?oref=39c9b509-7709-d4d0-7ed4-a7d428ec3a96",
+      "left_store": "MEO",
+      "left_url": "https://loja.meo.pt/comprar/pcs/acer/aspire-lite-al15-54p-54rb",
       "reason": "model code coincide mas faltam campos para fusão automática",
-      "right_store": "MEO",
-      "right_url": "https://loja.meo.pt/comprar/pcs/acer/aspire-lite-15-al15-54p-7311"
+      "right_store": "Darty",
+      "right_url": "https://darty.pt/products/computador-portatil-acer-aspire-lite-15-al15-54p-54rb-15-6-intel-core-ultra-5-115u-16gb-512gb-ssd-4711474953940"
+    },
+    {
+      "left_store": "MEO",
+      "left_url": "https://loja.meo.pt/comprar/pcs/acer/aspire-lite-15-al15-54p-7311",
+      "reason": "model code coincide mas faltam campos para fusão automática",
+      "right_store": "Darty",
+      "right_url": "https://darty.pt/products/computador-portatil-acer-aspire-lite-15-al15-54p-7311-15-6-intel-core-ultra-7-155u-16gb-512gb-ssd-4711474953988"
     },
     {
       "left_store": "FNAC",
@@ -2986,11 +3313,18 @@
       "reason": "model code coincide mas faltam campos para fusão automática",
       "right_store": "MEO",
       "right_url": "https://loja.meo.pt/comprar/pcs/lenovo/ideapad-slim-3-15iwc11-169-15-3-core-7-350-16gb-512gb"
+    },
+    {
+      "left_store": "MEO",
+      "left_url": "https://loja.meo.pt/comprar/pcs/lenovo/ideapad-slim-3-15iwc11-169-15-3-core-7-350-16gb-512gb",
+      "reason": "model code coincide mas faltam campos para fusão automática",
+      "right_store": "Darty",
+      "right_url": "https://darty.pt/products/computador-portatil-lenovo-ideapad-slim-3-15iwc11-169-15-3-intel-core-7-350-16gb-512gb-ssd-0199276826169"
     }
   ],
-  "records_considered": 127,
+  "records_considered": 117,
   "schema_version": 1,
   "source": "current_run_records",
-  "strong_pairs": 1,
+  "strong_pairs": 0,
   "tracker_version": "9.0.0"
 }
